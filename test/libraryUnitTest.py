@@ -5,6 +5,7 @@ from main.Library import Library
 class TestingLibrarySystem(unittest.TestCase):
 
     #Definition of a library
+    #Test Complete
     def test_libDef(self):
         x = Library()
         self.assertTrue(type(x) is Library)
