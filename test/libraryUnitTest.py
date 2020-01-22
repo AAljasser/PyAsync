@@ -6,9 +6,14 @@ class TestingLibrarySystem(unittest.TestCase):
 
     #Definition of a library
     #Test Complete
-    def test_libDef(self):
+    #def test_libDef(self):
+    #    x = Library()
+    #    self.assertTrue(type(x) is Library)
+
+    def test_singleIns(self):
         x = Library()
-        self.assertTrue(type(x) is Library)
+        y = Library()
+        self.assertTrue(x is y)
 
 if __name__== '__main__':
     unittest.main()
