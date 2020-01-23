@@ -1,5 +1,6 @@
 import unittest
-from main.Library import Library
+from main.sServer import sServer
+from main.sClient import sClient
 
 
 class TestingServerClient(unittest.TestCase):
@@ -7,9 +8,10 @@ class TestingServerClient(unittest.TestCase):
     #Testing Client Server connection
     def test_singleConnection(self):
         msg = "test"
-        sSocket = sSocket();
-        cSocket = cSocket();
-        assertEquals(cSocket.send(msg),sSocket.lastRecieved)
+        ##The server is ran before the unittest is ran
+        #sSocket = sServer()
+        cSocket = sClient()
+        self.assertEqual(cSocket.send(msg), None)
 
 
 if __name__== '__main__':
