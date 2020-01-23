@@ -10,7 +10,7 @@ class TestingLibrarySystem(unittest.TestCase):
     #    x = Library()
     #    self.assertTrue(type(x) is Library)
 
-    #Test Completed and successful
+    #Test Completed and successful 
     def test_singleIns(self):
         x = Library()
         y = Library()
