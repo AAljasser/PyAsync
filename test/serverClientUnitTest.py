@@ -13,6 +13,14 @@ class TestingServerClient(unittest.TestCase):
         cSocket = sClient()
         self.assertEqual(cSocket.send(msg), None)
 
+    def test_MultipleConnection(self):
+        msg = "test"
+        ##The server is ran before the unittest is ran
+        #sSocket = sServer()
+        cSocket = sClient()
+        cSocket2= sClient()
+        self.assertEqual(cSocket.send(msg), None)
+
 
 if __name__== '__main__':
     unittest.main()
