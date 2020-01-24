@@ -20,6 +20,8 @@ class TestingServerClient(unittest.TestCase):
         cSocket = sClient()
         cSocket2= sClient()
         self.assertEqual(cSocket.send(msg), None)
+        self.assertEqual(cSocket2.send(msg), None)
+
 
 
 if __name__== '__main__':

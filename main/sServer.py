@@ -4,7 +4,7 @@ class sServer():
     _mainSocket = None
     _port = 8096
     _localAdd = '127.0.0.1'
-    lastRecieved = None
+    _connected = []
 
     def __init__(self):
         if self._mainSocket is None:
@@ -16,16 +16,21 @@ class sServer():
             self._mainSocket.bind((self._localAdd,self._port))
         ## Server socket has been initilized there for we begin looping for requests
         self._mainSocket.listen()
-        clientSock, clientAdd = self._mainSocket.accept()
-        data = clientSock.recv(1024)
-        print(data.decode())
+        while True:
+            clientSock, clientAdd = self._mainSocket.accept()
+            print("Client : "+str(clientAdd)+" has connected")
+            self._connected.append(asyncClient(clientSock,clientAdd))
 
     def close(self):
         self._mainSocket.close()
 
-    class asyncClient(threading.Thread):
-        def __init__(self):
-            self=self
+class asyncClient(threading.Thread, sServer):
+    _clientAdd = None
+    def __init__(self, socket, clintAdd):
+        self._mainSocket = socket
+        self._clientAdd = clintAdd
+
+
 
 def main():
     sSocket = sServer()
