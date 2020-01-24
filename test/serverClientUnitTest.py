@@ -12,6 +12,7 @@ class TestingServerClient(unittest.TestCase):
         #sSocket = sServer()
         cSocket = sClient()
         self.assertEqual(cSocket.send(msg), None)
+        cSocket.close()
 
     def test_MultipleConnection(self):
         msg = "test"
@@ -21,6 +22,8 @@ class TestingServerClient(unittest.TestCase):
         cSocket2= sClient()
         self.assertEqual(cSocket.send(msg), None)
         self.assertEqual(cSocket2.send(msg), None)
+        cSocket.close()
+        cSocket2.close()
 
 
 

@@ -14,3 +14,6 @@ class sClient():
     def send(self, msg):
         if self._mainSocket is not None:
             self._mainSocket.sendall(bytes(msg, 'UTF-8'))
+
+    def close(self):
+        self._mainSocket.close()
