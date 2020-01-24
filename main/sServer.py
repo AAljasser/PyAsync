@@ -18,8 +18,9 @@ class sServer():
         self._mainSocket.listen()
         while True:
             clientSock, clientAdd = self._mainSocket.accept()
-            print("Client : "+str(clientAdd)+" has connected")
-            self._connected.append(asyncClient(clientSock,clientAdd))
+            x = asyncClient(clientSock,clientAdd)
+            self._connected.append(x)
+            x.start()
 
     def close(self):
         self._mainSocket.close()
@@ -27,9 +28,12 @@ class sServer():
 class asyncClient(threading.Thread, sServer):
     _clientAdd = None
     def __init__(self, socket, clintAdd):
+        threading.Thread.__init__(self)
         self._mainSocket = socket
         self._clientAdd = clintAdd
 
+    def run(self):
+        print("Client : "+str(self._clientAdd)+" has connected, Thread_ID: "+str(threading.get_ident()))
 
 
 def main():
