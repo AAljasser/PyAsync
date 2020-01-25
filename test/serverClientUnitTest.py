@@ -30,7 +30,7 @@ class TestingServerClient(unittest.TestCase):
         ##Server is supposed to be ran outside
         cSocket = sClient()
         cSocket.send(msg)
-        self.assertEqual(cSocket.lastRes(), "Hi Received")
+        self.assertEqual(cSocket.lastRes(), "hi received")
         cSocket.close()
 
 
