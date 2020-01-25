@@ -25,6 +25,14 @@ class TestingServerClient(unittest.TestCase):
         cSocket.close()
         cSocket2.close()
 
+    def test_clientCommunication(self):
+        msg = "Hi"
+        ##Server is supposed to be ran outside
+        cSocket = sClient()
+        cSocket.send(msg)
+        self.assertEqual(cSocket.lastRes(), "Hi Received")
+        cSocket.close()
+
 
 
 if __name__== '__main__':

@@ -25,6 +25,7 @@ class sServer():
     def close(self):
         self._mainSocket.close()
 
+##MULTI THREADED Communication line to client
 class asyncClient(threading.Thread, sServer):
     _clientAdd = None
     def __init__(self, socket, clintAdd):
@@ -34,7 +35,6 @@ class asyncClient(threading.Thread, sServer):
 
     def run(self):
         print("Client : "+str(self._clientAdd)+" has connected, Thread_ID: "+str(threading.get_ident()))
-
 
 def main():
     sSocket = sServer()
