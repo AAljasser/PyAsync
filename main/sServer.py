@@ -1,4 +1,5 @@
 import socket, threading
+from IndState import IndState as iD
 
 class sServer():
     _mainSocket = None
@@ -36,11 +37,16 @@ class asyncClient(threading.Thread, sServer):
 
     def run(self):
         print("Client : "+str(self._clientAdd)+" has connected, Thread_ID: "+str(threading.get_ident()))
-        receivedMsg = self._mainSocket.recv(2048)
-        actualMsg = receivedMsg.decode('utf-8')
-        if actualMsg.casefold() == 'hi':
-            self._previousRes = actualMsg.casefold()
-        self._mainSocket.sendall(bytes("Hi Received",'utf-8'))
+        mToS = 'G'
+        while mToS != iD.TERMINATE_CONN:
+            receivedMsg = self._mainSocket.recv(2048)
+            print(receivedMsg)
+            actualMsg = receivedMsg.decode('utf-8')
+            if actualMsg.casefold() == 'exit':
+                mToS = str(iD.TERMINATE_CONN)
+                self._mainSocket.close()
+                break
+            self._mainSocket.sendall(bytes(mToS,'utf-8'))
 
 
 

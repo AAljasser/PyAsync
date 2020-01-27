@@ -7,7 +7,10 @@ class Library(object):
 
     #Public library attributes
     instance = None
-
+    #Patreons users and passwords stored
+    _patreon = {}
+    _staff = {}
+    _admin = 'admin'
     #Python provide __NEW__ to allow for singleton class object
     def __new__(cls):
         if not Library.instance:
