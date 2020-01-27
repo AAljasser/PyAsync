@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a7e6f27-1776-4819-851f-68739a597730" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main/IndState.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/IndState.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Library.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Library.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/sServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/sServer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/libraryUnitTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/libraryUnitTest.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/Library.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="418">
+              <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -40,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/sServer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="282">
+              <caret line="53" column="72" selection-start-line="53" selection-start-column="72" selection-end-line="53" selection-end-column="72" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -107,10 +104,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main/sClient.py" />
-        <option value="$PROJECT_DIR$/main/sServer.py" />
         <option value="$PROJECT_DIR$/main/IndState.py" />
         <option value="$PROJECT_DIR$/test/libraryUnitTest.py" />
         <option value="$PROJECT_DIR$/main/Library.py" />
+        <option value="$PROJECT_DIR$/main/sServer.py" />
       </list>
     </option>
   </component>
@@ -431,16 +428,6 @@
     <state x="943" y="419" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1579984935678" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/sClient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/IndState.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -479,20 +466,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/sServer.py">
+    <entry file="file://$PROJECT_DIR$/main/Library.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="418">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/sClient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/Library.py">
+    <entry file="file://$PROJECT_DIR$/main/sServer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="282">
+          <caret line="53" column="72" selection-start-line="53" selection-start-column="72" selection-end-line="53" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

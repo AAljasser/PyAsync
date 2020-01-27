@@ -1,5 +1,6 @@
 import socket, threading
 from IndState import IndState as iD
+from main.Library import Library
 
 class sServer():
     _mainSocket = None
@@ -49,6 +50,8 @@ class asyncClient(threading.Thread, sServer):
                 break
             if self._state == iD.LOGIN: ## Check
                 #TODO
+                checking = Library().userLogin(actualMsg)
+                if checking == iD.INCORRECT_INPUT: ##Inputted incorrect 
 
             self._mainSocket.sendall(bytes(mToS,'utf-8'))
 
