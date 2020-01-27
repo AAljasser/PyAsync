@@ -47,6 +47,9 @@ class asyncClient(threading.Thread, sServer):
                 mToS = str(iD.TERMINATE_CONN)
                 self._mainSocket.close()
                 break
+            if self._state == iD.LOGIN: ## Check
+                #TODO
+
             self._mainSocket.sendall(bytes(mToS,'utf-8'))
 
 
