@@ -46,12 +46,17 @@ class asyncClient(threading.Thread, sServer):
             actualMsg = receivedMsg.decode('utf-8')
             if actualMsg.casefold() == 'exit':
                 mToS = str(iD.TERMINATE_CONN)
+                self._mainSocket.sendall(bytes(mToS,'utf-8'))
                 self._mainSocket.close()
                 break
             if self._state == iD.LOGIN: ## Check
                 #TODO
                 checking = Library().userLogin(actualMsg)
-                if checking == iD.INCORRECT_INPUT: ##Inputted incorrect 
+                if checking == iD.INCORRECT_INPUT: ##Inputted incorrect
+                    mToS = str(iD.INCORRECT_INPUT)
+                else:
+                    self._state = mToS
+                    mToS = str(checking)
 
             self._mainSocket.sendall(bytes(mToS,'utf-8'))
 
