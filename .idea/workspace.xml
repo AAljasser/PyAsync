@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a7e6f27-1776-4819-851f-68739a597730" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/IndState.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyAsync.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PyAsync.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Library.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Library.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/sClient.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/sClient.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/sServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/sServer.py" afterDir="false" />
     </list>
@@ -33,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/sClient.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+            <state relative-caret-position="663">
+              <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -45,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/sServer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+            <state relative-caret-position="289">
+              <caret line="32" column="62" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -57,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/IndState.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            <state relative-caret-position="85">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -174,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sClient">
+  <component name="RunManager" selected="Python.libraryUnitTest">
     <configuration name="libraryUnitTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyAsync" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -271,9 +267,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.libraryUnitTest" />
         <item itemvalue="Python.sClient" />
         <item itemvalue="Python.sServer" />
-        <item itemvalue="Python.libraryUnitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -440,13 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/IndState.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/Library.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -456,18 +445,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/sClient.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+        <state relative-caret-position="663">
+          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/IndState.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/sServer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        <state relative-caret-position="289">
+          <caret line="32" column="62" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>

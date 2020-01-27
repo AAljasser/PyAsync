@@ -12,7 +12,7 @@ class sClient():
             #Creating socket using ipv4 and TCP
             self._mainSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             self._mainSocket.connect((self._localAdd, self._port))
-            self.terminal()
+
 
     def send(self, msg):
         if self._mainSocket is not None:
@@ -38,7 +38,7 @@ class sClient():
 
 def main():
     s = sClient()
-
+    s.terminal()
 
 if __name__ == '__main__':
     main()

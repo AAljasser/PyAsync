@@ -16,5 +16,11 @@ class TestingLibrarySystem(unittest.TestCase):
         y = Library()
         self.assertTrue(x is y)
 
+    def test_login(self):
+        x = Library()
+        #Provided the information, we check if this information exists in the library
+        #   if it exists then we reroute the state of the client accordingly
+        x.userLogin(info)
+
 if __name__== '__main__':
     unittest.main()

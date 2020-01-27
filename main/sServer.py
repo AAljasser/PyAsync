@@ -30,6 +30,7 @@ class sServer():
 class asyncClient(threading.Thread, sServer):
     _clientAdd = None
     _previousRes = None #This is used to keep previous responses, to reduce data sent between server and client
+    _state = iD.LOGIN #All connected clients are in login mode
     def __init__(self, socket, clintAdd):
         threading.Thread.__init__(self)
         self._mainSocket = socket
