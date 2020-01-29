@@ -34,6 +34,6 @@ class Library(metaclass=Singleton):
             return iD.INCORRECT_INPUT
 
     def createStaff(self,id):
-        self._staff.append(id)
+        self._staff.append(id.casefold())
     def staffExists(self,id):
-        return id in self._staff
+        return id.casefold() in self._staff

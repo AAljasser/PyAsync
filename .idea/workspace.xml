@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a7e6f27-1776-4819-851f-68739a597730" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Library.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Library.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/libraryUnitTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/libraryUnitTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/serverClientUnitTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/serverClientUnitTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,49 +43,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.libraryUnitTest">
-    <configuration name="libraryUnitTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyAsync" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/libraryUnitTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sClient" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyAsync" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/sClient.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for serverClientUnitTest.TestingServerClient.test_adminCreateStaff">
     <configuration name="sServer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyAsync" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,7 +66,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for serverClientUnitTest.TestingServerClient.test_singleConnection" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for serverClientUnitTest.TestingServerClient.test_MultipleConnection" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PyAsync" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,9 +75,36 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;serverClientUnitTest.TestingServerClient.test_singleConnection&quot;" />
+      <option name="_new_target" value="&quot;serverClientUnitTest.TestingServerClient.test_MultipleConnection&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for serverClientUnitTest.TestingServerClient.test_adminCreateStaff" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PyAsync" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;serverClientUnitTest.TestingServerClient.test_adminCreateStaff&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for serverClientUnitTest.TestingServerClient.test_clientCommunication" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PyAsync" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;serverClientUnitTest.TestingServerClient.test_clientCommunication&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -137,9 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.libraryUnitTest" />
+        <item itemvalue="Python tests.Unittests for serverClientUnitTest.TestingServerClient.test_adminCreateStaff" />
+        <item itemvalue="Python tests.Unittests for serverClientUnitTest.TestingServerClient.test_MultipleConnection" />
+        <item itemvalue="Python tests.Unittests for serverClientUnitTest.TestingServerClient.test_clientCommunication" />
         <item itemvalue="Python.sServer" />
-        <item itemvalue="Python.sClient" />
+        <item itemvalue="Python tests.Unittests in serverClientUnitTest.py" />
       </list>
     </recent_temporary>
   </component>
@@ -170,29 +160,6 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="Unittests_in_libraryUnitTest_py - 2020.01.22 at 15h 14m 58s.xml">
-      <configuration name="Unittests in libraryUnitTest.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_libraryUnitTest_py - 2020.01.22 at 15h 51m 07s.xml">
-      <configuration name="Unittests in libraryUnitTest.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_serverClientUnitTest_TestingServerClient - 2020.01.23 at 14h 49m 36s.xml">
-      <configuration name="Unittests for serverClientUnitTest.TestingServerClient" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_serverClientUnitTest_TestingServerClient_test_singleConnection - 2020.01.23 at 15h 17m 21s.xml">
-      <configuration name="Unittests for serverClientUnitTest.TestingServerClient.test_singleConnection" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_serverClientUnitTest_py - 2020.01.23 at 15h 22m 08s.xml">
-      <configuration name="Unittests in serverClientUnitTest.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_serverClientUnitTest_TestingServerClient_test_singleConnection - 2020.01.23 at 15h 24m 03s.xml">
-      <configuration name="Unittests for serverClientUnitTest.TestingServerClient.test_singleConnection" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_serverClientUnitTest_py - 2020.01.27 at 17h 29m 57s.xml">
-      <configuration name="Unittests in serverClientUnitTest.py" configurationId="tests" />
-    </history-entry>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -218,25 +185,25 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="658" y="247" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1580253231210" />
-    <state width="1324" height="189" key="GridCell.Tab.0.bottom" timestamp="1580330807818">
+    <state width="1324" height="189" key="GridCell.Tab.0.bottom" timestamp="1580331642864">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="189" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1580330807818" />
+    <state width="1324" height="189" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1580331642864" />
     <state width="2517" height="633" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1579985353100" />
-    <state width="1324" height="189" key="GridCell.Tab.0.center" timestamp="1580330807818">
+    <state width="1324" height="189" key="GridCell.Tab.0.center" timestamp="1580331642864">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="189" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1580330807818" />
+    <state width="1324" height="189" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1580331642864" />
     <state width="2517" height="633" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1579985353100" />
-    <state width="1324" height="189" key="GridCell.Tab.0.left" timestamp="1580330807818">
+    <state width="1324" height="189" key="GridCell.Tab.0.left" timestamp="1580331642864">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="189" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1580330807818" />
+    <state width="1324" height="189" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1580331642864" />
     <state width="2517" height="633" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1579985353100" />
-    <state width="1324" height="189" key="GridCell.Tab.0.right" timestamp="1580330807818">
+    <state width="1324" height="189" key="GridCell.Tab.0.right" timestamp="1580331642864">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="189" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1580330807818" />
+    <state width="1324" height="189" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1580331642864" />
     <state width="2517" height="633" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1579985353100" />
     <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1579984221298">
       <screen x="0" y="0" width="2560" height="1400" />

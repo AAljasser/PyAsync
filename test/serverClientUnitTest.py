@@ -1,6 +1,7 @@
 import unittest
 from main.sServer import sServer
 from main.sClient import sClient
+from main.Library import Library
 
 
 class TestingServerClient(unittest.TestCase):
@@ -20,8 +21,8 @@ class TestingServerClient(unittest.TestCase):
         #sSocket = sServer()
         cSocket = sClient()
         cSocket2= sClient()
-        self.assertEqual(cSocket.send(msg), None)
-        self.assertEqual(cSocket2.send(msg), None)
+        self.assertIsNotNone(cSocket.send(msg))
+        self.assertIsNotNone(cSocket2.send(msg))
         cSocket.close()
         cSocket2.close()
 
@@ -29,9 +30,16 @@ class TestingServerClient(unittest.TestCase):
         msg = "Hi"
         ##Server is supposed to be ran outside 
         cSocket = sClient()
-        cSocket.send(msg)
-        self.assertEqual(cSocket.lastRes(), "hi received")
+        s = cSocket.send(msg)
+        self.assertEqual(s[0], str(-1))
         cSocket.close()
+
+    def test_adminCreateStaff(self):
+        admin = sClient()
+        sClient.send("admin")
+        sClient.send("crstaff")
+        sClient.send("S1002")
+        self.assertTrue(Library().staffExists("S1002"))
 
 
 

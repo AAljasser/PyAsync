@@ -56,12 +56,12 @@ class asyncClient(threading.Thread, sServer):
                 else:
                     self._state = checking
                     if self._state == iD.A_MENU:
-                        mToS = str(checking)+','+str("Welcome to Admin menu")
+                        mToS = str(checking)+','+str("Welcome to Admin menu\nCreation of staff type '")
                     elif self._state == iD.S_MENU:
                         mToS = str(checking)+','+str("Welcome to Admin menu")
                     elif self._state == iD.P_MENU:
                         mToS = str(checking)+','+str("Welcome to Admin menu")
-
+            el
 
             self._mainSocket.sendall(bytes(mToS,'utf-8'))
         print("Client : "+str(self._clientAdd)+" closing com, Thread_ID: "+str(threading.get_ident()))
