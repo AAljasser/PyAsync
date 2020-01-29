@@ -24,6 +24,11 @@ class TestingLibrarySystem(unittest.TestCase):
         info = 'admin'
         self.assertEqual(x.userLogin(info),iD.A_MENU)
 
+    def test_staffCreation(self):
+        x = Library()
+        id = 'S1001'
+        x.createStaff(id)
+        self.assertTrue(x.staffExists(id))
 
 if __name__== '__main__':
     unittest.main()

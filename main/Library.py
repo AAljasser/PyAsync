@@ -11,8 +11,8 @@ class Library(metaclass=Singleton):
     pass
     #Patreons users and passwords stored
     instance = None
-    _patreon = {}
-    _staff = {}
+    _patreon = []
+    _staff = []
     _admin = 'admin'
 
 
