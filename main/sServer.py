@@ -39,26 +39,33 @@ class asyncClient(threading.Thread, sServer):
 
     def run(self):
         print("Client : "+str(self._clientAdd)+" has connected, Thread_ID: "+str(threading.get_ident()))
-        mToS = 'G'
+        mToS = None # Messageto be sent to the client
         while mToS != iD.TERMINATE_CONN:
             receivedMsg = self._mainSocket.recv(2048)
-            print(receivedMsg)
-            actualMsg = receivedMsg.decode('utf-8')
-            if actualMsg.casefold() == 'exit':
-                mToS = str(iD.TERMINATE_CONN)
-                self._mainSocket.sendall(bytes(mToS,'utf-8'))
+            dataReceived = iD.breakData(receivedMsg.decode('utf-8')) ##Server/Client always commun
+            if dataReceived[0].casefold() == str(iD.TERMINATE_CONN):
+                mToS = iD.TERMINATE_CONN
+                self._mainSocket.sendall(bytes(dataReceived[0],'utf-8'))
                 self._mainSocket.close()
                 break
             if self._state == iD.LOGIN: ## Check
                 #TODO
-                checking = Library().userLogin(actualMsg)
-                if checking == iD.INCORRECT_INPUT: ##Inputted incorrect
+                checking = Library().userLogin(dataReceived)
+                if checking == iD.INCORRECT_INPUT: ##Inputted incorrect we cant just pass this without checking
                     mToS = str(iD.INCORRECT_INPUT)
                 else:
-                    self._state = mToS
-                    mToS = str(checking)
+                    self._state = checking
+                    if self._state == iD.A_MENU:
+                        mToS = str(checking)+','+str("Welcome to Admin menu")
+                    elif self._state == iD.S_MENU:
+                        mToS = str(checking)+','+str("Welcome to Admin menu")
+                    elif self._state == iD.P_MENU:
+                        mToS = str(checking)+','+str("Welcome to Admin menu")
+
 
             self._mainSocket.sendall(bytes(mToS,'utf-8'))
+        print("Client : "+str(self._clientAdd)+" closing com, Thread_ID: "+str(threading.get_ident()))
+        self._mainSocket.close()
 
 
 

@@ -19,7 +19,8 @@ class sClient():
             self._mainSocket.sendall(bytes(msg, 'UTF-8'))
             data = self._mainSocket.recv(2048)
             recMsg = data.decode('utf-8').casefold()
-            return recMsg
+
+            return iD.breakData(recMsg)
 
     def close(self):
         self._mainSocket.close()
@@ -28,11 +29,25 @@ class sClient():
         return self._previousRes
 
     def terminal(self):
-        receivedMessage = self.send(str(input()))
+        print("Welcome please Enter 'patreon/staff, your ID':")
+        toBeSent = str(input())
+        receivedMessage = self.send(toBeSent)
         # If Terminate is recieved we exit the loop and close socket
-        while receivedMessage != str(iD.TERMINATE_CONN):
-            print(receivedMessage)
-            receivedMessage = self.send(str(input()))
+        while receivedMessage[0] != str(iD.TERMINATE_CONN):
+            #Check status and print accordingly
+            #Checking what has been received
+            for x in range(1,len(receivedMessage)):
+                print(receivedMessage[x])
+
+            toBeSent = str(input())
+
+            if toBeSent.casefold() == 'exit' or toBeSent.casefold() == 'logout' or toBeSent.casefold() == 'off':
+                self.send(str(iD.TERMINATE_CONN))
+                break
+
+            receivedMessage = self.send(toBeSent)
+            #Checking what has been received
+
         #Closing
         self.close()
 

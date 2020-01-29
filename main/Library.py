@@ -19,12 +19,11 @@ class Library(metaclass=Singleton):
     def userLogin(selfs,info):
         name = None
         oIfo = None
-        if ',' in info:
-            logInfo = info.split(',')
-            name = logInfo[0]
-            oIfo = logInfo[1]
+        if len(info) > 1:
+            name = info[0]
+            oIfo = info[1]
         else:
-            name = info
+            name = info[0]
         if name.casefold() == 'admin':
             return iD.A_MENU
         elif name.casefold() == 'staff':
