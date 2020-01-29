@@ -1,6 +1,7 @@
 from enum import Enum
 
 class IndState:
+    DUPLICATE_ERR = -3
     TERMINATE_CONN = -2
     INCORRECT_INPUT = -1
     LOGIN = 0

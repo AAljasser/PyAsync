@@ -9,6 +9,7 @@ class sServer():
     _connected = []
 
     def __init__(self):
+        Library()
         if self._mainSocket is None:
             #Creating socket using ipv4 and TCP
             self._mainSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -56,12 +57,19 @@ class asyncClient(threading.Thread, sServer):
                 else:
                     self._state = checking
                     if self._state == iD.A_MENU:
-                        mToS = str(checking)+','+str("Welcome to Admin menu\nCreation of staff type '")
+                        mToS = str(checking)+','+str("Welcome to Admin menu\nCreation of staff type 'crstaff,ID'")
                     elif self._state == iD.S_MENU:
                         mToS = str(checking)+','+str("Welcome to Admin menu")
                     elif self._state == iD.P_MENU:
                         mToS = str(checking)+','+str("Welcome to Admin menu")
-            el
+            elif self._state == iD.A_MENU and dataReceived[0] == 'crstaff':
+                #Check if the Identifier doesnt already exists
+                if not Library().staffExists(dataReceived[1]):
+                    Library().createStaff(dataReceived[1])
+                    print("Succ Creat")
+                    mToS = str(self._state) + ','+'Staff creation completed'
+                else:
+                    mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error, enter different ID'
 
             self._mainSocket.sendall(bytes(mToS,'utf-8'))
         print("Client : "+str(self._clientAdd)+" closing com, Thread_ID: "+str(threading.get_ident()))
