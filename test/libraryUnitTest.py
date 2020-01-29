@@ -21,7 +21,7 @@ class TestingLibrarySystem(unittest.TestCase):
         x = Library()
         #Provided the information, we check if this information exists in the library
         #   if it exists then we reroute the state of the client accordingly
-        info = 'admin'
+        info = ['admin']
         self.assertEqual(x.userLogin(info),iD.A_MENU)
 
     def test_staffCreation(self):

@@ -32,3 +32,8 @@ class Library(metaclass=Singleton):
         else:
             #TODO: Check if the associated patreon exists
             return iD.INCORRECT_INPUT
+
+    def createStaff(self,id):
+        self._staff.append(id)
+    def staffExists(self,id):
+        return id in self._staff
