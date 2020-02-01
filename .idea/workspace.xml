@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a7e6f27-1776-4819-851f-68739a597730" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/Patreon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/patreonBookUTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/patreonBookUTest.py" afterDir="false" />
-    </list>
+    <list default="true" id="7a7e6f27-1776-4819-851f-68739a597730" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +122,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/patreonBookUTest.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/patreonBookUTest.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -164,7 +160,7 @@
       <updated>1579120426219</updated>
       <workItem from="1579547063449" duration="2229000" />
       <workItem from="1579983713009" duration="2241000" />
-      <workItem from="1580590681886" duration="764000" />
+      <workItem from="1580590681886" duration="1476000" />
     </task>
     <servers />
   </component>
