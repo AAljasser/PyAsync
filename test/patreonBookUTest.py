@@ -6,6 +6,7 @@ class TestingPatreonBook(unittest.TestCase):
         name ='Samuel Jackson'
         id = 'p1001'
         b = Patreon(name,id)
+        
 
 
 
