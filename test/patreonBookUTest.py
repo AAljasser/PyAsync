@@ -1,10 +1,11 @@
 import unittest
+from main.Patreon import Patreon
 
 class TestingPatreonBook(unittest.TestCase):
     def test_patreonCreation(self):
         name ='Samuel Jackson'
         id = 'p1001'
-        b = Book(name,id)
+        b = Patreon(name,id)
 
 
 
