@@ -44,6 +44,8 @@ class asyncClient(threading.Thread, sServer):
         while mToS != iD.TERMINATE_CONN:
             receivedMsg = self._mainSocket.recv(2048)
             dataReceived = iD.breakData(receivedMsg.decode('utf-8')) ##Server/Client always commun
+            print(dataReceived)
+
             if dataReceived[0].casefold() == str(iD.TERMINATE_CONN):
                 mToS = iD.TERMINATE_CONN
                 self._mainSocket.sendall(bytes(dataReceived[0],'utf-8'))
@@ -57,11 +59,11 @@ class asyncClient(threading.Thread, sServer):
                 else:
                     self._state = checking
                     if self._state == iD.A_MENU:
-                        mToS = str(checking)+','+str("Welcome to Admin menu\nCreation of staff type 'crstaff,ID'")
+                        mToS = str(checking)+','+str("Welcome to Admin menu\nCreation of staff type 'crstaff(COM)ID'")
                     elif self._state == iD.S_MENU:
-                        mToS = str(checking)+','+str("Welcome to Admin menu")
+                        mToS = str(checking)+','+str("Welcome to Staff menu")
                     elif self._state == iD.P_MENU:
-                        mToS = str(checking)+','+str("Welcome to Admin menu")
+                        mToS = str(checking)+','+str("Welcome to Patreon menu")
             elif self._state == iD.A_MENU and dataReceived[0] == 'crstaff':
                 #Check if the Identifier doesnt already exists
                 if not Library().staffExists(dataReceived[1]):

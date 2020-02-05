@@ -16,7 +16,7 @@ class Library(metaclass=Singleton):
     _admin = 'admin'
 
 
-    def userLogin(selfs,info):
+    def userLogin(self,info):
         name = None
         oIfo = None
         if len(info) > 1:
@@ -27,10 +27,13 @@ class Library(metaclass=Singleton):
         if name.casefold() == 'admin':
             return iD.A_MENU
         elif name.casefold() == 'staff':
-            #TODO: CHECK IF THE STAFF IDENTIFIED EXISTS
-            return iD.INCORRECT_INPUT
+            if self.staffExists(oIfo):
+                return iD.S_MENU
+            else:
+                return iD.INCORRECT_INPUT
+        elif name.casefold() == 'patreon':
+            return iD.P_MENU
         else:
-            #TODO: Check if the associated patreon exists
             return iD.INCORRECT_INPUT
 
     def createStaff(self,id):

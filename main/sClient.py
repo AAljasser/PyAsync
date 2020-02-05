@@ -34,6 +34,8 @@ class sClient():
         receivedMessage = self.send(toBeSent)
         # If Terminate is recieved we exit the loop and close socket
         while receivedMessage[0] != str(iD.TERMINATE_CONN):
+            if receivedMessage[0] == str(iD.INCORRECT_INPUT):
+                print("Incorrect input, please ensure you include a comma (,)")
             #Check status and print accordingly
             #Checking what has been received
             for x in range(1,len(receivedMessage)):

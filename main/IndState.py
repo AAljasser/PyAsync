@@ -13,6 +13,7 @@ class IndState:
         re = [] # We are always sending a list back
         if ',' in rData:
             re =rData.split(',')
+            re = [x.strip() for x in re]
         else:
-            re.append(rData)
+            re.append(rData.strip())
         return re
