@@ -30,7 +30,7 @@ class sClient():
 
     def terminal(self):
         print("Welcome please Enter 'patreon/staff, your ID':")
-        toBeSent = str(input())
+        toBeSent = str(input()).replace(" ", "")
         receivedMessage = self.send(toBeSent)
         # If Terminate is recieved we exit the loop and close socket
         while receivedMessage[0] != str(iD.TERMINATE_CONN):
@@ -41,7 +41,7 @@ class sClient():
             for x in range(1,len(receivedMessage)):
                 print(receivedMessage[x])
 
-            toBeSent = str(input())
+            toBeSent = str(input()).replace(" ", "")
 
             if toBeSent.casefold() == 'exit' or toBeSent.casefold() == 'logout' or toBeSent.casefold() == 'off':
                 self.send(str(iD.TERMINATE_CONN))

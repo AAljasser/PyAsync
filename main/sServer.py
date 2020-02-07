@@ -51,7 +51,7 @@ class asyncClient(threading.Thread, sServer):
                 self._mainSocket.sendall(bytes(dataReceived[0],'utf-8'))
                 self._mainSocket.close()
                 break
-            if self._state == iD.LOGIN: ## Check
+            elif self._state == iD.LOGIN: ## Check
                 #TODO
                 checking = Library().userLogin(dataReceived)
                 if checking == iD.INCORRECT_INPUT: ##Inputted incorrect we cant just pass this without checking
@@ -68,10 +68,20 @@ class asyncClient(threading.Thread, sServer):
                 #Check if the Identifier doesnt already exists
                 if not Library().staffExists(dataReceived[1]):
                     Library().createStaff(dataReceived[1])
-                    print("Succ Creat")
                     mToS = str(self._state) + ','+'Staff creation completed'
                 else:
                     mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error, enter different ID'
+            else: #Input non exist
+                if self._state == iD.LOGIN:
+                    mToS = str(self._state)+"Welcome please Enter 'patreon/staff(com) your ID':"
+                elif self._state == iD.A_MENU:
+                    mToS = str(checking)+','+str("Creation of staff type 'crstaff(COM)ID'")
+                elif self._state == iD.S_MENU:
+                    mToS = str(checking)+','+str("Welcome to Staff menu")
+                elif self._state == iD.P_MENU:
+                    mToS = str(checking)+','+str("Welcome to Patreon menu")
+                else:
+                    mToS = str(iD.TERMINATE_CONN) + "Weird problem"
 
             self._mainSocket.sendall(bytes(mToS,'utf-8'))
         print("Client : "+str(self._clientAdd)+" closing com, Thread_ID: "+str(threading.get_ident()))
