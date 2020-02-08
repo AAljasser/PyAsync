@@ -2,7 +2,7 @@ import unittest
 from main.sServer import sServer
 from main.sClient import sClient
 from main.Library import Library
-from tests.runBG import runBG
+from runBG import runBG
 
 
 class TestingServerClient(unittest.TestCase):
@@ -50,8 +50,8 @@ class TestingServerClient(unittest.TestCase):
         runBG()
         staff = sClient()
         staff.send('staff,s1000')
-        staff.send('crpatreon,p10001,jack')
-        self.assertTrue(Library().patreonExists("S1002"))
+        staff.send('crpatreon,p1001,jack')
+        self.assertTrue(Library().patreonExists("p1001"))
         staff.send('exit')
 
 

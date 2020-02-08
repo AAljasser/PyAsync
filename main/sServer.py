@@ -70,7 +70,16 @@ class asyncClient(threading.Thread, sServer):
                     Library().createStaff(dataReceived[1])
                     mToS = str(self._state) + ','+'Staff creation completed'
                 else:
-                    mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error, enter different ID'
+                    mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error enter different ID'
+            elif self._state == iD.P_MENU and dataReceived[0] == 'crpatreon':
+                if len(dataReceived) < 3:
+                    mToS = str(iD.INCORRECT_INPUT)
+                elif not Library().patreonExists(dataReceived[1]):
+                    Library().createPatreon(dataReceived[1],dataReceived[2])
+                    mToS =  str(self._state) + ','+'Patreon creation completed'
+                else:
+                    mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error enter different ID'
+
             else: #Input non exist
                 if self._state == iD.LOGIN:
                     mToS = str(self._state)+"Welcome please Enter 'patreon/staff(com) your ID':"
