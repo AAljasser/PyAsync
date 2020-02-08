@@ -71,7 +71,8 @@ class asyncClient(threading.Thread, sServer):
                     mToS = str(self._state) + ','+'Staff creation completed'
                 else:
                     mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error enter different ID'
-            elif self._state == iD.P_MENU and dataReceived[0] == 'crpatreon':
+            elif self._state == iD.S_MENU and dataReceived[0] == 'crpatreon':
+                print("HERE")
                 if len(dataReceived) < 3:
                     mToS = str(iD.INCORRECT_INPUT)
                 elif not Library().patreonExists(dataReceived[1]):
