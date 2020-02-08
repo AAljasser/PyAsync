@@ -38,13 +38,21 @@ class TestingServerClient(unittest.TestCase):
     #     self.assertEqual(s[0], str(-1))
     #     cSocket.close()
 
-    def test_adminCreateStaff(self):
+    # def test_adminCreateStaff(self):
+    #     runBG()
+    #     admin = sClient()
+    #     admin.send('admin')
+    #     admin.send('crstaff,S1002')
+    #     self.assertTrue(Library().staffExists("S1002"))
+    #     admin.send('exit')
+
+    def test_staffCreatePatreon(self):
         runBG()
-        admin = sClient()
-        admin.send('admin')
-        admin.send('crstaff,S1002')
-        self.assertTrue(Library().staffExists("S1002"))
-        admin.send('exit')
+        staff = sClient()
+        staff.send('staff,s1000')
+        staff.send('crpatreon,p10001,jack')
+        self.assertTrue(Library().patreonExists("S1002"))
+        staff.send('exit')
 
 
 
