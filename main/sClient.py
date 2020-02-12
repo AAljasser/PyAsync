@@ -36,6 +36,8 @@ class sClient():
         while receivedMessage[0] != str(iD.TERMINATE_CONN):
             if receivedMessage[0] == str(iD.INCORRECT_INPUT):
                 print("Incorrect input, please ensure you include a comma (,)")
+            elif receivedMessage[0] == str(iD.DUPLICATE_ERR):
+                print("Duplicate input")
             #Check status and print accordingly
             #Checking what has been received
             for x in range(1,len(receivedMessage)):

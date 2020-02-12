@@ -83,7 +83,13 @@ class asyncClient(threading.Thread, sServer):
 
             elif self._state == iD.S_MENU and dataReceived[0] == 'addbook':
                 print("Insertion of book has begun")
-
+                if len(dataReceived) < 3:
+                    mToS = str(iD.INCORRECT_INPUT)
+                elif not Library().bookExists(dataReceived[1]):
+                    Library().addBook(dataReceived[1],dataReceived[2])
+                    mToS =  str(self._state) + ','+'Book insertion completed'
+                else:
+                    mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error enter different ID'
             else: #Input non exist
                 if self._state == iD.LOGIN:
                     mToS = str(self._state)+"Welcome please Enter 'patreon/staff(com) your ID':"
