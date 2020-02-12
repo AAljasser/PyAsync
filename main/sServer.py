@@ -74,21 +74,27 @@ class asyncClient(threading.Thread, sServer):
             elif self._state == iD.S_MENU and dataReceived[0] == 'crpatreon':
                 print("Creation of Patreaon is begun")
                 if len(dataReceived) < 3:
+                    print("Client entered incorrect format")
                     mToS = str(iD.INCORRECT_INPUT)
                 elif not Library().patreonExists(dataReceived[1]):
+                    print("Patreon added")
                     Library().createPatreon(dataReceived[1],dataReceived[2])
                     mToS =  str(self._state) + ','+'Patreon creation completed'
                 else:
+                    print("duplication")
                     mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error enter different ID'
 
             elif self._state == iD.S_MENU and dataReceived[0] == 'addbook':
                 print("Insertion of book has begun")
                 if len(dataReceived) < 3:
                     mToS = str(iD.INCORRECT_INPUT)
+                    print("Client entered incorrect format")
                 elif not Library().bookExists(dataReceived[1]):
+                    print("Book added")
                     Library().addBook(dataReceived[1],dataReceived[2])
                     mToS =  str(self._state) + ','+'Book insertion completed'
                 else:
+                    print("Duplication")
                     mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error enter different ID'
             else: #Input non exist
                 if self._state == iD.LOGIN:
