@@ -1,5 +1,6 @@
 from IndState import IndState as iD
 from main.Patreon import Patreon
+from main.Book import Book
 
 class Singleton(type):
     _instances = {}
@@ -14,6 +15,7 @@ class Library(metaclass=Singleton):
     instance = None
     _patreon = {'p1000':Patreon('p1000','abdul')}
     _staff = ['s1000']
+    _book = {}
     _admin = 'admin'
 
 
@@ -40,8 +42,12 @@ class Library(metaclass=Singleton):
     def createStaff(self,id):
         self._staff.append(id.casefold())
     def createPatreon(self, id, name):
-        self._patreon[id]=Patreon(id,name)
+        self._patreon[id]=Patreon(name,id)
     def patreonExists(self,id):
         return id.casefold() in self._patreon.keys()
     def staffExists(self,id):
         return id.casefold() in self._staff
+    def bookExists(self,id):
+        return id.casefold() in self._book.keys()
+    def addBook(self,id,title):
+        self._book[id] = Book(title,id)
