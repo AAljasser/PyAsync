@@ -34,7 +34,7 @@ class TestingLibrarySystem(unittest.TestCase):
         id = 'b1001'
         title = 'Hunger Games'
         Library().addBook(id,title)
-        self.assertTrue(Library().bookExists(id))
+        self.assertTrue(Library().bookExists('b1001'))
 
 
 if __name__== '__main__':
