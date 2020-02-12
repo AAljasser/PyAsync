@@ -46,13 +46,21 @@ class TestingServerClient(unittest.TestCase):
     #     self.assertTrue(Library().staffExists("S1002"))
     #     admin.send('exit')
 
-    def test_staffCreatePatreon(self):
+    # def test_staffCreatePatreon(self):
+    #     runBG()
+    #     staff = sClient()
+    #     staff.send('staff,s1000')
+    #     staff.send('crpatreon,p1001,jack')
+    #     self.assertTrue(Library().patreonExists("p1001"))
+    #     staff.send('exit')
+
+    def test_bookInsertion(self):
         runBG()
-        staff = sClient()
-        staff.send('staff,s1000')
-        staff.send('crpatreon,p1001,jack')
-        self.assertTrue(Library().patreonExists("p1001"))
-        staff.send('exit')
+        s = sClient()
+        s.send('staff,s1000')
+        s.send('addbook,b1001,Hunger Games')
+        self.assertTrue(Library().bookExists('b1001'))
+        s.send('exit')
 
 
 
