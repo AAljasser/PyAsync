@@ -4,7 +4,7 @@ class Book():
 
     def __init__(self,title,id):
         self._id = id
-        self._title
+        self._title = title
     def get_id(self):
         return self._id
     def get_title(self):
