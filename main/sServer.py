@@ -72,7 +72,7 @@ class asyncClient(threading.Thread, sServer):
                 else:
                     mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error enter different ID'
             elif self._state == iD.S_MENU and dataReceived[0] == 'crpatreon':
-                print("HERE")
+                print("Creation of Patreaon is begun")
                 if len(dataReceived) < 3:
                     mToS = str(iD.INCORRECT_INPUT)
                 elif not Library().patreonExists(dataReceived[1]):
@@ -80,6 +80,9 @@ class asyncClient(threading.Thread, sServer):
                     mToS =  str(self._state) + ','+'Patreon creation completed'
                 else:
                     mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error enter different ID'
+
+            elif self._state == iD.S_MENU and dataReceived[0] == 'addbook':
+                print("Insertion of book has begun")
 
             else: #Input non exist
                 if self._state == iD.LOGIN:

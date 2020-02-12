@@ -1,7 +1,7 @@
 import unittest
 from main.Library import Library
 from IndState import IndState as iD
-
+from main.Book import Book
 
 class TestingLibrarySystem(unittest.TestCase):
 
@@ -29,6 +29,13 @@ class TestingLibrarySystem(unittest.TestCase):
         id = 'S1001'
         x.createStaff(id)
         self.assertTrue(x.staffExists(id))
+
+    def test_libraryAddingBook(self):
+        id = 'b1001'
+        title = 'Hunger Games'
+        Library().addBook(id,title)
+        self.assertTrue(Library().bookExists(id))
+
 
 if __name__== '__main__':
     unittest.main()

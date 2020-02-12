@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7a7e6f27-1776-4819-851f-68739a597730" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Book.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/patreonBookUTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/patreonBookUTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/sServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/sServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/libraryUnitTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/libraryUnitTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
       <recent name="C:\Users\AyeJay\Documents\PyAsync\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.patreonBookUTest">
+  <component name="RunManager" selected="Python tests.Unittests in libraryUnitTest.py">
     <configuration name="patreonBookUTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyAsync" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,51 +73,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sClient" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyAsync" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/sClient.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sServer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyAsync" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/sServer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for serverClientUnitTest.TestingServerClient" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for libraryUnitTest.TestingLibrarySystem.test_libraryAddingBook" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PyAsync" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,10 +82,37 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;serverClientUnitTest.TestingServerClient&quot;" />
+      <option name="_new_target" value="&quot;libraryUnitTest.TestingLibrarySystem.test_libraryAddingBook&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for libraryUnitTest.TestingLibrarySystem.test_staffCreation" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PyAsync" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;libraryUnitTest.TestingLibrarySystem.test_staffCreation&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in libraryUnitTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PyAsync" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/libraryUnitTest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests in serverClientUnitTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -149,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in libraryUnitTest.py" />
+        <item itemvalue="Python tests.Unittests for libraryUnitTest.TestingLibrarySystem.test_libraryAddingBook" />
+        <item itemvalue="Python tests.Unittests for libraryUnitTest.TestingLibrarySystem.test_staffCreation" />
         <item itemvalue="Python.patreonBookUTest" />
         <item itemvalue="Python tests.Unittests in serverClientUnitTest.py" />
-        <item itemvalue="Python tests.Unittests for serverClientUnitTest.TestingServerClient" />
-        <item itemvalue="Python.sClient" />
-        <item itemvalue="Python.sServer" />
       </list>
     </recent_temporary>
   </component>
@@ -225,41 +208,45 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="658" y="247" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1580253231210" />
-    <state width="1324" height="184" key="GridCell.Tab.0.bottom" timestamp="1581547007314">
+    <state width="1324" height="236" key="GridCell.Tab.0.bottom" timestamp="1581547861682">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="184" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581547007314" />
+    <state width="1324" height="236" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581547861682" />
     <state width="2517" height="633" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1581234363784" />
-    <state width="1324" height="184" key="GridCell.Tab.0.center" timestamp="1581547007314">
+    <state width="1324" height="236" key="GridCell.Tab.0.center" timestamp="1581547861682">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="184" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581547007314" />
+    <state width="1324" height="236" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581547861682" />
     <state width="2517" height="633" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1581234363784" />
-    <state width="1324" height="184" key="GridCell.Tab.0.left" timestamp="1581547007313">
+    <state width="1324" height="236" key="GridCell.Tab.0.left" timestamp="1581547861682">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="184" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581547007313" />
+    <state width="1324" height="236" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581547861682" />
     <state width="2517" height="633" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1581234363784" />
-    <state width="1324" height="184" key="GridCell.Tab.0.right" timestamp="1581547007314">
+    <state width="1324" height="236" key="GridCell.Tab.0.right" timestamp="1581547861682">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="184" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581547007314" />
+    <state width="1324" height="236" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581547861682" />
     <state width="2517" height="633" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1581234363784" />
-    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1579984221298">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1324" height="236" key="GridCell.Tab.1.bottom" timestamp="1581547861683">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="1324" height="236" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581547861683" />
     <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1579984221298" />
-    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1579984221298">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1324" height="236" key="GridCell.Tab.1.center" timestamp="1581547861682">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="1324" height="236" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1581547861682" />
     <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1579984221298" />
-    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1579984221298">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1324" height="236" key="GridCell.Tab.1.left" timestamp="1581547861682">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="1324" height="236" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1581547861682" />
     <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1579984221298" />
-    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1579984221298">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1324" height="236" key="GridCell.Tab.1.right" timestamp="1581547861683">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="1324" height="236" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1581547861683" />
     <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1579984221298" />
     <state x="521" y="288" key="com.intellij.ide.util.TipDialog" timestamp="1581546221976">
       <screen x="0" y="0" width="1366" height="768" />
