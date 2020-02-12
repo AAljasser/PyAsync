@@ -6,7 +6,12 @@ class TestingPatreonBook(unittest.TestCase):
         name ='Samuel Jackson'
         id = 'p1001'
         b = Patreon(name,id)
-        
+
+    def test_bookCreation(self):
+        title = 'Hunger Games'
+        id = 'b1001'
+        b = Book(name,id)
+        self.assertIsInstance(b, Book)
 
 
 

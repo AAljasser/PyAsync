@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a7e6f27-1776-4819-851f-68739a597730" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyAsync.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PyAsync.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/sServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/sServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/patreonBookUTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/patreonBookUTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +15,9 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PyAsync" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,7 +43,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -47,7 +53,28 @@
       <recent name="C:\Users\AyeJay\Documents\PyAsync\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in serverClientUnitTest.py">
+  <component name="RunManager" selected="Python.patreonBookUTest">
+    <configuration name="patreonBookUTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyAsync" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/patreonBookUTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="sClient" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyAsync" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,21 +134,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for serverClientUnitTest.TestingServerClient.test_staffCreatePatreon" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="PyAsync" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;serverClientUnitTest.TestingServerClient.test_staffCreatePatreon&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests in serverClientUnitTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PyAsync" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.patreonBookUTest" />
         <item itemvalue="Python tests.Unittests in serverClientUnitTest.py" />
         <item itemvalue="Python tests.Unittests for serverClientUnitTest.TestingServerClient" />
         <item itemvalue="Python.sClient" />
         <item itemvalue="Python.sServer" />
-        <item itemvalue="Python tests.Unittests for serverClientUnitTest.TestingServerClient.test_staffCreatePatreon" />
       </list>
     </recent_temporary>
   </component>
@@ -186,10 +198,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="359" key="#Project_Structure" timestamp="1580590975282">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="465" y="94" key="#Project_Structure" timestamp="1581546586391">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="465" y="94" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1580253242144" />
+    <state x="465" y="94" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1581546586391" />
     <state x="872" y="359" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1580590975282" />
     <state x="734" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579547808506">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -203,6 +215,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="999" y="304" key="#libraryUnitTest/0.0.2560.1400@0.0.2560.1400" timestamp="1579547788614" />
+    <state x="440" y="0" key="#patreonBookUTest" timestamp="1581546564467">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="440" y="0" key="#patreonBookUTest/0.0.1366.768@0.0.1366.768" timestamp="1581546564467" />
     <state x="1014" y="391" key="EnvironmentVariablesDialog" timestamp="1579547777254">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -211,25 +227,25 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="658" y="247" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1580253231210" />
-    <state width="2517" height="633" key="GridCell.Tab.0.bottom" timestamp="1581234363784">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1324" height="184" key="GridCell.Tab.0.bottom" timestamp="1581546663714">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="186" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1580335260322" />
+    <state width="1324" height="184" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581546663714" />
     <state width="2517" height="633" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1581234363784" />
-    <state width="2517" height="633" key="GridCell.Tab.0.center" timestamp="1581234363784">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1324" height="184" key="GridCell.Tab.0.center" timestamp="1581546663714">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="186" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1580335260322" />
+    <state width="1324" height="184" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581546663714" />
     <state width="2517" height="633" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1581234363784" />
-    <state width="2517" height="633" key="GridCell.Tab.0.left" timestamp="1581234363784">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1324" height="184" key="GridCell.Tab.0.left" timestamp="1581546663713">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="186" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1580335260322" />
+    <state width="1324" height="184" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581546663713" />
     <state width="2517" height="633" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1581234363784" />
-    <state width="2517" height="633" key="GridCell.Tab.0.right" timestamp="1581234363784">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1324" height="184" key="GridCell.Tab.0.right" timestamp="1581546663714">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="186" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1580335260322" />
+    <state width="1324" height="184" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581546663714" />
     <state width="2517" height="633" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1581234363784" />
     <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1579984221298">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -247,10 +263,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1579984221298" />
-    <state x="976" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1580752205172">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="521" y="288" key="com.intellij.ide.util.TipDialog" timestamp="1581546221976">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="521" y="288" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1580590381839" />
+    <state x="521" y="288" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1581546221976" />
     <state x="976" y="525" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1580752205172" />
     <state x="936" y="332" key="run.anything.popup" timestamp="1579831973406">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -260,13 +276,5 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="943" y="419" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1579984935678" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PyAsync$sServer.coverage" NAME="sServer Coverage Results" MODIFIED="1581199733401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
-    <SUITE FILE_PATH="coverage/PyAsync$Unittests_for_serverClientUnitTest_TestingServerClient_test_staffCreatePatreon.coverage" NAME="Unittests for serverClientUnitTest.TestingServerClient.test_staffCreatePatreon Coverage Results" MODIFIED="1581198518610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/PyAsync$Unittests_in_serverClientUnitTest_py.coverage" NAME="Unittests in serverClientUnitTest.py Coverage Results" MODIFIED="1581212281872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/PyAsync$sClient.coverage" NAME="sClient Coverage Results" MODIFIED="1581199771902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
-    <SUITE FILE_PATH="coverage/PyAsync$Unittests_for_serverClientUnitTest_TestingServerClient.coverage" NAME="Unittests for serverClientUnitTest.TestingServerClient Coverage Results" MODIFIED="1581212256468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/PyAsync$Unittests_in_patreonBookUTest_py.coverage" NAME="Unittests in patreonBookUTest.py Coverage Results" MODIFIED="1580591444376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
 </project>

@@ -61,7 +61,7 @@ class asyncClient(threading.Thread, sServer):
                     if self._state == iD.A_MENU:
                         mToS = str(checking)+','+str("Welcome to Admin menu\nCreation of staff type 'crstaff(COM)ID'")
                     elif self._state == iD.S_MENU:
-                        mToS = str(checking)+','+str("Welcome to Staff menu\nCreation of patreon crpatreon(com)id(com)name")
+                        mToS = str(checking)+','+str("Welcome to Staff menu\nCreation of patreon crpatreon(com)id(com)name\nAddition of books  addbook(com)id,(com)title")
                     elif self._state == iD.P_MENU:
                         mToS = str(checking)+','+str("Welcome to Patreon menu")
             elif self._state == iD.A_MENU and dataReceived[0] == 'crstaff':
