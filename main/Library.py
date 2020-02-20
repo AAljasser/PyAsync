@@ -15,7 +15,7 @@ class Library(metaclass=Singleton):
     instance = None
     _patreon = {'p1000':Patreon('p1000','abdul')}
     _staff = ['s1000']
-    _book = {}
+    _book = {'b1000':Book('b1000','HungerGames')}
     _admin = 'admin'
 
 
