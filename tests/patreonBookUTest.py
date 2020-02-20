@@ -14,6 +14,15 @@ class TestingPatreonBook(unittest.TestCase):
         b = Book(title,id)
         self.assertEqual(title, b.get_title())
         self.assertEqual(id, b.get_id())
+    def test_patreonAddBook(self):
+        title = 'Hunger Games'
+        id = 'b1001'
+        b = Book(title,id)
+        namep ='Samuel Jackson'
+        idp = 'p1001'
+        d = Patreon(namep,idp)
+        d.addBook(b.get_id(),b)
+
 
 
 

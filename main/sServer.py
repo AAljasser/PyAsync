@@ -63,7 +63,7 @@ class asyncClient(threading.Thread, sServer):
                     elif self._state == iD.S_MENU:
                         mToS = str(checking)+','+str("Welcome to Staff menu\nCreation of patreon crpatreon(com)id(com)name\nAddition of books  addbook(com)id,(com)title")
                     elif self._state == iD.P_MENU:
-                        mToS = str(checking)+','+str("Welcome to Patreon menu")
+                        mToS = str(checking)+','+str("Welcome to Patreon menu\nCheckout your books using chkout\nTo list books type books")
             elif self._state == iD.A_MENU and dataReceived[0] == 'crstaff':
                 #Check if the Identifier doesnt already exists
                 if not Library().staffExists(dataReceived[1]):
@@ -102,9 +102,9 @@ class asyncClient(threading.Thread, sServer):
                 elif self._state == iD.A_MENU:
                     mToS = str(checking)+','+str("Creation of staff type 'crstaff(COM)ID'")
                 elif self._state == iD.S_MENU:
-                    mToS = str(checking)+','+str("Creation of patreon crpatreon(com)id(com)name")
+                    mToS = str(checking)+','+str("Creation of patreon crpatreon(com)id(com)name\nAddition of books  addbook(com)id,(com)title")
                 elif self._state == iD.P_MENU:
-                    mToS = str(checking)+','+str("Welcome to Patreon menu")
+                    mToS = str(checking)+','+str("Checkout your books using chkout\nTo list books type books")
                 else:
                     mToS = str(iD.TERMINATE_CONN) + "Weird problem"
 
