@@ -15,3 +15,8 @@ class Patreon():
         ##FOR Now only add books that do not exists already, since duplicate key could cause latter issue
         if bid not in self._bCollection.keys():
             self._bCollection[bid] = bobj
+    def bExists(self,bid):
+        if bid in self._bCollection.keys():
+            return True
+        else:
+            return False

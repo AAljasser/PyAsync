@@ -22,6 +22,7 @@ class TestingPatreonBook(unittest.TestCase):
         idp = 'p1001'
         d = Patreon(namep,idp)
         d.addBook(b.get_id(),b)
+        self.assertTrue(d.bExists(b.get_id()))
 
 
 
