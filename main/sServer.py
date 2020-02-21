@@ -33,6 +33,7 @@ class asyncClient(threading.Thread, sServer):
     _clientAdd = None
     _previousRes = None #This is used to keep previous responses, to reduce data sent between server and client
     _state = iD.LOGIN #All connected clients are in login mode
+    _savedID = None
     def __init__(self, socket, clintAdd):
         threading.Thread.__init__(self)
         self._mainSocket = socket
@@ -63,6 +64,7 @@ class asyncClient(threading.Thread, sServer):
                     elif self._state == iD.S_MENU:
                         mToS = str(checking)+','+str("Welcome to Staff menu\nCreation of patreon crpatreon(com)id(com)name\nAddition of books  addbook(com)id,(com)title")
                     elif self._state == iD.P_MENU:
+                        self._savedID = dataReceived[1]
                         mToS = str(checking)+','+str("Welcome to Patreon menu\nCheckout your books using chkout\nTo list books type books")
             elif self._state == iD.A_MENU and dataReceived[0] == 'crstaff':
                 #Check if the Identifier doesnt already exists
@@ -96,6 +98,14 @@ class asyncClient(threading.Thread, sServer):
                 else:
                     print("Duplication")
                     mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error enter different ID'
+            elif self._state == iD.P_MENU and dataReceived[0] == 'borrow':
+                if len(dataReceived) < 2:
+                    mToS = str(iD.INCORRECT_INPUT)
+                else:
+                    if Library().borrow(self._savedID,dataReceived[1]):
+                        mToS = str(self._state) + ', book has been borrowed'
+                    else:
+                        mToS = str(iD.BOOK_NF) + ", book doesn't exists"
             else: #Input non exist
                 if self._state == iD.LOGIN:
                     mToS = str(self._state)+"Welcome please Enter 'patreon/staff(com) your ID':"

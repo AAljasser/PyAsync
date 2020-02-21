@@ -66,8 +66,8 @@ class TestingServerClient(unittest.TestCase):
         runBG()
         s = sClient()
         s.send('patreon,p1000')
-        s.send("borrow, b1000")
-        self.assertTrue(Library.getPatreon('p1000').bookExists('b1000'))
+        s.send("borrow,b1000")
+        self.assertTrue(Library().getPatreon('p1000').bExists('b1000'))
 
 
 if __name__== '__main__':

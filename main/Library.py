@@ -45,9 +45,22 @@ class Library(metaclass=Singleton):
         self._patreon[id]=Patreon(name,id)
     def patreonExists(self,id):
         return id.casefold() in self._patreon.keys()
+    def getPatreon(self,id):
+        if self.patreonExists(id):
+            return self._patreon[id]
+    def getBook(self,id):
+        if self.bookExists(id):
+            return self._book[id]
     def staffExists(self,id):
         return id.casefold() in self._staff
     def bookExists(self,id):
         return id.casefold() in self._book.keys()
     def addBook(self,id,title):
         self._book[id] = Book(title,id)
+    def borrow(self,pid,bid):
+        if self.bookExists(bid):
+            if not self.getPatreon(pid).bExists(bid): #Book hasnt been borrowed, or no duplicate exists
+                self.getPatreon(pid).addBook(bid,self.getBook(bid))
+                del self._book[bid]
+                return True
+        return False
