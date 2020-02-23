@@ -35,7 +35,10 @@ class Library(metaclass=Singleton):
             else:
                 return iD.INCORRECT_INPUT
         elif name.casefold() == 'patreon':
-            return iD.P_MENU
+            if self.patreonExists(oIfo):
+                return iD.P_MENU
+            else:
+                return iD.INCORRECT_INPUT
         else:
             return iD.INCORRECT_INPUT
 
