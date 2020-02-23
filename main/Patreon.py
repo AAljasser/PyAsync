@@ -20,3 +20,8 @@ class Patreon():
             return True
         else:
             return False
+    def removeBook(self,id):
+        if self.bExists(id):
+            x = self._bCollection[id]
+            del self._bCollection[id]
+            return x
