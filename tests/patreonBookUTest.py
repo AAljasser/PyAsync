@@ -35,7 +35,7 @@ class TestingPatreonBook(unittest.TestCase):
         x = d.removeBook(b.get_id()) #removing book, returns book objectr
         self.assertEqual(x.get_id(),b.get_id())
         self.assertFalse(d.bExists(b.get_id()))
-        
+
 
 
 

@@ -62,12 +62,18 @@ class TestingServerClient(unittest.TestCase):
     #     self.assertTrue(Library().bookExists('b1001'))
     #     s.send('exit')
 
-    def test_bookBorrow(self):
+    # def test_bookBorrow(self):
+    #     runBG()
+    #     s = sClient()
+    #     s.send('patreon,p1000')
+    #     s.send("borrow,b1000")
+    #     self.assertTrue(Library().getPatreon('p1000').bExists('b1000'))
+
+    def test_bookReturn(self):
         runBG()
         s = sClient()
         s.send('patreon,p1000')
         s.send("borrow,b1000")
-        self.assertTrue(Library().getPatreon('p1000').bExists('b1000'))
 
 
 if __name__== '__main__':

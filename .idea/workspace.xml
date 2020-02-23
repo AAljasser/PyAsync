@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a7e6f27-1776-4819-851f-68739a597730" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main/Patreon.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Patreon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/sServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/sServer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/patreonBookUTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/patreonBookUTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/serverClientUnitTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/serverClientUnitTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,7 @@
       <recent name="C:\Users\AyeJay\Documents\PyAsync\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for patreonBookUTest.TestingPatreonBook">
+  <component name="RunManager" selected="Python.sClient">
     <configuration name="sClient" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyAsync" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,6 +112,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for patreonBookUTest.TestingPatreonBook.test_patreonAddBook" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PyAsync" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;patreonBookUTest.TestingPatreonBook.test_patreonAddBook&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in patreonBookUTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PyAsync" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,28 +142,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in serverClientUnitTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="PyAsync" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/serverClientUnitTest.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for patreonBookUTest.TestingPatreonBook" />
-        <item itemvalue="Python tests.Unittests in patreonBookUTest.py" />
         <item itemvalue="Python.sClient" />
         <item itemvalue="Python.sServer" />
-        <item itemvalue="Python tests.Unittests in serverClientUnitTest.py" />
+        <item itemvalue="Python tests.Unittests in patreonBookUTest.py" />
+        <item itemvalue="Python tests.Unittests for patreonBookUTest.TestingPatreonBook.test_patreonAddBook" />
+        <item itemvalue="Python tests.Unittests for patreonBookUTest.TestingPatreonBook" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +188,7 @@
       <workItem from="1582139318752" duration="2714000" />
       <workItem from="1582222701362" duration="7735000" />
       <workItem from="1582492037323" duration="131000" />
-      <workItem from="1582492407816" duration="591000" />
+      <workItem from="1582492407816" duration="3899000" />
     </task>
     <servers />
   </component>
@@ -223,26 +225,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="658" y="247" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1580253231210" />
-    <state width="2517" height="633" key="GridCell.Tab.0.bottom" timestamp="1582493067139">
+    <state width="2517" height="378" key="GridCell.Tab.0.bottom" timestamp="1582500304335">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1324" height="184" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581550920986" />
-    <state width="2517" height="633" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1582493067139" />
-    <state width="2517" height="633" key="GridCell.Tab.0.center" timestamp="1582493067139">
+    <state width="2517" height="378" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1582500304335" />
+    <state width="2517" height="378" key="GridCell.Tab.0.center" timestamp="1582500304335">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1324" height="184" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581550920985" />
-    <state width="2517" height="633" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1582493067139" />
-    <state width="2517" height="633" key="GridCell.Tab.0.left" timestamp="1582493067139">
+    <state width="2517" height="378" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1582500304335" />
+    <state width="2517" height="378" key="GridCell.Tab.0.left" timestamp="1582500304334">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1324" height="184" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581550920985" />
-    <state width="2517" height="633" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1582493067139" />
-    <state width="2517" height="633" key="GridCell.Tab.0.right" timestamp="1582493067139">
+    <state width="2517" height="378" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1582500304334" />
+    <state width="2517" height="378" key="GridCell.Tab.0.right" timestamp="1582500304335">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1324" height="184" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581550920985" />
-    <state width="2517" height="633" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1582493067139" />
+    <state width="2517" height="378" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1582500304335" />
     <state width="1324" height="236" key="GridCell.Tab.1.bottom" timestamp="1581547861683">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -278,13 +280,13 @@
     <state x="943" y="419" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1582227353573" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PyAsync$sServer.coverage" NAME="sServer Coverage Results" MODIFIED="1582492701440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/PyAsync$sServer.coverage" NAME="sServer Coverage Results" MODIFIED="1582500256511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/PyAsync$Unittests_for_patreonBookUTest_TestingPatreonBook_test_bookCreation.coverage" NAME="Unittests for patreonBookUTest.TestingPatreonBook.test_bookCreation Coverage Results" MODIFIED="1582226449146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/PyAsync$Unittests_for_patreonBookUTest_TestingPatreonBook_test_patreonAddBook.coverage" NAME="Unittests for patreonBookUTest.TestingPatreonBook.test_patreonAddBook Coverage Results" MODIFIED="1582226690202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/PyAsync$Unittests_for_patreonBookUTest_TestingPatreonBook_test_patreonAddBook.coverage" NAME="Unittests for patreonBookUTest.TestingPatreonBook.test_patreonAddBook Coverage Results" MODIFIED="1582496748077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/PyAsync$Unittests_in_serverClientUnitTest_py.coverage" NAME="Unittests in serverClientUnitTest.py Coverage Results" MODIFIED="1582255027762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/PyAsync$sClient.coverage" NAME="sClient Coverage Results" MODIFIED="1582492703402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/PyAsync$sClient.coverage" NAME="sClient Coverage Results" MODIFIED="1582500285309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/PyAsync$Unittests_for_patreonBookUTest_TestingPatreonBook.coverage" NAME="Unittests for patreonBookUTest.TestingPatreonBook Coverage Results" MODIFIED="1582493069270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/PyAsync$Unittests_for_serverClientUnitTest_TestingServerClient.coverage" NAME="Unittests for serverClientUnitTest.TestingServerClient Coverage Results" MODIFIED="1582255006857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/PyAsync$Unittests_in_patreonBookUTest_py.coverage" NAME="Unittests in patreonBookUTest.py Coverage Results" MODIFIED="1582493064317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/PyAsync$Unittests_in_patreonBookUTest_py.coverage" NAME="Unittests in patreonBookUTest.py Coverage Results" MODIFIED="1582496752732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>
