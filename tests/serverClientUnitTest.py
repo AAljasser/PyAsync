@@ -74,7 +74,11 @@ class TestingServerClient(unittest.TestCase):
         s = sClient()
         s.send('patreon,p1000')
         s.send("borrow,b1000")
-
+        self.assertTrue(Library().getPatreon('p1000').bExists('b1000'))
+        self.assertFalse(Library().bookExists('b1000'))
+        s.send("return, b1000")
+        self.assertFalse(Library().getPatreon('p1000').bExists('b1000'))
+        self.assertTrue(Library().bookExists('b1000'))
 
 if __name__== '__main__':
     unittest.main()
