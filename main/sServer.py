@@ -107,6 +107,14 @@ class asyncClient(threading.Thread, sServer):
                         mToS = str(self._state) + ', book has been borrowed'
                     else:
                         mToS = str(iD.BOOK_NF) + ", book doesn't exists"
+            elif self._state == iD.P_MENU and dataReceived[0] == 'return':
+                if len(dataReceived) < 2:
+                    mToS = str(self._state) + Library().getPatreon(self._savedID).printBBooks()
+                else:
+                    if Library().returnBook(self._savedID,dataReceived[1]):
+                        mToS = str(self._state)+ ', Book has been returned'
+                    else:
+                        mToS = str(iD.INCORRECT_INPUT)
             else: #Input non exist
                 if self._state == iD.LOGIN:
                     mToS = str(self._state)+"Welcome please Enter 'patreon/staff(com) your ID':"
@@ -119,6 +127,7 @@ class asyncClient(threading.Thread, sServer):
                 else:
                     mToS = str(iD.TERMINATE_CONN) + "Weird problem"
 
+            #print(mToS)
             self._mainSocket.sendall(bytes(mToS,'utf-8'))
         print("Client : "+str(self._clientAdd)+" closing com, Thread_ID: "+str(threading.get_ident()))
         self._mainSocket.close()

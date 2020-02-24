@@ -25,3 +25,8 @@ class Patreon():
             x = self._bCollection[id]
             del self._bCollection[id]
             return x
+    def printBBooks(self):
+        retMsg = ''
+        for x in self._bCollection.keys():
+            retMsg = retMsg + x +': '+self._bCollection[x]+','
+        return retMsg

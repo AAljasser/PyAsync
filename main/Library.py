@@ -67,3 +67,10 @@ class Library(metaclass=Singleton):
                 del self._book[bid]
                 return True
         return False
+    def returnBook(self,pid,bid):
+        print(pid,bid)
+        if self.getPatreon(pid).bExists(bid):
+            self._book[bid] = self.getPatreon(pid).removeBook(bid)
+            return True
+        else:
+            return False
