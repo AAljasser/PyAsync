@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7a7e6f27-1776-4819-851f-68739a597730" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Book.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Book.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Library.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Library.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Patreon.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Patreon.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/sServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/sServer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/serverClientUnitTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/serverClientUnitTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <recent name="C:\Users\AyeJay\Documents\PyAsync\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for serverClientUnitTest.TestingServerClient">
+  <component name="RunManager" selected="Python.sClient">
     <configuration name="sClient" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyAsync" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,10 +145,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for serverClientUnitTest.TestingServerClient" />
-        <item itemvalue="Python tests.Unittests in serverClientUnitTest.py" />
         <item itemvalue="Python.sClient" />
         <item itemvalue="Python.sServer" />
+        <item itemvalue="Python tests.Unittests for serverClientUnitTest.TestingServerClient" />
+        <item itemvalue="Python tests.Unittests in serverClientUnitTest.py" />
         <item itemvalue="Python tests.Unittests for serverClientUnitTest.TestingServerClient.test_bookReturn" />
       </list>
     </recent_temporary>
@@ -189,7 +189,7 @@
       <workItem from="1582139318752" duration="2714000" />
       <workItem from="1582222701362" duration="7735000" />
       <workItem from="1582492037323" duration="131000" />
-      <workItem from="1582492407816" duration="8270000" />
+      <workItem from="1582492407816" duration="8878000" />
     </task>
     <servers />
   </component>
@@ -226,26 +226,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="658" y="247" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1580253231210" />
-    <state width="2517" height="378" key="GridCell.Tab.0.bottom" timestamp="1582514512434">
+    <state width="2517" height="378" key="GridCell.Tab.0.bottom" timestamp="1582515204123">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1324" height="184" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581550920986" />
-    <state width="2517" height="378" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1582514512434" />
-    <state width="2517" height="378" key="GridCell.Tab.0.center" timestamp="1582514512434">
+    <state width="2517" height="378" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1582515204123" />
+    <state width="2517" height="378" key="GridCell.Tab.0.center" timestamp="1582515204123">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1324" height="184" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581550920985" />
-    <state width="2517" height="378" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1582514512434" />
-    <state width="2517" height="378" key="GridCell.Tab.0.left" timestamp="1582514512434">
+    <state width="2517" height="378" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1582515204123" />
+    <state width="2517" height="378" key="GridCell.Tab.0.left" timestamp="1582515204123">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1324" height="184" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581550920985" />
-    <state width="2517" height="378" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1582514512434" />
-    <state width="2517" height="378" key="GridCell.Tab.0.right" timestamp="1582514512434">
+    <state width="2517" height="378" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1582515204123" />
+    <state width="2517" height="378" key="GridCell.Tab.0.right" timestamp="1582515204123">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1324" height="184" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581550920985" />
-    <state width="2517" height="378" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1582514512434" />
+    <state width="2517" height="378" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1582515204123" />
     <state width="1324" height="236" key="GridCell.Tab.1.bottom" timestamp="1581547861683">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -281,11 +281,11 @@
     <state x="943" y="419" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1582227353573" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PyAsync$sServer.coverage" NAME="sServer Coverage Results" MODIFIED="1582514384917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/PyAsync$sServer.coverage" NAME="sServer Coverage Results" MODIFIED="1582515140621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/PyAsync$Unittests_for_patreonBookUTest_TestingPatreonBook_test_bookCreation.coverage" NAME="Unittests for patreonBookUTest.TestingPatreonBook.test_bookCreation Coverage Results" MODIFIED="1582226449146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/PyAsync$Unittests_for_patreonBookUTest_TestingPatreonBook_test_patreonAddBook.coverage" NAME="Unittests for patreonBookUTest.TestingPatreonBook.test_patreonAddBook Coverage Results" MODIFIED="1582496748077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/PyAsync$Unittests_in_serverClientUnitTest_py.coverage" NAME="Unittests in serverClientUnitTest.py Coverage Results" MODIFIED="1582514481627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/PyAsync$sClient.coverage" NAME="sClient Coverage Results" MODIFIED="1582514385778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/PyAsync$sClient.coverage" NAME="sClient Coverage Results" MODIFIED="1582515142281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/PyAsync$Unittests_for_patreonBookUTest_TestingPatreonBook.coverage" NAME="Unittests for patreonBookUTest.TestingPatreonBook Coverage Results" MODIFIED="1582493069270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/PyAsync$Unittests_for_serverClientUnitTest_TestingServerClient_test_bookReturn.coverage" NAME="Unittests for serverClientUnitTest.TestingServerClient.test_bookReturn Coverage Results" MODIFIED="1582513420077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/PyAsync$Unittests_for_serverClientUnitTest_TestingServerClient.coverage" NAME="Unittests for serverClientUnitTest.TestingServerClient Coverage Results" MODIFIED="1582514513579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
