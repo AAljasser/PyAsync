@@ -24,6 +24,19 @@ class TestingPatreonBook(unittest.TestCase):
         d.addBook(b.get_id(),b)
         self.assertTrue(d.bExists(b.get_id()))
 
+    def test_returnBook(self):
+        title = 'Hunger Games'
+        id = 'b1001'
+        b = Book(title,id)
+        namep ='Samuel Jackson'
+        idp = 'p1001'
+        d = Patreon(namep,idp)
+        d.addBook(b.get_id(),b)
+        x = d.removeBook(b.get_id()) #removing book, returns book objectr
+        self.assertEqual(x.get_id(),b.get_id())
+        self.assertFalse(d.bExists(b.get_id()))
+
+
 
 
 

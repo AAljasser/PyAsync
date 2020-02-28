@@ -15,7 +15,7 @@ class Library(metaclass=Singleton):
     instance = None
     _patreon = {'p1000':Patreon('p1000','abdul')}
     _staff = ['s1000']
-    _book = {'b1000':Book('b1000','HungerGames')}
+    _book = {'b1000':Book('b1000','HungerGames'),'b1001':Book('b1001','Game of Thrones'),'b1002':Book('b1002','Lord of the Flies')}
     _admin = 'admin'
 
 
@@ -35,7 +35,10 @@ class Library(metaclass=Singleton):
             else:
                 return iD.INCORRECT_INPUT
         elif name.casefold() == 'patreon':
-            return iD.P_MENU
+            if self.patreonExists(oIfo):
+                return iD.P_MENU
+            else:
+                return iD.INCORRECT_INPUT
         else:
             return iD.INCORRECT_INPUT
 
@@ -64,3 +67,15 @@ class Library(metaclass=Singleton):
                 del self._book[bid]
                 return True
         return False
+    def returnBook(self,pid,bid):
+        print(pid,bid)
+        if self.getPatreon(pid).bExists(bid):
+            self._book[bid] = self.getPatreon(pid).removeBook(bid)
+            return True
+        else:
+            return False
+    def printBooks(self):
+        retMsg = ''
+        for x in self._book.keys():
+            retMsg = retMsg + x + ": "+self._book[x].get_title()+','
+        return retMsg
