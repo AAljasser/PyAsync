@@ -13,6 +13,9 @@ class sClient():
             self._mainSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             self._mainSocket.connect((self._localAdd, self._port))
 
+    def sendO(self,msg):
+        if self._mainSocket is not None:
+            self._mainSocket.sendall(bytes(msg, 'UTF-8'))
 
     def send(self, msg):
         if self._mainSocket is not None:

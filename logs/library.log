@@ -1,0 +1,86 @@
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Patreon log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Patreon log in successful
+INFO:root:p1001 Patreon: Trying to borrow b1001
+INFO:root:p1002 Patreon: Trying to borrow b1001
+INFO:root:p1001 Patreon: Successful to borrow b1001
+INFO:root:p1002 Patreon: Failed to borrow b1001
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Patreon log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Patreon log in successful
+INFO:root:p1001 Patreon: Trying to borrow b1001
+INFO:root:p1002 Patreon: Trying to borrow b1001
+INFO:root:p1001 Patreon: Successful to borrow b1001
+INFO:root:p1002 Patreon: Failed to borrow b1001
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Patreon log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Patreon log in successful
+INFO:root:p1001 Patreon: Trying to borrow b1001
+INFO:root:p1001 Patreon: Successful to borrow b1001
+INFO:root:p1002 Patreon: Trying to borrow b1001
+INFO:root:p1002 Patreon: Failed to borrow b1001
+INFO:root:: Trying to log in
+INFO:root:: Trying to log in
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Patreon log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Patreon log in successful
+INFO:root:p1001 Patreon: Trying to borrow b1001
+INFO:root:p1001 Patreon: Successful to borrow b1001
+INFO:root:: Trying to log in
+INFO:root:p1002 Patreon: Trying to borrow b1001
+INFO:root:: Trying to log in
+INFO:root:p1002 Patreon: Failed to borrow b1001
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Patreon log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Patreon log in successful
+INFO:root:p1001 Patreon: Trying to borrow b1001
+INFO:root:p1001 Patreon: Successful to borrow b1001
+INFO:root:: Trying to log in
+INFO:root:p1002 Patreon: Trying to borrow b1001
+INFO:root:p1002 Patreon: Failed to borrow b1001
+INFO:root:: Trying to log in
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Patreon log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Patreon log in successful
+INFO:root:p1001 Patreon: Trying to borrow b1001
+INFO:root:p1002 Patreon: Trying to borrow b1001
+INFO:root:p1001 Patreon: Failed to borrow b1001
+INFO:root:: Trying to log in
+INFO:root:: Trying to log in
+INFO:root:p1002 Patreon: Successful to borrow b1001
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Patreon log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Patreon log in successful
+INFO:root:p1001 Patreon: Trying to borrow b1001
+INFO:root:p1001 Patreon: Successful to borrow b1001
+INFO:root:p1002 Patreon: Trying to borrow b1001
+INFO:root:: Trying to log in
+INFO:root:: Trying to log in
+INFO:root:p1002 Patreon: Failed to borrow b1001
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Patreon log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Patreon log in successful
+INFO:root:p1001 Patreon: Trying to borrow b1001
+INFO:root:p1002 Patreon: Trying to borrow b1001
+INFO:root:p1002 Patreon: Successful to borrow b1001
+INFO:root:p1001 Patreon: Failed to borrow b1001
+INFO:root:: Trying to log in
+INFO:root:: Trying to log in
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Patreon log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Patreon log in successful
+INFO:root:p1002 Patreon: Trying to borrow b1001
+INFO:root:p1002 Patreon: Successful to borrow b1001
+INFO:root:: Trying to log in
+INFO:root:p1001 Patreon: Trying to borrow b1001
+INFO:root:: Trying to log in
+INFO:root:p1001 Patreon: Failed to borrow b1001

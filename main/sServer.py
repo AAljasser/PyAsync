@@ -104,7 +104,7 @@ class asyncClient(threading.Thread, sServer):
                     mToS = str(self._state) +','+ Library().printBooks()
                 else:
                     if Library().borrow(self._savedID,dataReceived[1]):
-                        mToS = str(self._state) + ', book has been borrowed'
+                        mToS = str(self._state) + ', '+str(self._savedID)+'book has been borrowed'
                     else:
                         mToS = str(iD.BOOK_NF) + ", book doesn't exists"
             elif self._state == iD.P_MENU and dataReceived[0] == 'return':
