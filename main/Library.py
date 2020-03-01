@@ -1,6 +1,8 @@
 from IndState import IndState as iD
 from main.Patreon import Patreon
 from main.Book import Book
+import logging
+
 
 class Singleton(type):
     _instances = {}
@@ -13,10 +15,11 @@ class Library(metaclass=Singleton):
     pass
     #Patreons users and passwords stored
     instance = None
-    _patreon = {'p1000':Patreon('p1000','abdul')}
+    _patreon = {'p1000':Patreon('p1000','abdul'),'p1001':Patreon('p1001','PatreonOne'),'p1002':Patreon('p1002','PatreonTwo')}
     _staff = ['s1000']
     _book = {'b1000':Book('b1000','HungerGames'),'b1001':Book('b1001','Game of Thrones'),'b1002':Book('b1002','Lord of the Flies')}
     _admin = 'admin'
+
 
 
     def userLogin(self,info):
@@ -27,15 +30,20 @@ class Library(metaclass=Singleton):
             oIfo = info[1]
         else:
             name = info[0]
+        logging.basicConfig(filename='library.log',level=logging.INFO)
+        logging.info(str(name)+": Trying to log in")
         if name.casefold() == 'admin':
+            logging.info(str(name)+": Admin log in successful")
             return iD.A_MENU
         elif name.casefold() == 'staff':
             if self.staffExists(oIfo):
+                logging.info(str(name)+": Staff log in successful")
                 return iD.S_MENU
             else:
                 return iD.INCORRECT_INPUT
         elif name.casefold() == 'patreon':
             if self.patreonExists(oIfo):
+                logging.info(str(name)+": Patreon log in successful")
                 return iD.P_MENU
             else:
                 return iD.INCORRECT_INPUT
@@ -61,11 +69,15 @@ class Library(metaclass=Singleton):
     def addBook(self,id,title):
         self._book[id] = Book(title,id)
     def borrow(self,pid,bid):
+        logging.basicConfig(filename='library.log',level=logging.INFO)
+        logging.info(str(pid)+" Patreon: Trying to borrow "+str(bid))
         if self.bookExists(bid):
             if not self.getPatreon(pid).bExists(bid): #Book hasnt been borrowed, or no duplicate exists
                 self.getPatreon(pid).addBook(bid,self.getBook(bid))
                 del self._book[bid]
+                logging.info(str(pid)+" Patreon: Successful to borrow "+str(bid))
                 return True
+        logging.info(str(pid)+" Patreon: Failed to borrow "+str(bid))
         return False
     def returnBook(self,pid,bid):
         print(pid,bid)
