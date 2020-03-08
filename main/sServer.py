@@ -1,14 +1,13 @@
 import socket, threading
 from IndState import IndState as iD
 from main.Library import Library
-import logging
 
 class sServer():
     _mainSocket = None
     _port = 8096
     _localAdd = '127.0.0.1'
     _connected = []
-    _cond = threading.Condition()
+
     def __init__(self):
         Library()
         if self._mainSocket is None:
@@ -36,10 +35,8 @@ class asyncClient(threading.Thread, sServer):
     _previousRes = None #This is used to keep previous responses, to reduce data sent between server and client
     _state = iD.LOGIN #All connected clients are in login mode
     _savedID = None
-
     def __init__(self, socket, clintAdd):
         threading.Thread.__init__(self)
-
         self._mainSocket = socket
         self._clientAdd = clintAdd
 
@@ -47,18 +44,8 @@ class asyncClient(threading.Thread, sServer):
         print("Client : "+str(self._clientAdd)+" has connected, Thread_ID: "+str(threading.get_ident()))
         mToS = None # Messageto be sent to the client
         while mToS != iD.TERMINATE_CONN:
-            logging.warning("Client #"+str(self._savedID)+" Waiting for message")
             receivedMsg = self._mainSocket.recv(2048)
-            #Here is fix for Race Condition (Part 1)
-            #This allow for the current to precede before any other request received
-            self._cond.acquire()
-            logging.info("Client #"+str(self._savedID)+" Accquired lock")
-            #End of part 1#
             dataReceived = iD.breakData(receivedMsg.decode('utf-8')) ##Server/Client always commun
-
-
-
-            logging.info("Client #"+str(self._savedID)+"Sent a command")
             print(dataReceived)
 
             if dataReceived[0].casefold() == str(iD.TERMINATE_CONN):
@@ -113,13 +100,11 @@ class asyncClient(threading.Thread, sServer):
                     print("Duplication")
                     mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error enter different ID'
             elif self._state == iD.P_MENU and dataReceived[0] == 'borrow':
-                logging.info("Client #"+str(self._savedID)+"Sent a borrow command")
                 if len(dataReceived) < 2:
                     mToS = str(self._state) +','+ Library().printBooks()
                 else:
-                    logging.info("Client #"+str(self._savedID)+"Sent a borrowing for "+str(dataReceived[1]))
                     if Library().borrow(self._savedID,dataReceived[1]):
-                        mToS = str(self._state) + ', '+str(self._savedID)+'book has been borrowed'
+                        mToS = str(self._state) + ', book has been borrowed'
                     else:
                         mToS = str(iD.BOOK_NF) + ", book doesn't exists"
             elif self._state == iD.P_MENU and dataReceived[0] == 'return':
@@ -143,10 +128,6 @@ class asyncClient(threading.Thread, sServer):
                     mToS = str(iD.TERMINATE_CONN) + "Weird problem"
 
             print(mToS)
-            #Here where the race condition is fixed (Part 2)
-            self._cond.release()
-            logging.info("Client #"+str(self._savedID)+" Released lock")
-            #END OF PART 2 #
             self._mainSocket.sendall(bytes(mToS,'utf-8'))
         print("Client : "+str(self._clientAdd)+" closing com, Thread_ID: "+str(threading.get_ident()))
         self._mainSocket.close()

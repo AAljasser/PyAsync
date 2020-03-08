@@ -17,6 +17,7 @@ class BG(threading.Thread):
 
 def main():
     x = runBG()
+    print("TRUE)")
 
 
 if __name__ == '__main__':
