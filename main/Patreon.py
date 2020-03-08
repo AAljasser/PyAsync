@@ -32,3 +32,7 @@ class Patreon():
         for x in self._bCollection.keys():
             retMsg = retMsg + x +': '+self._bCollection[x].get_title()+','
         return retMsg
+
+    def getBook(self,id):
+        if self.bExists(id):
+            return self._bCollection[id]

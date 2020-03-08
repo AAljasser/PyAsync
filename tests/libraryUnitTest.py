@@ -2,9 +2,11 @@ import unittest
 from main.Library import Library
 from IndState import IndState as iD
 from main.Book import Book
+import logging
+
 
 class TestingLibrarySystem(unittest.TestCase):
-
+    logging.basicConfig(filename='library.log',level=logging.INFO)
     #Definition of a library
     #Test Complete
     #def test_libDef(self):
@@ -31,16 +33,17 @@ class TestingLibrarySystem(unittest.TestCase):
         self.assertTrue(x.staffExists(id))
 
     def test_libraryAddingBook(self):
-        id = 'b1001'
-        title = 'Hunger Games'
+        id = 'b1008'
+        title = 'Hunger Games 8'
         Library().addBook(id,title)
-        self.assertTrue(Library().bookExists('b1001'))
+        self.assertTrue(Library().bookExists('b1008'))
 
     def test_checkOutSystem(self):
         patron = 'p1000'
-        id = 'b1001'
-        title = 'Hunger Games'
+        id = 'b1006'
+        title = 'Hunger Games 6'
         Library().addBook(id,title)
+        Library().borrow(patron,id)
         #TODO: must borrow book beforehand
         Library().checkOut(patron)
 
