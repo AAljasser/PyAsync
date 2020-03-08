@@ -107,15 +107,17 @@ class Library(metaclass=Singleton):
         return retMsg
 
     def checkOut(self,id):# NO return
+        flag = False
         logging.info("Patreon #"+str(id)+": Trying to checkout ")
         for x in self._checkOut:
             if self._checkOut[x] in id: #checking which user has which book
+                flag = True
                 self.getPatreon(self._checkOut[x]).addBook(x,self.getBook(x))
                 logging.info("Patreon #"+str(id)+": Trying to checkout "+str(x))
                 self.getPatreon(self._checkOut[x]).getBook(x).relLock()
                 logging.info("Patreon #"+str(id)+": Released "+str(x))
                 del self._book[x]
-
+        return flag
 
         #The checkout supposed to do what the previous borrow function does
 

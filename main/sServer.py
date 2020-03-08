@@ -49,11 +49,7 @@ class asyncClient(threading.Thread, sServer):
         while mToS != iD.TERMINATE_CONN:
             logging.warning("Client #"+str(self._savedID)+" Waiting for message")
             receivedMsg = self._mainSocket.recv(2048)
-            #Here is fix for Race Condition (Part 1)
-            #This allow for the current to precede before any other request received
-            self._cond.acquire()
-            logging.info("Client #"+str(self._savedID)+" Accquired lock")
-            #End of part 1#
+
             dataReceived = iD.breakData(receivedMsg.decode('utf-8')) ##Server/Client always commun
 
 
@@ -79,7 +75,7 @@ class asyncClient(threading.Thread, sServer):
                         mToS = str(checking)+','+str("Welcome to Staff menu\nCreation of patreon 'crpatreon(com)id(com)name'\nAddition of books  'addbook(com)id(com)title'")
                     elif self._state == iD.P_MENU:
                         self._savedID = dataReceived[1]
-                        mToS = str(checking)+','+str("Welcome to Patreon menu\nTo list books tpye 'borrow'\nTo borrow type 'borrow(COM)bookcode'\nTo list current borrowed books type 'return'\nTo return borrowed books type 'return(com)bid'")
+                        mToS = str(checking)+','+str("Welcome to Patreon menu\nTo list books tpye 'borrow'\nTo borrow type 'borrow(COM)bookcode'\nTo list current borrowed books type 'return'\nTo return borrowed books type 'return(com)bid'\nAfter borrowing book you must type checkout to obtain the books")
             elif self._state == iD.A_MENU and dataReceived[0] == 'crstaff':
                 #Check if the Identifier doesnt already exists
                 if not Library().staffExists(dataReceived[1]):
@@ -119,7 +115,7 @@ class asyncClient(threading.Thread, sServer):
                 else:
                     logging.info("Client #"+str(self._savedID)+"Sent a borrowing for "+str(dataReceived[1]))
                     if Library().borrow(self._savedID,dataReceived[1]):
-                        mToS = str(self._state) + ', '+str(self._savedID)+'book has been borrowed'
+                        mToS = str(self._state) + ', '+str(self._savedID)+'book has been added to cart (MUST TYPE CHECKOUT)'
                     else:
                         mToS = str(iD.BOOK_NF) + ", book doesn't exists"
             elif self._state == iD.P_MENU and dataReceived[0] == 'return':
@@ -138,15 +134,12 @@ class asyncClient(threading.Thread, sServer):
                 elif self._state == iD.S_MENU:
                     mToS = str(checking)+','+str("Creation of patreon 'crpatreon(com)id(com)name'\nAddition of books  'addbook(com)id(com)title'")
                 elif self._state == iD.P_MENU:
-                    mToS = str(checking)+','+str("To list books tpye 'borrow'\nTo borrow type 'borrow(COM)bookcode'\nTo list current borrowed books type 'return'\nTo return borrowed books type 'return(com)bid'")
+                    mToS = str(checking)+','+str("To list books tpye 'borrow'\nTo borrow type 'borrow(COM)bookcode'\nTo list current borrowed books type 'return'\nTo return borrowed books type 'return(com)bid'\nAfter borrowing book you must type checkout to obtain the books")
                 else:
                     mToS = str(iD.TERMINATE_CONN) + "Weird problem"
 
             print(mToS)
-            #Here where the race condition is fixed (Part 2)
-            self._cond.release()
-            logging.info("Client #"+str(self._savedID)+" Released lock")
-            #END OF PART 2 #
+
             self._mainSocket.sendall(bytes(mToS,'utf-8'))
         print("Client : "+str(self._clientAdd)+" closing com, Thread_ID: "+str(threading.get_ident()))
         self._mainSocket.close()
@@ -154,6 +147,7 @@ class asyncClient(threading.Thread, sServer):
 
 
 def main():
+    logging.basicConfig(filename='library.log',level=logging.INFO)
     sSocket = sServer()
     sSocket.close()
 
