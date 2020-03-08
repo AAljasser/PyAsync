@@ -36,6 +36,14 @@ class TestingLibrarySystem(unittest.TestCase):
         Library().addBook(id,title)
         self.assertTrue(Library().bookExists('b1001'))
 
+    def test_checkOutSystem(self):
+        patron = 'p1000'
+        id = 'b1001'
+        title = 'Hunger Games'
+        Library().addBook(id,title)
+        #TODO: must borrow book beforehand
+        Library().checkOut(patron)
+
 
 if __name__== '__main__':
     unittest.main()
