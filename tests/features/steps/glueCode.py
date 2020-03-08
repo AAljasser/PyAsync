@@ -30,10 +30,10 @@ def step_impl(context):
     pTwo.sendO('borrow,b1001')
 
 
+
 @Then('Either PatreonOne or PatreonTwo successfully borrow bOne')
 def step_impl(context):
-    print(Library().getPatreon('p1001').printBBooks())
-    print(Library().getPatreon('p1002').printBBooks())
+    time.sleep(1)
     if Library().getPatreon('p1001').bExists('b1001'):
         print('Patreon one has successfully borrowed the book')
     elif Library().getPatreon('p1002').bExists('b1001'):

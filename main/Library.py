@@ -19,6 +19,7 @@ class Library(metaclass=Singleton):
     _staff = ['s1000']
     _book = {'b1000':Book('b1000','HungerGames'),'b1001':Book('b1001','Game of Thrones'),'b1002':Book('b1002','Lord of the Flies')}
     _admin = 'admin'
+    lock = None
 
 
 
@@ -37,13 +38,13 @@ class Library(metaclass=Singleton):
             return iD.A_MENU
         elif name.casefold() == 'staff':
             if self.staffExists(oIfo):
-                logging.info(str(name)+": Staff log in successful")
+                logging.info("Staff #"+str(name)+": log in successful")
                 return iD.S_MENU
             else:
                 return iD.INCORRECT_INPUT
         elif name.casefold() == 'patreon':
             if self.patreonExists(oIfo):
-                logging.info(str(name)+": Patreon log in successful")
+                logging.info("Patreon #"+str(name)+":log in successful")
                 return iD.P_MENU
             else:
                 return iD.INCORRECT_INPUT
@@ -70,19 +71,16 @@ class Library(metaclass=Singleton):
         self._book[id] = Book(title,id)
     def borrow(self,pid,bid):
         #logging.basicConfig(filename='logs/library.log',level=logging.INFO)
-        logging.info(str(pid)+" Patreon: Trying to borrow "+str(bid))
-        print("HERHERHEREHRHERER")
-        print(self.bookExists(bid))
+        logging.info("Patreon #"+str(pid)+": Trying to borrow "+str(bid))
         if self.bookExists(bid):
             if not self.getPatreon(pid).bExists(bid): #Book hasnt been borrowed, or no duplicate exists
                 self.getPatreon(pid).addBook(bid,self.getBook(bid))
                 del self._book[bid]
-                logging.info(str(pid)+" Patreon: Successful to borrow "+str(bid))
+                logging.info("Patreon #"+str(pid)+": Successful to borrow "+str(bid))
                 return True
-        logging.info(str(pid)+" Patreon: Failed to borrow "+str(bid))
+        logging.info("Patreon #"+str(pid)+": Failed to borrow "+str(bid))
         return False
     def returnBook(self,pid,bid):
-        print(pid,bid)
         if self.getPatreon(pid).bExists(bid):
             self._book[bid] = self.getPatreon(pid).removeBook(bid)
             return True
