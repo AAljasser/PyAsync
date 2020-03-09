@@ -75,7 +75,7 @@ class asyncClient(threading.Thread, sServer):
                         mToS = str(checking)+','+str("Welcome to Staff menu\nCreation of patreon 'crpatreon(com)id(com)name'\nAddition of books  'addbook(com)id(com)title'")
                     elif self._state == iD.P_MENU:
                         self._savedID = dataReceived[1]
-                        mToS = str(checking)+','+str("Welcome to Patreon menu\nTo list books tpye 'borrow'\nTo borrow type 'borrow(COM)bookcode'\nTo list current borrowed books type 'return'\nTo return borrowed books type 'return(com)bid'\nAfter borrowing book you must type checkout to obtain the books")
+                        mToS = str(checking)+','+str("Welcome to Patreon menu\nTo list books tpye 'borrow'\nTo borrow a book into checkout cart type 'borrow(COM)bookcode'\nTo list current borrowed books type 'return'\nTo return borrowed books type 'return(com)bid'\nAfter borrowing book you must type checkout to obtain the books")
             elif self._state == iD.A_MENU and dataReceived[0] == 'crstaff':
                 #Check if the Identifier doesnt already exists
                 if not Library().staffExists(dataReceived[1]):
@@ -134,7 +134,7 @@ class asyncClient(threading.Thread, sServer):
                 elif self._state == iD.S_MENU:
                     mToS = str(checking)+','+str("Creation of patreon 'crpatreon(com)id(com)name'\nAddition of books  'addbook(com)id(com)title'")
                 elif self._state == iD.P_MENU:
-                    mToS = str(checking)+','+str("To list books tpye 'borrow'\nTo borrow type 'borrow(COM)bookcode'\nTo list current borrowed books type 'return'\nTo return borrowed books type 'return(com)bid'\nAfter borrowing book you must type checkout to obtain the books")
+                    mToS = str(checking)+','+str("To list books tpye 'borrow'\nTo borrow a book into checkout cart type 'borrow(COM)bookcode'\nTo list current borrowed books type 'return'\nTo return borrowed books type 'return(com)bid'\nAfter borrowing book you must type checkout to obtain the books")
                 else:
                     mToS = str(iD.TERMINATE_CONN) + "Weird problem"
 

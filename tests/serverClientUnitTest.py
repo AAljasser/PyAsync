@@ -69,16 +69,26 @@ class TestingServerClient(unittest.TestCase):
     #     s.send("borrow,b1000")
     #     self.assertTrue(Library().getPatreon('p1000').bExists('b1000'))
 
-    def test_bookReturn(self):
+    # def test_bookReturn(self):
+    #     runBG()
+    #     s = sClient()
+    #     s.send('patreon,p1000')
+    #     s.send("borrow,b1000")
+    #     self.assertTrue(Library().getPatreon('p1000').bExists('b1000')) #Here we see that patreon has the bookk
+    #     self.assertFalse(Library().bookExists('b1000')) #Here we check that the library doesnt have t he book
+    #     s.send("return,b1000")
+    #     self.assertFalse(Library().getPatreon('p1000').bExists('b1000')) # here we see that patreon doesnt have the book
+    #     self.assertTrue(Library().bookExists('b1000')) # here we see that alibrary has gotten the book
+
+    def test_bookCheckout(self):
         runBG()
         s = sClient()
         s.send('patreon,p1000')
         s.send("borrow,b1000")
+        s.send("chechkout")
         self.assertTrue(Library().getPatreon('p1000').bExists('b1000')) #Here we see that patreon has the bookk
         self.assertFalse(Library().bookExists('b1000')) #Here we check that the library doesnt have t he book
-        s.send("return,b1000")
-        self.assertFalse(Library().getPatreon('p1000').bExists('b1000')) # here we see that patreon doesnt have the book
-        self.assertTrue(Library().bookExists('b1000')) # here we see that alibrary has gotten the book
+
 
 if __name__== '__main__':
     unittest.main()
