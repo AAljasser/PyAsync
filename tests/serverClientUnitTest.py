@@ -85,7 +85,7 @@ class TestingServerClient(unittest.TestCase):
         s = sClient()
         s.send('patreon,p1000')
         s.send("borrow,b1000")
-        s.send("chechkout")
+        s.send("checkout")
         self.assertTrue(Library().getPatreon('p1000').bExists('b1000')) #Here we see that patreon has the bookk
         self.assertFalse(Library().bookExists('b1000')) #Here we check that the library doesnt have t he book
 

@@ -106,6 +106,14 @@ class Library(metaclass=Singleton):
             retMsg = retMsg + x + ": "+self._book[x].get_title()+','
         return retMsg
 
+    def printCheckOut(self,id):
+        ret = "Cart Contains\n"
+        for x in self._checkOut:
+            if self._checkOut[x] in id: #checking which user has which book
+                ret = ret + "Book ID: "+x+", Title: "+self.getBook(x).get_title()
+                ret = ret + '\n'
+        return ret
+
     def checkOut(self,id):# NO return
         flag = False
         logging.info("Patreon #"+str(id)+": Trying to checkout ")

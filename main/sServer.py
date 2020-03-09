@@ -126,6 +126,20 @@ class asyncClient(threading.Thread, sServer):
                         mToS = str(self._state)+ ', Book has been returned'
                     else:
                         mToS = str(iD.INCORRECT_INPUT)
+            elif self._state == iD.P_MENU and dataReceived[0] == 'checkout':
+                #If user provide parameters with checkout we must proceed accordingly
+                if len(dataReceived) < 2: #No parameters
+                    #Here we checkout the users cart
+                    mToS = str(self._state)+','+Library().printCheckOut(self._savedID)
+                    if Library().checkOut(self._savedID):
+                        mToS = mToS+', The printed books have been checked out'
+                    else:
+                        mToS = str(self._state)+', No books in cart to be checkedout'
+                elif len(dataReceived) >= 2 and ("view" in dataReceived[1]):
+                    #Here we view what the users checkout contains
+                    mToS = str(self._state)+','+Library().printCheckOut(self._savedID)
+                else:
+                    mToS = str(iD.INCORRECT_INPUT)
             else: #Input non exist
                 if self._state == iD.LOGIN:
                     mToS = str(self._state)+"Welcome please Enter 'patreon/staff(com) your ID':"
