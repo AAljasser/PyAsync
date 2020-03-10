@@ -21,7 +21,7 @@ class Library(metaclass=Singleton):
     _admin = 'admin'
     _checkOut = {} #This will contain as a key (BOOK ID) and the value is the (PATRON ID) holding book
     lock = None
-
+    _events = {} #Will contain an ID as key and LIST of users in the event
 
 
     def userLogin(self,info):
@@ -114,7 +114,6 @@ class Library(metaclass=Singleton):
                 ret = ret + '\n'
         return ret
 
-
     def checkOut(self,id):# NO return
         flag = False
         logging.info("Patreon #"+str(id)+": Trying to checkout ")
@@ -138,3 +137,12 @@ class Library(metaclass=Singleton):
         #         return True
         # logging.info("Patreon #"+str(pid)+": Failed to borrow "+str(bid))
         # return False
+
+    def createEvent(self,id):
+        if id not in self._events.keys():
+            self._events[id] = [] #Empty List of users registered
+    def eventExists(self,id):
+        if id in self._events.keys():
+            return True
+        else:
+            return False
