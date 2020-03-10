@@ -50,3 +50,9 @@ class Patreon():
             return True
         else:
             return False
+
+    def inE(self,id):
+        if id in self._eventR:
+            return True
+        else:
+            return False

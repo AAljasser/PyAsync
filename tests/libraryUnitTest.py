@@ -55,14 +55,16 @@ class TestingLibrarySystem(unittest.TestCase):
     def test_eventJoinNoBorrow(self):
         eventId = 'e1001'
         pid = 'p1000'
-        Library().regEvent(id,pid,bid=None)
+        Library().regEvent(eventId,pid,bid=None)
+        self.assertTrue(Library().getPatreon(pid).inE(eventId))
 
     def test_eventJoin(self):
         eventId = 'e1001'
         pid = 'p1000'
         bid = 'b1000'
-        Library().regEvent(id,pid,bid=bid)
-        self.
+        Library().regEvent(eventId,pid,bid=bid)
+        self.assertTrue(Library().getPatreon(pid).bExists(bid))
+        self.assertTrue(Library().getPatreon(pid).inE(eventId))
 
 
 

@@ -49,3 +49,19 @@ INFO:root:Patreon #p1000: Trying to checkout b1006
 INFO:root:Patreon #p1000: Released b1006
 INFO:root:admin: Trying to log in
 INFO:root:admin: Admin log in successful
+INFO:root:Patreon #p1000Acquired Lock of Event e1001
+INFO:root:Patreon #p1000Registering in Event e1001 As brining their own Book
+INFO:root:Patreon #p1000Completed Registering in Event e1001
+INFO:root:Patreon #p1000Acquired Lock of Event e1001
+INFO:root:Patreon #p1000Registering in Event e1001 Requesting Book ID#b1000
+INFO:root:Patreon #p1000: Trying to borrow b1000
+INFO:root:Patreon #p1000: Successful to borrow b1000
+INFO:root:Patreon #p1000Acquired Lock of Event e1001
+INFO:root:Patreon #p1000Registering in Event e1001 Requesting Book ID#b1000
+INFO:root:Patreon #p1000: Trying to borrow b1000
+INFO:root:Patreon #p1000: Successful to borrow b1000
+INFO:root:Patreon #p1000: Trying to checkout 
+INFO:root:Patreon #p1000: Trying to checkout b1000
+INFO:root:Patreon #p1000: Released b1000
+INFO:root:Patreon #p1000Registering in Event e1001 Completed Borrowing Book ID#b1000
+INFO:root:Patreon #p1000Completed Registering in Event e1001
