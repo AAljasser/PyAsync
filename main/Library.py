@@ -161,6 +161,7 @@ class Library(metaclass=Singleton):
             self.borrow(pid,bid)
             self.checkOut(pid,bid)
             logging.info("Patreon #"+str(pid)+"Registering in Event "+str(id)+" Completed Borrowing Book ID#"+str(bid))
+        self.getPatreon(pid).regIn(id)
         self._events[id].register(pid)
         self._events[id].reL()
         logging.info("Patreon #"+str(pid)+"Completed Registering in Event "+str(id))
