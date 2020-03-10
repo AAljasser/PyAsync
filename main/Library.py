@@ -147,4 +147,20 @@ class Library(metaclass=Singleton):
             return True
         else:
             return False
+    def regEvent(self,id,pid,bid=None):
+        #We begin by acquiring event LOCK
+        if id not in self.eventExists(id):
+            return False
+        logging.info("Patreon #"+str(pid)+"Acquired Lock of Event "+str(id))
+        self._events[id].acqL()
 
+        if bid is None:
+            logging.info("Patreon #"+str(pid)+"Registering in Event "+str(id)+" As brining their own Book")
+        else:
+            logging.info("Patreon #"+str(pid)+"Registering in Event "+str(id)+" Requesting Book ID#"+str(bid))
+            self.borrow(pid,bid)
+            self.checkOut(pid,bid)
+            logging.info("Patreon #"+str(pid)+"Registering in Event "+str(id)+" Completed Borrowing Book ID#"+str(bid))
+        self._events[id].register(pid)
+        self._events[id].reL()
+        logging.info("Patreon #"+str(pid)+"Completed Registering in Event "+str(id))

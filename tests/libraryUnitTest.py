@@ -62,6 +62,7 @@ class TestingLibrarySystem(unittest.TestCase):
         pid = 'p1000'
         bid = 'b1000'
         Library().regEvent(id,pid,bid=bid)
+        self.
 
 
 
