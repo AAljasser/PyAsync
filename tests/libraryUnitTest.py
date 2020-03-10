@@ -50,7 +50,7 @@ class TestingLibrarySystem(unittest.TestCase):
     def test_eventCreation(self):
         eventID = 'e1000'
         Library().createEvent(eventID)
-        Library().eventExists(eventID)
+        self.assertTrue(Library().eventExists(eventID))
 
 
 if __name__== '__main__':

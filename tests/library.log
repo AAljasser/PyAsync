@@ -12,3 +12,10 @@ INFO:root:Patreon #p1000: Trying to checkout b1006
 INFO:root:Patreon #p1000: Released b1006
 INFO:root:admin: Trying to log in
 INFO:root:admin: Admin log in successful
+INFO:root:Patreon #p1000: Trying to borrow b1006
+INFO:root:Patreon #p1000: Successful to borrow b1006
+INFO:root:Patreon #p1000: Trying to checkout 
+INFO:root:Patreon #p1000: Trying to checkout b1006
+INFO:root:Patreon #p1000: Released b1006
+INFO:root:admin: Trying to log in
+INFO:root:admin: Admin log in successful
