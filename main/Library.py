@@ -1,6 +1,7 @@
 from IndState import IndState as iD
 from main.Patreon import Patreon
 from main.Book import Book
+from main.Event import Event
 import logging
 
 
@@ -140,7 +141,7 @@ class Library(metaclass=Singleton):
 
     def createEvent(self,id):
         if id not in self._events.keys():
-            self._events[id] = [] #Empty List of users registered
+            self._events[id] = Event(id,"Book Event") #No title currently can be added
     def eventExists(self,id):
         if id in self._events.keys():
             return True
