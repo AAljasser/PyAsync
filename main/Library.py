@@ -22,7 +22,7 @@ class Library(metaclass=Singleton):
     _admin = 'admin'
     _checkOut = {} #This will contain as a key (BOOK ID) and the value is the (PATRON ID) holding book
     lock = None
-    _events = {} #Will contain an ID as key and LIST of users in the event
+    _events = {'e1001':Event('e1001','Book Reading Event')} #Will contain an ID as key and LIST of users in the event
 
 
     def userLogin(self,info):
@@ -147,3 +147,4 @@ class Library(metaclass=Singleton):
             return True
         else:
             return False
+

@@ -4,10 +4,12 @@ class Patreon():
     _pid = None
     _pname = None
     _bCollection = None # Dic
+    _eventR = None
     def __init__(self,name,id):
         self._pname = name
         self._pid = id
         self._bCollection = {}
+        self._eventR = [] #List of event registered in
     def get_id(self):
         return self._pid
     def get_name(self):
@@ -36,3 +38,15 @@ class Patreon():
     def getBook(self,id):
         if self.bExists(id):
             return self._bCollection[id]
+    def regIn(self,id):
+        if id in self._eventR:
+            return False #Register failed
+        else:
+            self._eventR.append(id)
+            return True #Register Successful
+    def deReg(self,id):
+        if id in self._eventR:
+            self._eventR.remove(id)
+            return True
+        else:
+            return False

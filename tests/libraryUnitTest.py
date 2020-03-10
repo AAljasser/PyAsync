@@ -52,6 +52,16 @@ class TestingLibrarySystem(unittest.TestCase):
         Library().createEvent(eventID)
         self.assertTrue(Library().eventExists(eventID))
 
+    def test_eventJoinNoBorrow(self):
+        eventId = 'e1001'
+        pid = 'p1000'
+        Library().regEvent(id,pid,bid=None)
+
+    def test_eventJoin(self):
+        eventId = 'e1001'
+        pid = 'p1000'
+        bid = 'b1000'
+        Library().regEvent(id,pid,bid=bid)
 
 
 
