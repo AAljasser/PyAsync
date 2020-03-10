@@ -47,6 +47,11 @@ class TestingLibrarySystem(unittest.TestCase):
         #TODO: must borrow book beforehand
         Library().checkOut(patron)
 
+    def test_eventCreation(self):
+        eventID = 'e1000'
+        Library().createEvent(eventID)
+        Library().eventExists(eventID)
+
 
 if __name__== '__main__':
     unittest.main()

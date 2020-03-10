@@ -114,6 +114,7 @@ class Library(metaclass=Singleton):
                 ret = ret + '\n'
         return ret
 
+
     def checkOut(self,id):# NO return
         flag = False
         logging.info("Patreon #"+str(id)+": Trying to checkout ")
