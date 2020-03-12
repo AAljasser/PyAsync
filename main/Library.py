@@ -85,6 +85,15 @@ class Library(metaclass=Singleton):
             return True
         return False
 
+    def uncheck(self,pid,bid):
+        if bid in self._checkOut.keys():
+            if pid in self._checkOut[bid]:
+                del self._checkOut[bid]
+                self.getBook(bid).relLock()
+                logging.info("Patreon #"+str(pid)+": Removed from cart Book#"+str(bid))
+                return True
+        logging.info("Patreon #"+str(pid)+": Failed to Removed from cart Book#"+str(bid))
+        return False
         #logging.basicConfig(filename='logs/library.log',level=logging.INFO)
         # logging.info("Patreon #"+str(pid)+": Trying to borrow "+str(bid))
         # if self.bookExists(bid):
@@ -138,6 +147,9 @@ class Library(metaclass=Singleton):
         #         return True
         # logging.info("Patreon #"+str(pid)+": Failed to borrow "+str(bid))
         # return False
+
+
+
 
     def createEvent(self,id):
         if id not in self._events.keys():
