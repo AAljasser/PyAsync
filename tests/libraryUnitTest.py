@@ -47,6 +47,14 @@ class TestingLibrarySystem(unittest.TestCase):
         #TODO: must borrow book beforehand
         Library().checkOut(patron)
 
+    def test_uncheckBook(self):
+        patron = 'p1000'
+        id = 'b1006'
+        title = 'Hunger Games 6'
+        Library().addBook(id,title)
+        Library().borrow(patron,id)
+        Library().uncheck(patron,id)
+
     def test_eventCreation(self):
         eventID = 'e1000'
         Library().createEvent(eventID)

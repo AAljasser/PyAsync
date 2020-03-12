@@ -80,14 +80,24 @@ class TestingServerClient(unittest.TestCase):
     #     self.assertFalse(Library().getPatreon('p1000').bExists('b1000')) # here we see that patreon doesnt have the book
     #     self.assertTrue(Library().bookExists('b1000')) # here we see that alibrary has gotten the book
 
-    def test_bookCheckout(self):
+    # def test_bookCheckout(self):
+    #     runBG()
+    #     s = sClient()
+    #     s.send('patreon,p1000')
+    #     s.send("borrow,b1000")
+    #     s.send("checkout")
+    #     self.assertTrue(Library().getPatreon('p1000').bExists('b1000')) #Here we see that patreon has the bookk
+    #     self.assertFalse(Library().bookExists('b1000')) #Here we check that the library doesnt have t he book
+
+    def test_eventWB(self):
+        #Event registering (without) borrowing book
         runBG()
         s = sClient()
         s.send('patreon,p1000')
-        s.send("borrow,b1000")
-        s.send("checkout")
-        self.assertTrue(Library().getPatreon('p1000').bExists('b1000')) #Here we see that patreon has the bookk
-        self.assertFalse(Library().bookExists('b1000')) #Here we check that the library doesnt have t he book
+        s.send('event,e1000')
+        self.assertEquals
+
+
 
 
 if __name__== '__main__':
