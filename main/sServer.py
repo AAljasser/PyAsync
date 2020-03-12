@@ -153,7 +153,7 @@ class asyncClient(threading.Thread, sServer):
                     mToS = str(iD.TERMINATE_CONN) + "Weird problem"
 
             print(mToS)
-
+            logging.info("Client #"+str(self._savedID)+"Completed request")
             self._mainSocket.sendall(bytes(mToS,'utf-8'))
         print("Client : "+str(self._clientAdd)+" closing com, Thread_ID: "+str(threading.get_ident()))
         self._mainSocket.close()
