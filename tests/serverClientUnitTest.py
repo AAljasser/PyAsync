@@ -4,10 +4,12 @@ from main.sClient import sClient
 from main.Library import Library
 from runBG import runBG
 import logging
+from datetime import datetime
 
 
 class TestingServerClient(unittest.TestCase):
     logging.basicConfig(filename='library.log',level=logging.INFO)
+    logging.info("\n\n\n\n\n\n\n\n"+str(datetime.now()))
     # #Testing Client Server connection
     def test_singleConnection(self):
         #runBG()

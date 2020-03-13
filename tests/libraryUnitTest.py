@@ -3,10 +3,12 @@ from main.Library import Library
 from IndState import IndState as iD
 from main.Book import Book
 import logging
+from datetime import datetime
 
 
 class TestingLibrarySystem(unittest.TestCase):
     logging.basicConfig(filename='library.log',level=logging.INFO)
+    logging.info("\n\n\n\n\n\n\n\n"+str(datetime.now()))
     #Definition of a library
     #Test Complete
     #def test_libDef(self):

@@ -54,7 +54,7 @@ class asyncClient(threading.Thread, sServer):
 
 
 
-            logging.info("Client #"+str(self._savedID)+"Sent a command")
+            logging.info("Client #"+str(self._savedID)+" Sent a command")
 
             if dataReceived[0].casefold() == str(iD.TERMINATE_CONN):
                 mToS = iD.TERMINATE_CONN
@@ -115,11 +115,11 @@ class asyncClient(threading.Thread, sServer):
                     print("Duplication")
                     mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error enter different ID'
             elif self._state == iD.P_MENU and 'borrow' in dataReceived[0]:
-                logging.info("Client #"+str(self._savedID)+"Sent a borrow command")
+                logging.info("Client #"+str(self._savedID)+" Sent a borrow command")
                 if len(dataReceived) < 2:
                     mToS = str(self._state) +','+ Library().printBooks()
                 else:
-                    logging.info("Client #"+str(self._savedID)+"Sent a borrowing for "+str(dataReceived[1]))
+                    logging.info("Client #"+str(self._savedID)+" Sent a borrowing for "+str(dataReceived[1]))
                     if Library().borrow(self._savedID,dataReceived[1]):
                         mToS = str(self._state) + ', '+str(self._savedID)+'book has been added to cart (MUST TYPE CHECKOUT)'
                     else:
@@ -175,7 +175,7 @@ class asyncClient(threading.Thread, sServer):
                 else:
                     mToS = str(iD.TERMINATE_CONN) + "Weird problem"
 
-            logging.info("Client #"+str(self._savedID)+"Completed request")
+            logging.info("Client #"+str(self._savedID)+" Completed request")
             self._mainSocket.sendall(bytes(mToS,'utf-8'))
         print("Client : "+str(self._clientAdd)+" closing com, Thread_ID: "+str(threading.get_ident()))
         self._mainSocket.close()
