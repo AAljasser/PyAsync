@@ -7,4 +7,5 @@ Feature:  Asynchronous scenarios with borrowing and registering to events
     And pOne borrows bOne
     When pTwo registers for eventOne with bOne
     And pOne register for eventOne without book request
+    And pOne checksout book
     Then pTwo denied registration pOne registering and owns book

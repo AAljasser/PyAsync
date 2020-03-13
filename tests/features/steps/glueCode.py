@@ -33,6 +33,7 @@ def step_impl(context):
 @when('pOne checks out cart books before pTwo tries to borrow bOne')
 def step_impl(context):
     pOne.sendO('checkout')
+    # time.sleep(1)
     pTwo.sendO('borrow,b1001')
 
 
@@ -57,8 +58,13 @@ def step_impl(context):
 def step_impl(context):
     pOne.sendO('event,e1001')
 
+@when('pOne checksout book')
+def step_impl(context):
+    pOne.sendO('checkout')
+
 @then('pTwo denied registration pOne registering and owns book')
 def step_impl(context):
+    time.sleep(1)
     print("pOne Book One Status:" +str(Library().getPatreon('p1001').bExists('b1001')))
     print("pOne Event Reg Status:" +str(Library().getPatreon('p1001').inE('e1001')))
     print("pTwo Book One Status:" +str(Library().getPatreon('p1002').bExists('b1001')))
