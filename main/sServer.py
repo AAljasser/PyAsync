@@ -76,14 +76,14 @@ class asyncClient(threading.Thread, sServer):
                     elif self._state == iD.P_MENU:
                         self._savedID = dataReceived[1]
                         mToS = str(checking)+','+str("Welcome to Patreon menu\nTo list books tpye 'borrow'\nTo borrow a book into checkout cart type 'borrow(COM)bookcode'\nTo list current borrowed books type 'return'\nTo return borrowed books type 'return(com)bid'\nAfter borrowing book you must type checkout to obtain the books")
-            elif self._state == iD.A_MENU and dataReceived[0] == 'crstaff':
+            elif self._state == iD.A_MENU and 'crstaff' in dataReceived[0]:
                 #Check if the Identifier doesnt already exists
                 if not Library().staffExists(dataReceived[1]):
                     Library().createStaff(dataReceived[1])
                     mToS = str(self._state) + ','+'Staff creation completed'
                 else:
                     mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error enter different ID'
-            elif self._state == iD.S_MENU and dataReceived[0] == 'crpatreon':
+            elif self._state == iD.S_MENU and 'crpatreon' in dataReceived[0]:
                 print("Creation of Patreaon is begun")
                 if len(dataReceived) < 3:
                     print("Client entered incorrect format")
@@ -96,7 +96,7 @@ class asyncClient(threading.Thread, sServer):
                     print("duplication")
                     mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error enter different ID'
 
-            elif self._state == iD.S_MENU and dataReceived[0] == 'addbook':
+            elif self._state == iD.S_MENU and 'addbook' in dataReceived[0]:
                 print("Insertion of book has begun")
                 if len(dataReceived) < 3:
                     mToS = str(iD.INCORRECT_INPUT)
@@ -108,7 +108,7 @@ class asyncClient(threading.Thread, sServer):
                 else:
                     print("Duplication")
                     mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error enter different ID'
-            elif self._state == iD.P_MENU and dataReceived[0] == 'borrow':
+            elif self._state == iD.P_MENU and 'borrow' in dataReceived[0]:
                 logging.info("Client #"+str(self._savedID)+"Sent a borrow command")
                 if len(dataReceived) < 2:
                     mToS = str(self._state) +','+ Library().printBooks()
@@ -118,7 +118,7 @@ class asyncClient(threading.Thread, sServer):
                         mToS = str(self._state) + ', '+str(self._savedID)+'book has been added to cart (MUST TYPE CHECKOUT)'
                     else:
                         mToS = str(iD.BOOK_NF) + ", book doesn't exists"
-            elif self._state == iD.P_MENU and dataReceived[0] == 'return':
+            elif self._state == iD.P_MENU and 'return' in dataReceived[0]:
                 if len(dataReceived) < 2:
                     mToS = str(self._state) +','+ Library().getPatreon(self._savedID).printBBooks()
                 else:
@@ -126,7 +126,7 @@ class asyncClient(threading.Thread, sServer):
                         mToS = str(self._state)+ ', Book has been returned'
                     else:
                         mToS = str(iD.INCORRECT_INPUT)
-            elif self._state == iD.P_MENU and dataReceived[0] == 'checkout':
+            elif self._state == iD.P_MENU and  'checkout' in dataReceived[0]:
                 #If user provide parameters with checkout we must proceed accordingly
                 if len(dataReceived) < 2: #No parameters
                     #Here we checkout the users cart
@@ -138,6 +138,23 @@ class asyncClient(threading.Thread, sServer):
                 elif len(dataReceived) >= 2 and ("view" in dataReceived[1]):
                     #Here we view what the users checkout contains
                     mToS = str(self._state)+','+Library().printCheckOut(self._savedID)
+                else:
+                    mToS = str(iD.INCORRECT_INPUT)
+            elif self._state == iD.P_MENU and 'event' in dataReceived[0]:
+                if len(dataReceived) < 2:
+                    mToS = str(iD.P_MENU)+', TODO ADD PRINTING OF EVENTS IN LIBRARY'
+                elif len(dataReceived) < 3 and Library().eventExists(dataReceived[1]):
+                    #Registering without borrowing
+                    if Library().regEvent(dataReceived[1],self._savedID):
+                        mToS = str(self._state)+', Registeration Completed'
+                    else:
+                        mToS = str(self._state)+', Registeration Failed'
+                elif len(dataReceived) < 4 and Library().eventExists(dataReceived[1]):
+                    #Registering with borrowing
+                    if Library().regEvent(dataReceived[1],self._savedID,bid=dataReceived[2]):
+                        mToS = str(self._state)+', Registeration Completed'
+                    else:
+                        mToS = str(self._state)+', Registeration Failed'
                 else:
                     mToS = str(iD.INCORRECT_INPUT)
             else: #Input non exist
