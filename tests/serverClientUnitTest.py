@@ -95,8 +95,16 @@ class TestingServerClient(unittest.TestCase):
         s = sClient()
         s.send('patreon,p1000')
         s.send('event,e1000')
-        self.assertEquals
+        self.assertTrue(Library().getPatreon('p1000').inE('e1000'))
 
+    def test_event(self):
+        #Event registering (with) borrowing book
+        runBG()
+        s = sClient()
+        s.send('patreon,p1000')
+        s.send('event,e1000,b1000')
+        self.assertTrue(Library().getPatreon('p1000').bExists('b1000'))
+        self.assertTrue(Library().getPatreon('p1000').inE('e1000'))
 
 
 
