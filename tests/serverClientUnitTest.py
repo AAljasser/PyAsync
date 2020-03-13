@@ -3,10 +3,11 @@ from main.sServer import sServer
 from main.sClient import sClient
 from main.Library import Library
 from runBG import runBG
+import logging
 
 
 class TestingServerClient(unittest.TestCase):
-
+    logging.basicConfig(filename='library.log',level=logging.INFO)
     # #Testing Client Server connection
     def test_singleConnection(self):
         #runBG()

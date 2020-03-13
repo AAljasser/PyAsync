@@ -55,7 +55,6 @@ class asyncClient(threading.Thread, sServer):
 
 
             logging.info("Client #"+str(self._savedID)+"Sent a command")
-            print(dataReceived)
 
             if dataReceived[0].casefold() == str(iD.TERMINATE_CONN):
                 mToS = iD.TERMINATE_CONN
@@ -72,10 +71,10 @@ class asyncClient(threading.Thread, sServer):
                     if self._state == iD.A_MENU:
                         mToS = str(checking)+','+str("Welcome to Admin menu\nCreation of staff type 'crstaff(COM)ID'")
                     elif self._state == iD.S_MENU:
-                        mToS = str(checking)+','+str("Welcome to Staff menu\nCreation of patreon 'crpatreon(com)id(com)name'\nAddition of books  'addbook(com)id(com)title'")
+                        mToS = str(checking)+','+str("Welcome to Staff menu\nCreation of patreon 'crpatreon(com)id(com)name'\nAddition of books  'addbook(com)id(com)title'\nto create event type 'cevent(com)eventid'")
                     elif self._state == iD.P_MENU:
                         self._savedID = dataReceived[1]
-                        mToS = str(checking)+','+str("Welcome to Patreon menu\nTo list books tpye 'borrow'\nTo borrow a book into checkout cart type 'borrow(COM)bookcode'\nTo list current borrowed books type 'return'\nTo return borrowed books type 'return(com)bid'\nAfter borrowing book you must type checkout to obtain the books")
+                        mToS = str(checking)+','+str("Welcome to Patreon menu\nTo list books tpye 'borrow'\nTo borrow a book into checkout cart type 'borrow(COM)bookcode'\nTo list current borrowed books type 'return'\nTo return borrowed books type 'return(com)bid'\nAfter borrowing book you must type checkout to obtain the books\nTo list events type 'event'\nTo register for an event type 'event(COM)eventID(COM)OPTINAL:Book idea'")
             elif self._state == iD.A_MENU and 'crstaff' in dataReceived[0]:
                 #Check if the Identifier doesnt already exists
                 if not Library().staffExists(dataReceived[1]):
@@ -83,6 +82,13 @@ class asyncClient(threading.Thread, sServer):
                     mToS = str(self._state) + ','+'Staff creation completed'
                 else:
                     mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error enter different ID'
+
+            elif self._state == iD.S_MENU and 'cevent' in dataReceived[0]:
+                if len(dataReceived) < 2:
+                    mToS = str(iD.INCORRECT_INPUT)+", Please type the event ID"
+                else:
+                    Library().createEvent(dataReceived[1])
+                    mToS = str(iD.S_MENU) + ', Event created'
             elif self._state == iD.S_MENU and 'crpatreon' in dataReceived[0]:
                 print("Creation of Patreaon is begun")
                 if len(dataReceived) < 3:
@@ -142,7 +148,7 @@ class asyncClient(threading.Thread, sServer):
                     mToS = str(iD.INCORRECT_INPUT)
             elif self._state == iD.P_MENU and 'event' in dataReceived[0]:
                 if len(dataReceived) < 2:
-                    mToS = str(iD.P_MENU)+', TODO ADD PRINTING OF EVENTS IN LIBRARY'
+                    mToS = str(iD.P_MENU)+","+Library().listEvents()
                 elif len(dataReceived) < 3 and Library().eventExists(dataReceived[1]):
                     #Registering without borrowing
                     if Library().regEvent(dataReceived[1],self._savedID):
@@ -163,13 +169,12 @@ class asyncClient(threading.Thread, sServer):
                 elif self._state == iD.A_MENU:
                     mToS = str(checking)+','+str("Creation of staff type 'crstaff(COM)ID'")
                 elif self._state == iD.S_MENU:
-                    mToS = str(checking)+','+str("Creation of patreon 'crpatreon(com)id(com)name'\nAddition of books  'addbook(com)id(com)title'")
+                    mToS = str(checking)+','+str("Creation of patreon 'crpatreon(com)id(com)name'\nAddition of books  'addbook(com)id(com)title'\nto create event type 'cevent(com)eventid'pa")
                 elif self._state == iD.P_MENU:
-                    mToS = str(checking)+','+str("To list books tpye 'borrow'\nTo borrow a book into checkout cart type 'borrow(COM)bookcode'\nTo list current borrowed books type 'return'\nTo return borrowed books type 'return(com)bid'\nAfter borrowing book you must type checkout to obtain the books")
+                    mToS = str(checking)+','+str("To list books tpye 'borrow'\nTo borrow a book into checkout cart type 'borrow(COM)bookcode'\nTo list current borrowed books type 'return'\nTo return borrowed books type 'return(com)bid'\nAfter borrowing book you must type checkout to obtain the books\nTo list events type 'event'\nTo register for an event type 'event(COM)eventID(COM)OPTINAL:Book idea'")
                 else:
                     mToS = str(iD.TERMINATE_CONN) + "Weird problem"
 
-            print(mToS)
             logging.info("Client #"+str(self._savedID)+"Completed request")
             self._mainSocket.sendall(bytes(mToS,'utf-8'))
         print("Client : "+str(self._clientAdd)+" closing com, Thread_ID: "+str(threading.get_ident()))

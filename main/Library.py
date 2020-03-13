@@ -76,11 +76,11 @@ class Library(metaclass=Singleton):
         #TODO: must implement holding of lock
         ##Know book object contains a lock and has an aquire and release functions
         if self.bookExists(bid):
-            logging.info("Patreon #"+str(pid)+": Trying to borrow "+str(bid))
+            logging.info("Patreon #"+str(pid)+": Trying to acquire lock of book "+str(bid))
             #JUMPING A CHECK IF THE BOOK EXISTS IN THE PATRON ALREADY
             self.getBook(bid).acqLock() ## HERE WE ACQUIRE THE LOCK FOR THE BOOK that will be added for the patrons checkout
             self._checkOut[bid]=pid
-            logging.info("Patreon #"+str(pid)+": Successful to borrow "+str(bid))
+            logging.info("Patreon #"+str(pid)+": Successful to acquire lock of book "+str(bid))
             #TODO: Setup timer to remove lock and book from checkout
             return True
         return False
@@ -149,7 +149,12 @@ class Library(metaclass=Singleton):
         # return False
 
 
-
+    def listEvents(self):
+        ret = "Reading events available\n"
+        for x in self._events.keys():
+            ret = ret + "Event ID: "+x
+            ret = ret + '\n'
+        return ret
 
     def createEvent(self,id):
         if id not in self._events.keys():
