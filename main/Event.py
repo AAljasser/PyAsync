@@ -10,7 +10,8 @@ class Event():
         self._id = id
         self._title = title
         self._eLock = threading.Lock()
-
+    def cLock(self):
+        return self._eLock.locked()
     def acqL(self):
         return self._eLock.acquire()
     def reL(self):
