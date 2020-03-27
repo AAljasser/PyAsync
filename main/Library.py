@@ -78,12 +78,12 @@ class Library(metaclass=Singleton):
         if self.bookExists(bid):
             logging.info("Patreon #"+str(pid)+": Trying to acquire lock of book "+str(bid))
             #JUMPING A CHECK IF THE BOOK EXISTS IN THE PATRON ALREADY
-            # if self.getBook(bid).checkLock():
-            #     logging.info("Patreon #"+str(pid)+": Failed to acquire lock "+str(bid))
-            #     return False
+            if self.getBook(bid).checkLock():
+                logging.info("Patreon #"+str(pid)+": Failed to acquire lock "+str(bid))
+                return False
             self.getBook(bid).acqLock() ## HERE WE ACQUIRE THE LOCK FOR THE BOOK that will be added for the patrons checkout
-            # if self.checked(bid):
-            #     return False
+            if self.checked(bid):
+                return False
             self._checkOut[bid]=pid
             logging.info("Patreon #"+str(pid)+": Successful to acquire lock of book "+str(bid))
             #TODO: Setup timer to remove lock and book from checkout
@@ -187,10 +187,10 @@ class Library(metaclass=Singleton):
         else:
             logging.info("Patreon #"+str(pid)+" Registering in Event "+str(id)+" Requesting Book ID#"+str(bid))
             flag = self.borrow(pid,bid)
-            # if not flag:
-            #     logging.info("Patreon #"+str(pid)+" Failed to get book for register")
-            #     self._events[id].reL()
-            #     return False
+            if not flag:
+                logging.info("Patreon #"+str(pid)+" Failed to get book for register")
+                self._events[id].reL()
+                return False
             self.checkOut(pid)
             logging.info("Patreon #"+str(pid)+" Registering in Event "+str(id)+" Completed Borrowing Book ID#"+str(bid))
         self.getPatreon(pid).regIn(id)

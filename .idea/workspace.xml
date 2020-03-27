@@ -4,11 +4,7 @@
     <list default="true" id="7a7e6f27-1776-4819-851f-68739a597730" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/library.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/library.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Book.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Event.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Event.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Library.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Library.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/features/DeadLockExTwo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/tests/features/DeadLockExTwo.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/features/steps/glueCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/features/steps/glueCode.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +53,7 @@
       <recent name="C:\Users\AyeJay\Documents\PyAsync\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Behave.DeadLockExOne.feature:Behavior of two users trying to borrow and checkout same book">
+  <component name="RunManager" selected="Behave.DeadLockExTwo.feature:Behavior of two users trying to borrow and register for event">
     <configuration name="DeadLockExOne.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
       <module name="PyAsync" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,18 +128,18 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for serverClientUnitTest.TestingServerClient.test_event" />
       <item itemvalue="Behave.DeadLockExOne.feature" />
       <item itemvalue="Behave.DeadLockExOne.feature:Behavior of two users trying to borrow and checkout same book" />
       <item itemvalue="Behave.DeadLockExTwo.feature" />
       <item itemvalue="Behave.DeadLockExTwo.feature:Behavior of two users trying to borrow and register for event" />
+      <item itemvalue="Python tests.Unittests for serverClientUnitTest.TestingServerClient.test_event" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Behave.DeadLockExOne.feature:Behavior of two users trying to borrow and checkout same book" />
         <item itemvalue="Behave.DeadLockExTwo.feature:Behavior of two users trying to borrow and register for event" />
-        <item itemvalue="Behave.DeadLockExTwo.feature" />
         <item itemvalue="Behave.DeadLockExOne.feature" />
+        <item itemvalue="Behave.DeadLockExOne.feature:Behavior of two users trying to borrow and checkout same book" />
+        <item itemvalue="Behave.DeadLockExTwo.feature" />
         <item itemvalue="Python tests.Unittests for serverClientUnitTest.TestingServerClient.test_event" />
       </list>
     </recent_temporary>
@@ -193,7 +189,8 @@
       <workItem from="1583611647671" duration="1494000" />
       <workItem from="1583634428016" duration="20301000" />
       <workItem from="1584024945655" duration="11539000" />
-      <workItem from="1584062579597" duration="5173000" />
+      <workItem from="1584062579597" duration="8765000" />
+      <workItem from="1585272287264" duration="49000" />
     </task>
     <servers />
   </component>
@@ -230,26 +227,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="658" y="247" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1580253231210" />
-    <state width="2517" height="546" key="GridCell.Tab.0.bottom" timestamp="1584068505301">
+    <state width="1340" height="546" key="GridCell.Tab.0.bottom" timestamp="1584110309909">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1324" height="184" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581550920986" />
-    <state width="2517" height="546" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1584068505301" />
-    <state width="2517" height="546" key="GridCell.Tab.0.center" timestamp="1584068505300">
+    <state width="1340" height="546" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1584110309909" />
+    <state width="1340" height="546" key="GridCell.Tab.0.center" timestamp="1584110309909">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1324" height="184" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581550920985" />
-    <state width="2517" height="546" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1584068505300" />
-    <state width="2517" height="546" key="GridCell.Tab.0.left" timestamp="1584068505300">
+    <state width="1340" height="546" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1584110309909" />
+    <state width="1340" height="546" key="GridCell.Tab.0.left" timestamp="1584110309909">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1324" height="184" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581550920985" />
-    <state width="2517" height="546" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1584068505300" />
-    <state width="2517" height="546" key="GridCell.Tab.0.right" timestamp="1584068505300">
+    <state width="1340" height="546" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1584110309909" />
+    <state width="1340" height="546" key="GridCell.Tab.0.right" timestamp="1584110309909">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1324" height="184" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581550920985" />
-    <state width="2517" height="546" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1584068505300" />
+    <state width="1340" height="546" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1584110309909" />
     <state width="1324" height="236" key="GridCell.Tab.1.bottom" timestamp="1581547861683">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -312,10 +309,10 @@
     <SUITE FILE_PATH="coverage/PyAsync$DeadLockExOne_feature_Behavior_of_two_users_trying_to_borrow_and_checkout_same_book.coverage" NAME="DeadLockExOne.feature:Behavior of two users trying to borrow and checkout same book Coverage Results" MODIFIED="1584068505294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/PyAsync$Unittests_for_libraryUnitTest_TestingLibrarySystem_test_eventJoinNoBorrow.coverage" NAME="Unittests for libraryUnitTest.TestingLibrarySystem.test_eventJoinNoBorrow Coverage Results" MODIFIED="1583816438504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/PyAsync$sServer.coverage" NAME="sServer Coverage Results" MODIFIED="1584060510982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
-    <SUITE FILE_PATH="coverage/PyAsync$DeadLockExOne_feature.coverage" NAME="DeadLockExOne.feature Coverage Results" MODIFIED="1584065674714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PyAsync$DeadLockExOne_feature.coverage" NAME="DeadLockExOne.feature Coverage Results" MODIFIED="1584109271937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/PyAsync$DeadLockExTwo_feature.coverage" NAME="DeadLockExTwo.feature Coverage Results" MODIFIED="1584068371662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/PyAsync$Unittests_for_serverClientUnitTest_TestingServerClient_test_event.coverage" NAME="Unittests for serverClientUnitTest.TestingServerClient.test_event Coverage Results" MODIFIED="1584060877965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/PyAsync$DeadLockExTwo_feature_Behavior_of_two_users_trying_to_borrow_and_register_for_event.coverage" NAME="DeadLockExTwo.feature:Behavior of two users trying to borrow and register for event Coverage Results" MODIFIED="1584068487105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PyAsync$DeadLockExTwo_feature_Behavior_of_two_users_trying_to_borrow_and_register_for_event.coverage" NAME="DeadLockExTwo.feature:Behavior of two users trying to borrow and register for event Coverage Results" MODIFIED="1584109936085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/PyAsync$asyncBookBorrow_feature.coverage" NAME="asyncBookBorrow.feature Coverage Results" MODIFIED="1583371607596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/PyAsync$Unittests_for_libraryUnitTest_TestingLibrarySystem_test_login.coverage" NAME="Unittests for libraryUnitTest.TestingLibrarySystem.test_login Coverage Results" MODIFIED="1583811636653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/PyAsync$asyncBookBorrow_feature_Two_patreon_borrowing_same_book_asynchronous.coverage" NAME="asyncBookBorrow.feature:Two patreon borrowing same book asynchronous Coverage Results" MODIFIED="1583417904501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
