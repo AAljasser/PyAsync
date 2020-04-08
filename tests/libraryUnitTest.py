@@ -4,6 +4,7 @@ from IndState import IndState as iD
 from main.Book import Book
 import logging
 from datetime import datetime
+import time
 
 
 class TestingLibrarySystem(unittest.TestCase):
@@ -76,7 +77,14 @@ class TestingLibrarySystem(unittest.TestCase):
         self.assertTrue(Library().getPatreon(pid).bExists(bid))
         self.assertTrue(Library().getPatreon(pid).inE(eventId))
 
-
+    def test_cartAutoReturn(self):
+        patron = 'p1000'
+        id = 'b1006'
+        title = 'Hunger Games 6'
+        Library().addBook(id,title)
+        Library().borrow(patron,id)
+        time.sleep(31)
+        self.assertFalse(Library().checked(id))
 
 if __name__== '__main__':
     unittest.main()

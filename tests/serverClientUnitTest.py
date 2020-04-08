@@ -111,6 +111,12 @@ class TestingServerClient(unittest.TestCase):
         self.assertTrue(Library().getPatreon('p1000').bExists('b1000'))
         self.assertTrue(Library().getPatreon('p1000').inE('e1001'))
 
+    def test_staffEventCreation(self):
+        runBG()
+        staff = sClient()
+        staff.send('staff,s1000')
+        staff.send('cevent,e1010')
+        self.assertTrue(Library().eventExists('e1010'))
 
 
 if __name__== '__main__':

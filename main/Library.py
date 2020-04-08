@@ -3,6 +3,7 @@ from main.Patreon import Patreon
 from main.Book import Book
 from main.Event import Event
 import logging
+import threading
 
 
 class Singleton(type):
@@ -85,6 +86,7 @@ class Library(metaclass=Singleton):
             if self.checked(bid):
                 return False
             self._checkOut[bid]=pid
+            threading.Timer(30,Library().uncheck,[pid,bid]).start()
             logging.info("Patreon #"+str(pid)+": Successful to acquire lock of book "+str(bid))
             #TODO: Setup timer to remove lock and book from checkout
             return True
