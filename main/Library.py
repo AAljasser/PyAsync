@@ -212,3 +212,18 @@ class Library(metaclass=Singleton):
             return True
         else:
             return False
+
+    def joinLab(self,pid,lid):
+        if self.labExists(lid):
+            #Here patron will wait until lab is open
+            while not self._labs[lid].checkLab():
+                #Waiting in line for lab
+                pid=pid
+
+            return self._labs[lid].join(pid)
+        else:
+            return False #Nonexistence lab
+
+    def getLab(self,lid):
+        if self.labExists(lid):
+            return self._labs[lid]
