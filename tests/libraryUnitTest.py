@@ -86,5 +86,11 @@ class TestingLibrarySystem(unittest.TestCase):
         time.sleep(31)
         self.assertFalse(Library().checked(id))
 
+    def test_labCreation(self):
+        lab = 'l1000'
+        openTime = 60 #Seconds
+        Library().createLab(lab,openTime)
+        self.assertTrue(Library().labExists(lab))
+
 if __name__== '__main__':
     unittest.main()

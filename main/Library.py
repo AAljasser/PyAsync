@@ -200,3 +200,6 @@ class Library(metaclass=Singleton):
         self._events[id].reL()
         logging.info("Patreon #"+str(pid)+" Completed Registering in Event "+str(id))
         return True
+
+    def createLab(self,labID,timeToOpen):
+        
