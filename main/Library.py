@@ -4,6 +4,7 @@ from main.Book import Book
 from main.Event import Event
 import logging
 import threading
+from main.Lab import Lab
 
 
 class Singleton(type):
@@ -24,6 +25,7 @@ class Library(metaclass=Singleton):
     _checkOut = {} #This will contain as a key (BOOK ID) and the value is the (PATRON ID) holding book
     lock = None
     _events = {'e1001':Event('e1001','Book Reading Event')} #Will contain an ID as key and LIST of users in the event
+    _labs = {} #Contains labs object and key is the labs ID
 
 
     def userLogin(self,info):
@@ -202,4 +204,11 @@ class Library(metaclass=Singleton):
         return True
 
     def createLab(self,labID,timeToOpen):
-        
+        if labID not in self._labs.keys():
+            self._labs[labID] = Lab(labID,timeToOpen)
+
+    def labExists(self,labID):
+        if labID in self._labs.keys():
+            return True
+        else:
+            return False

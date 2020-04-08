@@ -88,8 +88,9 @@ class TestingLibrarySystem(unittest.TestCase):
 
     def test_labCreation(self):
         lab = 'l1000'
-        openTime = 60 #Seconds
+        openTime = 10 #Seconds
         Library().createLab(lab,openTime)
+        time.sleep(11) #This is added to allow for the the lab to be open (Since after testing ends the other threads aren't working)
         self.assertTrue(Library().labExists(lab))
 
 if __name__== '__main__':
