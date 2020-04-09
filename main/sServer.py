@@ -151,14 +151,18 @@ class asyncClient(threading.Thread, sServer):
                 elif len(dataReceived) < 3 and Library().eventExists(dataReceived[1]):
                     #Registering without borrowing
                     if Library().regEvent(dataReceived[1],self._savedID):
+                        logging.info("Client #"+str(self._savedID)+" Registered into Event#"+str(dataReceived[1]))
                         mToS = str(self._state)+', Registeration Completed'
                     else:
+                        logging.info("Client #"+str(self._savedID)+" Failed to register into Event#"+str(dataReceived[1]))
                         mToS = str(self._state)+', Registeration Failed'
                 elif len(dataReceived) < 4 and Library().eventExists(dataReceived[1]):
                     #Registering with borrowing
                     if Library().regEvent(dataReceived[1],self._savedID,bid=dataReceived[2]):
+                        logging.info("Client #"+str(self._savedID)+" Registered into Event#"+str(dataReceived[1])+" with Book#"+str(dataReceived[2]))
                         mToS = str(self._state)+', Registeration Completed'
                     else:
+                        logging.info("Client #"+str(self._savedID)+" Failed to register into Event#"+str(dataReceived[1])+" with Book#"+str(dataReceived[2]))
                         mToS = str(self._state)+', Registeration Failed'
                 else:
                     mToS = str(iD.INCORRECT_INPUT)
@@ -168,6 +172,20 @@ class asyncClient(threading.Thread, sServer):
                     mToS = str(self._state) +", Creation completed Queue begun"
                 else:
                     mToS = str(iD.DUPLICATE_ERR) + ", Duplicated lab exists"
+            elif self._state == iD.P_MENU and 'lab' in dataReceived[0]:
+                if len(dataReceived) < 2:
+                    mToS=mToS #TODO: list labs created in library
+                elif len(dataReceived) < 3 and Library().labExists(dataReceived[1]):
+                    logging.info("Client #"+str(self._savedID)+" Joined queue to join Lab#"+str(dataReceived[1]))
+                    if Library().joinLab(self._savedID,dataReceived[1]):
+                        logging.info("Client #"+str(self._savedID)+" Successfully joined Lab#"+str(dataReceived[1]))
+                        mToS = str(self._state)+", Joined successfully"
+                    else:
+                        logging.info("Client #"+str(self._savedID)+" Failed to join Lab#"+str(dataReceived[1]))
+                        mToS = str(iD.INCORRECT_INPUT)+", Event non-existence"
+                else:
+                    mToS = str(iD.INCORRECT_INPUT)
+
             else: #Input non exist
                 if self._state == iD.LOGIN:
                     mToS = str(self._state)+", Welcome please Enter 'patreon/staff(com) your ID':"
