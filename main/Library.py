@@ -25,7 +25,7 @@ class Library(metaclass=Singleton):
     _checkOut = {} #This will contain as a key (BOOK ID) and the value is the (PATRON ID) holding book
     lock = None
     _events = {'e1001':Event('e1001','Book Reading Event')} #Will contain an ID as key and LIST of users in the event
-    _labs = {} #Contains labs object and key is the labs ID
+    _labs = {'l2000':Lab('l2000',1),'l3000':Lab('l3000',1)} #Contains labs object and key is the labs ID
 
 
     def userLogin(self,info):
@@ -227,3 +227,9 @@ class Library(metaclass=Singleton):
     def getLab(self,lid):
         if self.labExists(lid):
             return self._labs[lid]
+
+    def printLabs(self):
+        pL = "Labs available: "
+        for x in self._labs.keys():
+            pL = pL + "\nLab #:"+str(x)
+        return pL

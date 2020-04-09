@@ -47,3 +47,49 @@ INFO:root:Patreon #p1000Registering in Event e1001 Completed Borrowing Book ID#b
 INFO:root:Patreon #p1000Completed Registering in Event e1001
 INFO:root:Client #p1000Completed request
 WARNING:root:Client #p1000 Waiting for message
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command

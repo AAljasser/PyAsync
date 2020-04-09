@@ -135,7 +135,7 @@ class TestingServerClient(unittest.TestCase):
         patron.send('patreon,p1000')
         patron.send('lab,l1000') #This will cause the code to be waiting to get in (30 seconds)
         self.assertTrue(Library().getLab('l1000').isIn('p1000'))
-        
+
 
 if __name__== '__main__':
     unittest.main()
