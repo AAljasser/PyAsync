@@ -123,7 +123,7 @@ class TestingServerClient(unittest.TestCase):
         staff = sClient()
         staff.send('staff,s1000')
         staff.send('clab,l1010')
-        self.assertTrue(Library().labExists('l1010'))
+        self.assertTrue(Library().labExists('l1010')) 
 
 if __name__== '__main__':
     unittest.main()
