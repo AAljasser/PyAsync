@@ -1,7 +1,8 @@
 import socket, threading
-from IndState import IndState as iD
+from main.IndState import IndState as iD
 from main.Library import Library
 import logging
+
 
 class sServer():
     _mainSocket = None
@@ -168,7 +169,7 @@ class asyncClient(threading.Thread, sServer):
                     mToS = str(iD.INCORRECT_INPUT)
             elif self._state == iD.S_MENU and 'clab' in dataReceived[0]:
                 if not Library().labExists(dataReceived[1]):
-                    Library().createLab(dataReceived[1],30) ## THIS IS SET TO DEFAULT TO 30 seconds
+                    Library().createLab(dataReceived[1],45) ## THIS IS SET TO DEFAULT TO 30 seconds
                     mToS = str(self._state) +", Creation completed Queue begun"
                 else:
                     mToS = str(iD.DUPLICATE_ERR) + ", Duplicated lab exists"
@@ -206,7 +207,6 @@ class asyncClient(threading.Thread, sServer):
 
 
 def main():
-    logging.basicConfig(filename='library.log',level=logging.INFO)
     sSocket = sServer()
     sSocket.close()
 

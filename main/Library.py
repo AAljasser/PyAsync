@@ -1,4 +1,4 @@
-from IndState import IndState as iD
+from main.IndState import IndState as iD
 from main.Patreon import Patreon
 from main.Book import Book
 from main.Event import Event
@@ -36,7 +36,6 @@ class Library(metaclass=Singleton):
             oIfo = info[1]
         else:
             name = info[0]
-        #logging.basicConfig(filename='logs/library.log',level=logging.INFO)
         logging.info(str(name)+": Trying to log in")
         if name.casefold() == 'admin':
             logging.info(str(name)+": Admin log in successful")
@@ -215,11 +214,6 @@ class Library(metaclass=Singleton):
 
     def joinLab(self,pid,lid):
         if self.labExists(lid):
-            #Here patron will wait until lab is open
-            while not self._labs[lid].checkLab():
-                #Waiting in line for lab
-                pid=pid
-
             return self._labs[lid].join(pid)
         else:
             return False #Nonexistence lab

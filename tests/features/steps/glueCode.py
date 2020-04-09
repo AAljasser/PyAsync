@@ -1,5 +1,5 @@
 from behave import *
-from runBG import runBG
+from main.runBG import runBG
 from main.Library import Library
 import unittest
 from main.sClient import sClient
@@ -12,60 +12,39 @@ logging.info("\n\n\n\n\n\n\n\n"+str(datetime.now()))
 runBG()
 pOne = sClient()
 pTwo = sClient()
+pThree = sClient()
+Library().createLab('l2045',45)
 
-
-@given('Library contain book bOne')
+@given("Lab initialized to be open in 10 seconds")
 def step_impl(context):
-    Library().bookExists('b1001')
+    pOne.sendO('patreon,p1000')
+    pTwo.sendO('patreon,p1001')
+    pThree.sendO('patreon,p1002')
 
-@given('pOne is logged into the terminal')
+@when("PatronOne request to join before the lab is opened")
 def step_impl(context):
-    pOne.sendO('patreon,p1001')
+    pOne.sendO('lab,l2045')
 
-@given('pTwo is logged into the terminal')
+@when("PatronTwo request to join before the lab is opened")
 def step_impl(context):
-    pTwo.sendO('patreon,p1002')
+    pTwo.sendO('lab,l2045')
 
-@given('pOne borrows bOne')
+@when("PatronThree request to join before the lab is opened")
 def step_impl(context):
-    pOne.sendO('borrow,b1001')
+    pThree.sendO('lab,l2045')
 
-@when('pOne checks out cart books before pTwo tries to borrow bOne')
+
+@then("The Lab has been opened")
 def step_impl(context):
-    pOne.sendO('checkout')
-    # time.sleep(1)
-    pTwo.sendO('borrow,b1001')
+    while not Library().getLab('l2045').checkLab():
+        None #Waiting until lab is opened
 
-
-
-@then('pOne gets the book and pTwo receives unavailable book')
+@then("Presume PatronOne and PatronTwo are the users in the Lab")
 def step_impl(context):
-    time.sleep(1)
-    if Library().getPatreon('p1001').bExists('b1001'):
-        print('Patreon one has successfully borrowed the book')
+    time.sleep(5) #We must wait to ensure all queued
+    if Library().getLab('l2045').isIn('p1002'):
+        print("Patron One Status:"+str(Library().getLab('l2045').isIn('p1000'))+ "Patron Two Status:"+str(Library().getLab('l2045').isIn('p1001')))
+        print("The presumption of a 'queue' is refuted by having last Patron to be waiting to enter the lab to enter")
     else:
-        print('Something weird occurred')
-
-@then('pTwo sends a checkout request and nothing is taken')
-def step_impl(context):
-    time.sleep(1)
-    pTwo.send('checkout')
-
-@when('pTwo registers for eventOne with bOne')
-def step_impl(context):
-    pTwo.sendO('event,e1001,b1001')
-@when('pOne register for eventOne without book request')
-def step_impl(context):
-    pOne.sendO('event,e1001')
-
-@when('pOne checksout book')
-def step_impl(context):
-    pOne.sendO('checkout')
-
-@then('pTwo denied registration pOne registering and owns book')
-def step_impl(context):
-    time.sleep(1)
-    print("pOne Book One Status:" +str(Library().getPatreon('p1001').bExists('b1001')))
-    print("pOne Event Reg Status:" +str(Library().getPatreon('p1001').inE('e1001')))
-    print("pTwo Book One Status:" +str(Library().getPatreon('p1002').bExists('b1001')))
-    print("pTwo Event Reg Status:" +str(Library().getPatreon('p1002').inE('e1001')))
+        print("Patron One Status:"+str(Library().getLab('l2045').isIn('p1000'))+ "Patron Two Status:"+str(Library().getLab('l2045').isIn('p1001')))
+        print("The presumption of the implementation of 'queue' has worked")

@@ -1,11 +1,9 @@
 import unittest
-from main.sServer import sServer
 from main.sClient import sClient
 from main.Library import Library
 from runBG import runBG
 import logging
 from datetime import datetime
-import time
 
 
 class TestingServerClient(unittest.TestCase):
