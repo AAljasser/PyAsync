@@ -123,7 +123,17 @@ class TestingServerClient(unittest.TestCase):
         staff = sClient()
         staff.send('staff,s1000')
         staff.send('clab,l1010')
-        self.assertTrue(Library().labExists('l1010')) 
+        self.assertTrue(Library().labExists('l1010'))
+
+    def test_patronJoinLab(self):
+        runBG()
+        staff = sClient()
+        staff.send('staff,s1000')
+        staff.send('clab,l1000')
+        patron = sClient()
+        patron.send('patreon,p1000')
+        patron.send('lab,p1000')
+        self.assertTrue(Library().getLab('l1000').isIn('p1000'))
 
 if __name__== '__main__':
     unittest.main()

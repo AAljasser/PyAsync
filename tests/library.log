@@ -362,3 +362,36 @@ WARNING:root:Client #None Waiting for message
 INFO:root:Client #None Sent a command
 INFO:root:Client #None Completed request
 WARNING:root:Client #None Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-08 21:30:18.557626
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+INFO:root:Staff #staff: log in successful
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
