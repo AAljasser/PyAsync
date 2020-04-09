@@ -341,3 +341,24 @@ WARNING:root:Client #None Waiting for message
 INFO:root:Client #None Sent a command
 INFO:root:Client #None Completed request
 WARNING:root:Client #None Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-08 21:24:42.758030
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+INFO:root:Staff #staff: log in successful
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message

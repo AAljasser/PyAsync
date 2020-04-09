@@ -62,7 +62,6 @@ class asyncClient(threading.Thread, sServer):
                 self._mainSocket.close()
                 break
             elif self._state == iD.LOGIN: ## Check
-                #TODO
                 checking = Library().userLogin(dataReceived)
                 if checking == iD.INCORRECT_INPUT: ##Inputted incorrect we cant just pass this without checking
                     mToS = str(iD.INCORRECT_INPUT)
@@ -71,10 +70,10 @@ class asyncClient(threading.Thread, sServer):
                     if self._state == iD.A_MENU:
                         mToS = str(checking)+','+str("Welcome to Admin menu\nCreation of staff type 'crstaff(COM)ID'")
                     elif self._state == iD.S_MENU:
-                        mToS = str(checking)+','+str("Welcome to Staff menu\nCreation of patreon 'crpatreon(com)id(com)name'\nAddition of books  'addbook(com)id(com)title'\nto create event type 'cevent(com)eventid'")
+                        mToS = str(checking)+','+str("Welcome to Staff menu\nCreation of patreon 'crpatreon(com)id(com)name'\nAddition of books  'addbook(com)id(com)title'\nto create event type 'cevent(com)eventid'\nto create lab tpye 'clab(com)labid'")
                     elif self._state == iD.P_MENU:
                         self._savedID = dataReceived[1]
-                        mToS = str(checking)+','+str("Welcome to Patreon menu\nTo list books tpye 'borrow'\nTo borrow a book into checkout cart type 'borrow(COM)bookcode'\nTo list current borrowed books type 'return'\nTo return borrowed books type 'return(com)bid'\nAfter borrowing book you must type checkout to obtain the books\nTo list events type 'event'\nTo register for an event type 'event(COM)eventID(COM)OPTINAL:Book idea'")
+                        mToS = str(checking)+','+str("Welcome to Patreon menu\nTo list books tpye 'borrow'\nTo borrow a book into checkout cart type 'borrow(COM)bookcode'\nTo list current borrowed books type 'return'\nTo return borrowed books type 'return(com)bid'\nAfter borrowing book you must type checkout to obtain the books\nTo list events type 'event'\nTo register for an event type 'event(COM)eventID(COM)OPTINAL:Book id to borrow'")
             elif self._state == iD.A_MENU and 'crstaff' in dataReceived[0]:
                 #Check if the Identifier doesnt already exists
                 if not Library().staffExists(dataReceived[1]):
@@ -163,17 +162,23 @@ class asyncClient(threading.Thread, sServer):
                         mToS = str(self._state)+', Registeration Failed'
                 else:
                     mToS = str(iD.INCORRECT_INPUT)
+            elif self._state == iD.S_MENU and 'clab' in dataReceived[0]:
+                if not Library().labExists(dataReceived[1]):
+                    Library().createLab(dataReceived[1],30) ## THIS IS SET TO DEFAULT TO 30 seconds
+                    mToS = str(self._state) +", Creation completed Queue begun"
+                else:
+                    mToS = str(iD.DUPLICATE_ERR) + ", Duplicated lab exists"
             else: #Input non exist
                 if self._state == iD.LOGIN:
-                    mToS = str(self._state)+"Welcome please Enter 'patreon/staff(com) your ID':"
+                    mToS = str(self._state)+", Welcome please Enter 'patreon/staff(com) your ID':"
                 elif self._state == iD.A_MENU:
                     mToS = str(checking)+','+str("Creation of staff type 'crstaff(COM)ID'")
                 elif self._state == iD.S_MENU:
-                    mToS = str(checking)+','+str("Creation of patreon 'crpatreon(com)id(com)name'\nAddition of books  'addbook(com)id(com)title'\nto create event type 'cevent(com)eventid'pa")
+                    mToS = str(checking)+','+str("Creation of patreon 'crpatreon(com)id(com)name'\nAddition of books  'addbook(com)id(com)title'\nto create event type 'cevent(com)eventid'\nto create lab tpye 'clab(com)labid")
                 elif self._state == iD.P_MENU:
                     mToS = str(checking)+','+str("To list books tpye 'borrow'\nTo borrow a book into checkout cart type 'borrow(COM)bookcode'\nTo list current borrowed books type 'return'\nTo return borrowed books type 'return(com)bid'\nAfter borrowing book you must type checkout to obtain the books\nTo list events type 'event'\nTo register for an event type 'event(COM)eventID(COM)OPTINAL:Book idea'")
                 else:
-                    mToS = str(iD.TERMINATE_CONN) + "Weird problem"
+                    mToS = str(iD.TERMINATE_CONN) + ", Weird problem"
 
             logging.info("Client #"+str(self._savedID)+" Completed request")
             self._mainSocket.sendall(bytes(mToS,'utf-8'))
