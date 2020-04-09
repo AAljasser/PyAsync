@@ -118,6 +118,12 @@ class TestingServerClient(unittest.TestCase):
         staff.send('cevent,e1010')
         self.assertTrue(Library().eventExists('e1010'))
 
+    def test_staffCreateLab(self):
+        runBG()
+        staff = sClient()
+        staff.send('staff,s1000')
+        staff.send('clab,l1010')
+        self.assertTrue(Library().labExists('l1010'))
 
 if __name__== '__main__':
     unittest.main()

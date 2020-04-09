@@ -320,3 +320,24 @@ INFO:root:
 
 2020-04-08 19:42:38.394845
 INFO:root:Lab #l1000 Has been opened
+INFO:root:
+
+
+
+
+
+
+
+2020-04-08 21:15:41.347133
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+INFO:root:Staff #staff: log in successful
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
