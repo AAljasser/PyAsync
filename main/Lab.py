@@ -43,6 +43,7 @@ class Lab():
             logging.info("Patron #:"+str(pid)+" NOT infront of queue")
             self._Lock.release()
             self._Lock.acquire()
+            logging.info("Patron #:"+str(pid)+" checked if infront of queue")
         logging.info("Patron #:"+str(pid)+" Front of queue got in")
         self._queue.remove(pid)
         if self.canGetIn():

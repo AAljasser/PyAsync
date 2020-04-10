@@ -9108,3 +9108,3159 @@ WARNING:root:Client #p1001 Waiting for message
 INFO:root:Client #p1002 Failed to join Lab#l2045
 INFO:root:Client #p1002 Completed request
 WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:35:28.633336
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:35:28.637338
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #p1000 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:36:51.582369
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:36:51.586371
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+INFO:root:Patron #:p1002 checked if infront of queue
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:37:58.448080
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:37:58.451081
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Completed request
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1001 Completed request
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+INFO:root:Patron #:p1002 checked if infront of queue
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:39:24.944717
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:39:24.948718
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Completed request
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Patron #:p1001 Front of queue got in
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+INFO:root:Client #p1002 Failed to join Lab#l2045
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:41:06.511591
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:41:06.515591
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Completed request
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:42:19.458236
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:42:19.461236
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Completed request
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:44:06.358739
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:44:06.361740
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:45:19.267829
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:45:19.270829
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Completed request
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Completed request
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Sent a command
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:47:18.250258
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:47:18.253260
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Completed request
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Completed request
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Sent a command
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+INFO:root:Patron #:p1002 checked if infront of queue
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:48:31.825597
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:48:31.829598
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Completed request
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Patron #:p1001 Front of queue got in
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+INFO:root:Client #p1002 Failed to join Lab#l2045
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:49:46.699287
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:49:46.702288
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Patreon #patreon:log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #p1001 Completed request
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1000 Waiting for message
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:50:51.987294
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:50:51.991295
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Sent a command
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+INFO:root:Patron #:p1002 checked if infront of queue
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:52:57.429546
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:52:57.432547
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Patreon #patreon:log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #p1001 Completed request
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1000 Waiting for message
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:54:11.987175
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:54:11.991176
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:57:07.240857
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 16:57:07.243858
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Completed request
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+INFO:root:Client #p1002 Failed to join Lab#l2045
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 17:08:14.977400
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 17:08:14.980402
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Completed request
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1000 Sent a command
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patron #:p1002 Front of queue got in
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 17:10:55.771303
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 17:10:55.775304
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Completed request
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1001 Completed request
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+INFO:root:Patron #:p1002 checked if infront of queue
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 17:17:44.096178
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 17:17:44.103179
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 17:19:42.899649
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 17:19:42.903649
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 17:22:51.883315
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 17:22:51.886315
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Sent a command
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 17:24:37.336639
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 17:24:37.339639
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 17:26:24.942815
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 17:26:24.946816
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #p1000 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Patreon #patreon:log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1001 Completed request
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 17:35:55.889073
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 17:35:55.892074
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 18:11:35.814199
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 18:11:35.818199
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Completed request
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Completed request
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Sent a command
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 21:19:06.276561
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 21:19:06.280563
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #p1000 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 21:20:09.183838
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 21:20:09.186839
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Completed request
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1001 Completed request
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1000 Waiting for message
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 21:21:09.781192
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 21:21:09.784192
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 21:22:38.579764
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 21:22:38.582763
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1001 Completed request
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+INFO:root:Patron #:p1002 checked if infront of queue
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 21:25:22.132981
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 21:25:22.135981
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Sent a command
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 21:40:43.566030
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 21:40:43.569032
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Completed request
+INFO:root:Patreon #patreon:log in successful
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Completed request
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Sent a command
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 21:50:59.455720
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 21:50:59.459720
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+INFO:root:Patron #:p1002 checked if infront of queue
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 22:46:18.099520
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 22:46:18.103521
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Completed request
+INFO:root:Patreon #patreon:log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+INFO:root:Patron #:p1002 checked if infront of queue
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 22:50:47.819589
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 22:50:47.822589
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 23:23:04.116617
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 23:23:04.119617
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Completed request
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1001 Completed request
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 23:43:19.770645
+INFO:root:
+
+
+
+
+
+
+
+2020-04-09 23:43:19.774645
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 00:24:38.723006
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 00:24:38.726007
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1001 Completed request
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Sent a command
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 01:25:54.195296
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 01:25:54.199297
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Completed request
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+INFO:root:Client #p1002 Failed to join Lab#l2045
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 02:30:09.592179
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 02:30:09.595179
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+INFO:root:Patron #:p1002 checked if infront of queue
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 02:31:10.966488
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 02:31:10.969488
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 02:32:29.554528
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 02:32:29.557529
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #p1001 Completed request
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #p1000 Waiting for message
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+INFO:root:Client #p1002 Failed to join Lab#l2045
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 02:33:25.911379
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 02:33:25.914379
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Completed request
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Sent a command
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+INFO:root:Client #p1002 Failed to join Lab#l2045
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 02:34:52.112421
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 02:34:52.115423
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 03:03:31.744531
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 03:03:31.747532
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+INFO:root:Client #p1002 Failed to join Lab#l2045
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 03:11:29.564836
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 03:11:29.567837
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Completed request
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1001 Completed request
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+INFO:root:Client #p1002 Failed to join Lab#l2045
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 03:21:39.385239
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 03:21:39.388240
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Patreon #patreon:log in successful
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #p1001 Completed request
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1000 Waiting for message
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 03:22:33.698697
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 03:22:33.701697
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Completed request
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Completed request
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Sent a command
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+INFO:root:Client #p1002 Failed to join Lab#l2045
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 03:25:42.906957
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 03:25:42.909958
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #p1001 Completed request
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #p1000 Waiting for message
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 03:26:58.160713
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 03:26:58.163714
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+INFO:root:Client #p1002 Failed to join Lab#l2045
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 03:46:24.847871
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 03:46:24.851872
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Client #None Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Completed request
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 03:53:06.049021
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 03:53:06.052023
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #p1001 Completed request
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #p1000 Waiting for message
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+INFO:root:Client #p1002 Failed to join Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 04:07:44.799683
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 04:07:44.802685
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #None Sent a command
+WARNING:root:Client #p1000 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1001 Completed request
+INFO:root:patreon: Trying to log in
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 11:50:47.937207
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 11:50:47.941207
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #p1001 Completed request
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #p1000 Waiting for message
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 14:50:18.860532
+INFO:root:
+
+
+
+
+
+
+
+2020-04-10 14:50:18.863533
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #None Waiting for message
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1000 Completed request
+INFO:root:Client #None Sent a command
+INFO:root:patreon: Trying to log in
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:patreon: Trying to log in
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patreon #patreon:log in successful
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1000 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2045
+INFO:root:Client #p1002 Joined queue to join Lab#l2045
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2045 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2045
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Client #p1000 Completed request
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2045
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Patron #:p1002 checked if infront of queue
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #:p1002 Front of queue got in
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Failed to join Lab#l2045
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
