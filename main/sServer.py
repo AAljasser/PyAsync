@@ -49,11 +49,11 @@ class asyncClient(threading.Thread, sServer):
         while mToS != iD.TERMINATE_CONN:
             logging.warning("Client #"+str(self._savedID)+" Waiting for message")
             receivedMsg = self._mainSocket.recv(2048)
-            #Here is fix for Race Condition (Part 1)
-            #This allow for the current to precede before any other request received
-            self._cond.acquire()
-            logging.info("Client #"+str(self._savedID)+" Accquired lock")
-            #End of part 1#
+            #Here is fix for Race Condition (Part 1) Also check line 146
+            # #This allow for the current to precede before any other request received
+            # self._cond.acquire()
+            # logging.info("Client #"+str(self._savedID)+" Accquired lock")
+            # #End of part 1#
             dataReceived = iD.breakData(receivedMsg.decode('utf-8')) ##Server/Client always commun
 
 
@@ -76,10 +76,10 @@ class asyncClient(threading.Thread, sServer):
                     if self._state == iD.A_MENU:
                         mToS = str(checking)+','+str("Welcome to Admin menu\nCreation of staff type 'crstaff(COM)ID'")
                     elif self._state == iD.S_MENU:
-                        mToS = str(checking)+','+str("Welcome to Staff menu\nCreation of patreon 'crpatreon(com)id(com)name'\nAddition of books  'addbook(com)id(com)title'")
+                        mToS = str(checking)+','+str("Welcome to Staff menu\nCreation of patron 'crpatron(com)id(com)name'\nAddition of books  'addbook(com)id(com)title'")
                     elif self._state == iD.P_MENU:
                         self._savedID = dataReceived[1]
-                        mToS = str(checking)+','+str("Welcome to Patreon menu\nTo list books tpye 'borrow'\nTo borrow type 'borrow(COM)bookcode'\nTo list current borrowed books type 'return'\nTo return borrowed books type 'return(com)bid'")
+                        mToS = str(checking)+','+str("Welcome to Patron menu\nTo list books tpye 'borrow'\nTo borrow type 'borrow(COM)bookcode'\nTo list current borrowed books type 'return'\nTo return borrowed books type 'return(com)bid'")
             elif self._state == iD.A_MENU and dataReceived[0] == 'crstaff':
                 #Check if the Identifier doesnt already exists
                 if not Library().staffExists(dataReceived[1]):
@@ -87,15 +87,15 @@ class asyncClient(threading.Thread, sServer):
                     mToS = str(self._state) + ','+'Staff creation completed'
                 else:
                     mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error enter different ID'
-            elif self._state == iD.S_MENU and dataReceived[0] == 'crpatreon':
+            elif self._state == iD.S_MENU and dataReceived[0] == 'crpatron':
                 print("Creation of Patreaon is begun")
                 if len(dataReceived) < 3:
                     print("Client entered incorrect format")
                     mToS = str(iD.INCORRECT_INPUT)
-                elif not Library().patreonExists(dataReceived[1]):
-                    print("Patreon added")
-                    Library().createPatreon(dataReceived[1],dataReceived[2])
-                    mToS =  str(self._state) + ','+'Patreon creation completed'
+                elif not Library().patronExists(dataReceived[1]):
+                    print("Patron added")
+                    Library().createPatron(dataReceived[1],dataReceived[2])
+                    mToS =  str(self._state) + ','+'Patron creation completed'
                 else:
                     print("duplication")
                     mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error enter different ID'
@@ -124,7 +124,7 @@ class asyncClient(threading.Thread, sServer):
                         mToS = str(iD.BOOK_NF) + ", book doesn't exists"
             elif self._state == iD.P_MENU and dataReceived[0] == 'return':
                 if len(dataReceived) < 2:
-                    mToS = str(self._state) +','+ Library().getPatreon(self._savedID).printBBooks()
+                    mToS = str(self._state) +','+ Library().getPatron(self._savedID).printBBooks()
                 else:
                     if Library().returnBook(self._savedID,dataReceived[1]):
                         mToS = str(self._state)+ ', Book has been returned'
@@ -132,21 +132,21 @@ class asyncClient(threading.Thread, sServer):
                         mToS = str(iD.INCORRECT_INPUT)
             else: #Input non exist
                 if self._state == iD.LOGIN:
-                    mToS = str(self._state)+"Welcome please Enter 'patreon/staff(com) your ID':"
+                    mToS = str(self._state)+"Welcome please Enter 'patron/staff(com) your ID':"
                 elif self._state == iD.A_MENU:
                     mToS = str(checking)+','+str("Creation of staff type 'crstaff(COM)ID'")
                 elif self._state == iD.S_MENU:
-                    mToS = str(checking)+','+str("Creation of patreon 'crpatreon(com)id(com)name'\nAddition of books  'addbook(com)id(com)title'")
+                    mToS = str(checking)+','+str("Creation of patron 'crpatron(com)id(com)name'\nAddition of books  'addbook(com)id(com)title'")
                 elif self._state == iD.P_MENU:
                     mToS = str(checking)+','+str("To list books tpye 'borrow'\nTo borrow type 'borrow(COM)bookcode'\nTo list current borrowed books type 'return'\nTo return borrowed books type 'return(com)bid'")
                 else:
                     mToS = str(iD.TERMINATE_CONN) + "Weird problem"
 
             print(mToS)
-            #Here where the race condition is fixed (Part 2)
-            self._cond.release()
-            logging.info("Client #"+str(self._savedID)+" Released lock")
-            #END OF PART 2 #
+            # #Here where the race condition is fixed (Part 2)
+            # self._cond.release()
+            # logging.info("Client #"+str(self._savedID)+" Released lock")
+            # #END OF PART 2 #
             self._mainSocket.sendall(bytes(mToS,'utf-8'))
         print("Client : "+str(self._clientAdd)+" closing com, Thread_ID: "+str(threading.get_ident()))
         self._mainSocket.close()

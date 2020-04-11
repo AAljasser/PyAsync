@@ -1,5 +1,5 @@
 from IndState import IndState as iD
-from main.Patreon import Patreon
+from main.Patron import Patron
 from main.Book import Book
 import logging
 
@@ -13,9 +13,9 @@ class Singleton(type):
 
 class Library(metaclass=Singleton):
     pass
-    #Patreons users and passwords stored
+    #Patrons users and passwords stored
     instance = None
-    _patreon = {'p1000':Patreon('p1000','abdul'),'p1001':Patreon('p1001','PatreonOne'),'p1002':Patreon('p1002','PatreonTwo')}
+    _patron = {'p1000':Patron('p1000','abdul'),'p1001':Patron('p1001','PatronOne'),'p1002':Patron('p1002','PatronTwo')}
     _staff = ['s1000']
     _book = {'b1000':Book('b1000','HungerGames'),'b1001':Book('b1001','Game of Thrones'),'b1002':Book('b1002','Lord of the Flies')}
     _admin = 'admin'
@@ -42,9 +42,9 @@ class Library(metaclass=Singleton):
                 return iD.S_MENU
             else:
                 return iD.INCORRECT_INPUT
-        elif name.casefold() == 'patreon':
-            if self.patreonExists(oIfo):
-                logging.info("Patreon #"+str(name)+":log in successful")
+        elif name.casefold() == 'patron':
+            if self.patronExists(oIfo):
+                logging.info("Patron #"+str(name)+":log in successful")
                 return iD.P_MENU
             else:
                 return iD.INCORRECT_INPUT
@@ -53,13 +53,13 @@ class Library(metaclass=Singleton):
 
     def createStaff(self,id):
         self._staff.append(id.casefold())
-    def createPatreon(self, id, name):
-        self._patreon[id]=Patreon(name,id)
-    def patreonExists(self,id):
-        return id.casefold() in self._patreon.keys()
-    def getPatreon(self,id):
-        if self.patreonExists(id):
-            return self._patreon[id]
+    def createPatron(self, id, name):
+        self._patron[id]=Patron(name,id)
+    def patronExists(self,id):
+        return id.casefold() in self._patron.keys()
+    def getPatron(self,id):
+        if self.patronExists(id):
+            return self._patron[id]
     def getBook(self,id):
         if self.bookExists(id):
             return self._book[id]
@@ -71,18 +71,18 @@ class Library(metaclass=Singleton):
         self._book[id] = Book(title,id)
     def borrow(self,pid,bid):
         #logging.basicConfig(filename='logs/library.log',level=logging.INFO)
-        logging.info("Patreon #"+str(pid)+": Trying to borrow "+str(bid))
+        logging.info("Patron #"+str(pid)+": Trying to borrow "+str(bid))
         if self.bookExists(bid):
-            if not self.getPatreon(pid).bExists(bid): #Book hasnt been borrowed, or no duplicate exists
-                self.getPatreon(pid).addBook(bid,self.getBook(bid))
+            if not self.getPatron(pid).bExists(bid): #Book hasnt been borrowed, or no duplicate exists
+                self.getPatron(pid).addBook(bid,self.getBook(bid))
                 del self._book[bid]
-                logging.info("Patreon #"+str(pid)+": Successful to borrow "+str(bid))
+                logging.info("Patron #"+str(pid)+": Successful to borrow "+str(bid))
                 return True
-        logging.info("Patreon #"+str(pid)+": Failed to borrow "+str(bid))
+        logging.info("Patron #"+str(pid)+": Failed to borrow "+str(bid))
         return False
     def returnBook(self,pid,bid):
-        if self.getPatreon(pid).bExists(bid):
-            self._book[bid] = self.getPatreon(pid).removeBook(bid)
+        if self.getPatron(pid).bExists(bid):
+            self._book[bid] = self.getPatron(pid).removeBook(bid)
             return True
         else:
             return False

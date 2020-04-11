@@ -16,27 +16,30 @@ pTwo = sClient()
 def step_impl(context):
     Library().bookExists('b1001')
 
-@given('PatreonOne is logged into the terminal')
+@given('PatronOne is logged into the terminal')
 def step_impl(context):
-    pOne.sendO('patreon,p1001')
+    pOne.sendO('patron,p1001')
 
-@given('PatreonTwo is logged into the terminal')
+@given('PatronTwo is logged into the terminal')
 def step_impl(context):
-    pTwo.sendO('patreon,p1002')
+    pTwo.sendO('patron,p1002')
 
-@when('PatreonOne and PatreonTwo borrows bOne simultaneously')
+@when('PatronOne and PatronTwo borrows bOne simultaneously')
 def step_impl(context):
+    time.sleep(1)
     pOne.sendO('borrow,b1001')
     pTwo.sendO('borrow,b1001')
 
 
 
-@Then('Either PatreonOne or PatreonTwo successfully borrow bOne')
+
+@Then('PatronOne persumed to be successful borrower')
 def step_impl(context):
-    time.sleep(1)
-    if Library().getPatreon('p1001').bExists('b1001'):
-        print('Patreon one has successfully borrowed the book')
-    elif Library().getPatreon('p1002').bExists('b1001'):
-        print('Patreon two has successfully borrowed the book')
+    time.sleep(2)
+    if Library().getPatron('p1001').bExists('b1001'):
+        print('Patron one has successfully borrowed the book')
+    elif Library().getPatron('p1002').bExists('b1001'):
+        print('Patron two has borrowed bOne due to the fact of race condition')
+        logging.fatal('Patron two has borrowed bOne due to the fact of race condition')
     else:
-        print('Neither patreon borrowed the book')
+        print('Neither patron borrowed the book')

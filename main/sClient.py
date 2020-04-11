@@ -45,7 +45,7 @@ class sClient():
         return self._previousRes
 
     def terminal(self):
-        print("Welcome please Enter 'patreon/staff, your ID':")
+        print("Welcome please Enter 'patron/staff, your ID':")
         toBeSent = str(input()).replace(" ", "")
         receivedMessage = self.send(toBeSent)
         # If Terminate is recieved we exit the loop and close socket
