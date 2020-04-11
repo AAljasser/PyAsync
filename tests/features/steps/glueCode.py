@@ -20,11 +20,11 @@ def step_impl(context):
 
 @given('pOne is logged into the terminal')
 def step_impl(context):
-    pOne.sendO('patreon,p1001')
+    pOne.sendO('patron,p1001')
 
 @given('pTwo is logged into the terminal')
 def step_impl(context):
-    pTwo.sendO('patreon,p1002')
+    pTwo.sendO('patron,p1002')
 
 @given('pOne borrows bOne')
 def step_impl(context):
@@ -41,8 +41,8 @@ def step_impl(context):
 @then('pOne gets the book and pTwo receives unavailable book')
 def step_impl(context):
     time.sleep(1)
-    if Library().getPatreon('p1001').bExists('b1001'):
-        print('Patreon one has successfully borrowed the book')
+    if Library().getPatron('p1001').bExists('b1001'):
+        print('Patron one has successfully borrowed the book')
     else:
         print('Something weird occurred')
 
@@ -65,7 +65,7 @@ def step_impl(context):
 @then('pTwo denied registration pOne registering and owns book')
 def step_impl(context):
     time.sleep(1)
-    print("pOne Book One Status:" +str(Library().getPatreon('p1001').bExists('b1001')))
-    print("pOne Event Reg Status:" +str(Library().getPatreon('p1001').inE('e1001')))
-    print("pTwo Book One Status:" +str(Library().getPatreon('p1002').bExists('b1001')))
-    print("pTwo Event Reg Status:" +str(Library().getPatreon('p1002').inE('e1001')))
+    print("pOne Book One Status:" +str(Library().getPatron('p1001').bExists('b1001')))
+    print("pOne Event Reg Status:" +str(Library().getPatron('p1001').inE('e1001')))
+    print("pTwo Book One Status:" +str(Library().getPatron('p1002').bExists('b1001')))
+    print("pTwo Event Reg Status:" +str(Library().getPatron('p1002').inE('e1001')))

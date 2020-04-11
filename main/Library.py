@@ -1,5 +1,5 @@
 from IndState import IndState as iD
-from main.Patreon import Patreon
+from main.Patron import Patron
 from main.Book import Book
 from main.Event import Event
 import logging
@@ -14,15 +14,15 @@ class Singleton(type):
 
 class Library(metaclass=Singleton):
     pass
-    #Patreons users and passwords stored
+    #Patrons users and passwords stored
     instance = None
-    _patreon = {'p1000':Patreon('p1000','abdul'),'p1001':Patreon('p1001','PatreonOne'),'p1002':Patreon('p1002','PatreonTwo')}
+    _patron = {'p1000':Patron('p1000','abdul'),'p1001':Patron('p1001','PatronOne'),'p1002':Patron('p1002','PatronTwo')}
     _staff = ['s1000']
     _book = {'b1000':Book('b1000','HungerGames'),'b1001':Book('b1001','Game of Thrones'),'b1002':Book('b1002','Lord of the Flies')}
     _admin = 'admin'
-    _checkOut = {} #This will contain as a key (BOOK ID) and the value is the (PATRON ID) holding book
+    _checkOut = {}
     lock = None
-    _events = {'e1001':Event('e1001','Book Reading Event')} #Will contain an ID as key and LIST of users in the event
+    _events = {'e1001':Event('e1001','Book Reading Event')}
 
 
     def userLogin(self,info):
@@ -33,7 +33,6 @@ class Library(metaclass=Singleton):
             oIfo = info[1]
         else:
             name = info[0]
-        #logging.basicConfig(filename='logs/library.log',level=logging.INFO)
         logging.info(str(name)+": Trying to log in")
         if name.casefold() == 'admin':
             logging.info(str(name)+": Admin log in successful")
@@ -44,9 +43,9 @@ class Library(metaclass=Singleton):
                 return iD.S_MENU
             else:
                 return iD.INCORRECT_INPUT
-        elif name.casefold() == 'patreon':
-            if self.patreonExists(oIfo):
-                logging.info("Patreon #"+str(name)+":log in successful")
+        elif name.casefold() == 'patron':
+            if self.patronExists(oIfo):
+                logging.info("Patron #"+str(name)+":log in successful")
                 return iD.P_MENU
             else:
                 return iD.INCORRECT_INPUT
@@ -55,16 +54,22 @@ class Library(metaclass=Singleton):
 
     def createStaff(self,id):
         self._staff.append(id.casefold())
-    def createPatreon(self, id, name):
-        self._patreon[id]=Patreon(name,id)
-    def patreonExists(self,id):
-        return id.casefold() in self._patreon.keys()
-    def getPatreon(self,id):
-        if self.patreonExists(id):
-            return self._patreon[id]
+    def createPatron(self, id, name):
+        self._patron[id]=Patron(name,id)
+    def patronExists(self,id):
+        return id.casefold() in self._patron.keys()
+    def getPatron(self,id):
+        if self.patronExists(id):
+            return self._patron[id]
+        else:
+            logging.fatal("Patron not found @ Library getPatron")
+            raise Exception("Patron not found")
     def getBook(self,id):
         if self.bookExists(id):
             return self._book[id]
+        else:
+            logging.fatal("Book not found @ Library getBook")
+            raise Exception("Book not found")
     def staffExists(self,id):
         return id.casefold() in self._staff
     def bookExists(self,id):
@@ -73,20 +78,22 @@ class Library(metaclass=Singleton):
         self._book[id] = Book(title,id)
 
     def borrow(self,pid,bid):
-        #TODO: must implement holding of lock
-        ##Know book object contains a lock and has an aquire and release functions
         if self.bookExists(bid):
-            logging.info("Patreon #"+str(pid)+": Trying to acquire lock of book "+str(bid))
-            #JUMPING A CHECK IF THE BOOK EXISTS IN THE PATRON ALREADY
+            logging.info("Patron #"+str(pid)+": Trying to acquire lock of book #"+str(bid))
+            ##Solution to Deadlock Begin (Comment block below to induce deadlock ALSO CHECK LINE 173)
             if self.getBook(bid).checkLock():
-                logging.info("Patreon #"+str(pid)+": Failed to acquire lock "+str(bid))
+                logging.info("Patron #"+str(pid)+": Failed to acquire lock "+str(bid))
                 return False
-            self.getBook(bid).acqLock() ## HERE WE ACQUIRE THE LOCK FOR THE BOOK that will be added for the patrons checkout
+            ##End #############
+            self.getBook(bid).acqLock()
+            #Solution to Deadlock Begin (Comment block below to induce deadlock ALSO CHECK LINE 173)
             if self.checked(bid):
+                logging.info("Patron #"+str(pid)+": Book cannot be borrowed #"+str(bid))
                 return False
+            #End #############
+            logging.info("Patron #"+str(pid)+": Added to cart book #"+str(bid))
             self._checkOut[bid]=pid
-            logging.info("Patreon #"+str(pid)+": Successful to acquire lock of book "+str(bid))
-            #TODO: Setup timer to remove lock and book from checkout
+            logging.info("Patron #"+str(pid)+": Successful to acquire lock of book #"+str(bid))
             return True
         return False
 
@@ -95,23 +102,14 @@ class Library(metaclass=Singleton):
             if pid in self._checkOut[bid]:
                 del self._checkOut[bid]
                 self.getBook(bid).relLock()
-                logging.info("Patreon #"+str(pid)+": Removed from cart Book#"+str(bid))
+                logging.info("Patron #"+str(pid)+": Removed from cart Book#"+str(bid))
                 return True
-        logging.info("Patreon #"+str(pid)+": Failed to Removed from cart Book#"+str(bid))
+        logging.info("Patron #"+str(pid)+": Failed to Removed from cart Book#"+str(bid))
         return False
-        #logging.basicConfig(filename='logs/library.log',level=logging.INFO)
-        # logging.info("Patreon #"+str(pid)+": Trying to borrow "+str(bid))
-        # if self.bookExists(bid):
-        #     if not self.getPatreon(pid).bExists(bid): #Book hasnt been borrowed, or no duplicate exists
-        #         self.getPatreon(pid).addBook(bid,self.getBook(bid))
-        #         del self._book[bid]
-        #         logging.info("Patreon #"+str(pid)+": Successful to borrow "+str(bid))
-        #         return True
-        # logging.info("Patreon #"+str(pid)+": Failed to borrow "+str(bid))
-        # return False
+
     def returnBook(self,pid,bid):
-        if self.getPatreon(pid).bExists(bid):
-            self._book[bid] = self.getPatreon(pid).removeBook(bid)
+        if self.getPatron(pid).bExists(bid):
+            self._book[bid] = self.getPatron(pid).removeBook(bid)
             return True
         else:
             return False
@@ -130,34 +128,28 @@ class Library(metaclass=Singleton):
     def printCheckOut(self,id):
         ret = "Cart Contains\n"
         for x in self._checkOut:
-            if self._checkOut[x] in id: #checking which user has which book
+            if self._checkOut[x] in id:
                 ret = ret + "Book ID: "+x+", Title: "+self.getBook(x).get_title()
                 ret = ret + '\n'
         return ret
 
-    def checkOut(self,id):# NO return
+    def checkOut(self,id):
         flag = False
-        logging.info("Patreon #"+str(id)+": Trying to checkout ")
+        logging.info("Patron #"+str(id)+": Trying to checkout ")
+        toRemove = []
         for x in self._checkOut:
-            if self._checkOut[x] in id: #checking which user has which book
+            if self._checkOut[x] in id:
                 flag = True
-                self.getPatreon(self._checkOut[x]).addBook(x,self.getBook(x))
-                logging.info("Patreon #"+str(id)+": Trying to checkout "+str(x))
-                self.getPatreon(self._checkOut[x]).getBook(x).relLock()
-                logging.info("Patreon #"+str(id)+": Released "+str(x))
+                self.getPatron(self._checkOut[x]).addBook(x,self.getBook(x))
+                logging.info("Patron #"+str(id)+": Trying to checkout "+str(x))
                 del self._book[x]
+                self.getPatron(self._checkOut[x]).getBook(x).relLock()
+                logging.info("Patron #"+str(id)+": Released "+str(x))
+                toRemove.append(x)
+
+        for x in toRemove:
+            del self._checkOut[x]
         return flag
-
-        #The checkout supposed to do what the previous borrow function does
-
-        # if self.bookExists(bid):
-        #     if not self.getPatreon(pid).bExists(bid): #Book hasnt been borrowed, or no duplicate exists
-        #         self.getPatreon(pid).addBook(bid,self.getBook(bid))
-        #         del self._book[bid]
-        #         logging.info("Patreon #"+str(pid)+": Successful to borrow "+str(bid))
-        #         return True
-        # logging.info("Patreon #"+str(pid)+": Failed to borrow "+str(bid))
-        # return False
 
 
     def listEvents(self):
@@ -169,32 +161,33 @@ class Library(metaclass=Singleton):
 
     def createEvent(self,id):
         if id not in self._events.keys():
-            self._events[id] = Event(id,"Book Event") #No title currently can be added
+            self._events[id] = Event(id,"Book Event")
     def eventExists(self,id):
         if id in self._events.keys():
             return True
         else:
             return False
     def regEvent(self,id,pid,bid=None):
-        #We begin by acquiring event LOCK
         if not self.eventExists(id):
             return False
-        logging.info("Patreon #"+str(pid)+" Acquiring Lock of Event "+str(id))
+        logging.info("Patron #"+str(pid)+" Acquiring Lock of Event "+str(id))
         self._events[id].acqL()
-
+        logging.info("Patron #"+str(pid)+" Successful Acquiring Lock of Event "+str(id))
         if bid is None:
-            logging.info("Patreon #"+str(pid)+" Registering in Event "+str(id)+" As brining their own Book")
+            logging.info("Patron #"+str(pid)+" Registering in Event "+str(id)+" As brining their own Book")
         else:
-            logging.info("Patreon #"+str(pid)+" Registering in Event "+str(id)+" Requesting Book ID#"+str(bid))
+            logging.info("Patron #"+str(pid)+" Registering in Event "+str(id)+" Requesting Book ID#"+str(bid))
             flag = self.borrow(pid,bid)
+            #Solution to Deadlock Begin (Comment block below to induce deadlock)
             if not flag:
-                logging.info("Patreon #"+str(pid)+" Failed to get book for register")
+                logging.info("Patron #"+str(pid)+" Failed to get book for register")
                 self._events[id].reL()
                 return False
+            #End ############
             self.checkOut(pid)
-            logging.info("Patreon #"+str(pid)+" Registering in Event "+str(id)+" Completed Borrowing Book ID#"+str(bid))
-        self.getPatreon(pid).regIn(id)
+            logging.info("Patron #"+str(pid)+" Registering in Event "+str(id)+" Completed Borrowing Book ID#"+str(bid))
+        self.getPatron(pid).regIn(id)
         self._events[id].register(pid)
         self._events[id].reL()
-        logging.info("Patreon #"+str(pid)+" Completed Registering in Event "+str(id))
+        logging.info("Patron #"+str(pid)+" Completed Registering in Event "+str(id))
         return True
