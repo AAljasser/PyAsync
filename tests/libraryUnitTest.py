@@ -52,7 +52,7 @@ class TestingLibrarySystem(unittest.TestCase):
 
     def test_uncheckBook(self):
         patron = 'p1000'
-        id = 'b1006'
+        id = 'b1009'
         title = 'Hunger Games 6'
         Library().addBook(id,title)
         Library().borrow(patron,id)
@@ -67,19 +67,19 @@ class TestingLibrarySystem(unittest.TestCase):
         eventId = 'e1001'
         pid = 'p1000'
         Library().regEvent(eventId,pid,bid=None)
-        self.assertTrue(Library().getPatreon(pid).inE(eventId))
+        self.assertTrue(Library().getPatron(pid).inE(eventId))
 
     def test_eventJoin(self):
         eventId = 'e1001'
         pid = 'p1000'
         bid = 'b1000'
         Library().regEvent(eventId,pid,bid=bid)
-        self.assertTrue(Library().getPatreon(pid).bExists(bid))
-        self.assertTrue(Library().getPatreon(pid).inE(eventId))
+        self.assertTrue(Library().getPatron(pid).bExists(bid))
+        self.assertTrue(Library().getPatron(pid).inE(eventId))
 
     def test_cartAutoReturn(self):
         patron = 'p1000'
-        id = 'b1006'
+        id = 'b1012'
         title = 'Hunger Games 6'
         Library().addBook(id,title)
         Library().borrow(patron,id)

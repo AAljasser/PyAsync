@@ -71,10 +71,10 @@ class asyncClient(threading.Thread, sServer):
                     if self._state == iD.A_MENU:
                         mToS = str(checking)+','+str("Welcome to Admin menu\nCreation of staff type 'crstaff(COM)ID'")
                     elif self._state == iD.S_MENU:
-                        mToS = str(checking)+','+str("Welcome to Staff menu\nCreation of patreon 'crpatreon(com)id(com)name'\nAddition of books  'addbook(com)id(com)title'\nto create event type 'cevent(com)eventid'\nto create lab tpye 'clab(com)labid'")
+                        mToS = str(checking)+','+str("Welcome to Staff menu\nCreation of patron 'crpatron(com)id(com)name'\nAddition of books  'addbook(com)id(com)title'\nto create event type 'cevent(com)eventid'\nto create lab tpye 'clab(com)labid'")
                     elif self._state == iD.P_MENU:
                         self._savedID = dataReceived[1]
-                        mToS = str(checking)+','+str("Welcome to Patreon menu\nTo list books tpye 'borrow'\nTo borrow a book into checkout cart type 'borrow(COM)bookcode'\nTo list current borrowed books type 'return'\nTo return borrowed books type 'return(com)bid'\nAfter borrowing book you must type checkout to obtain the books\nTo list events type 'event'\nTo register for an event type 'event(COM)eventID(COM)OPTINAL:Book id to borrow'\n to list labs type 'labs' to join a lab type 'lab(com)labID'")
+                        mToS = str(checking)+','+str("Welcome to Patron menu\nTo list books tpye 'borrow'\nTo borrow a book into checkout cart type 'borrow(COM)bookcode'\nTo list current borrowed books type 'return'\nTo return borrowed books type 'return(com)bid'\nAfter borrowing book you must type checkout to obtain the books\nTo list events type 'event'\nTo register for an event type 'event(COM)eventID(COM)OPTINAL:Book id to borrow'\n to list labs type 'labs' to join a lab type 'lab(com)labID'")
             elif self._state == iD.A_MENU and 'crstaff' in dataReceived[0]:
                 #Check if the Identifier doesnt already exists
                 if not Library().staffExists(dataReceived[1]):
@@ -89,15 +89,15 @@ class asyncClient(threading.Thread, sServer):
                 else:
                     Library().createEvent(dataReceived[1])
                     mToS = str(iD.S_MENU) + ', Event created'
-            elif self._state == iD.S_MENU and 'crpatreon' in dataReceived[0]:
+            elif self._state == iD.S_MENU and 'crpatron' in dataReceived[0]:
                 print("Creation of Patreaon is begun")
                 if len(dataReceived) < 3:
                     print("Client entered incorrect format")
                     mToS = str(iD.INCORRECT_INPUT)
-                elif not Library().patreonExists(dataReceived[1]):
-                    print("Patreon added")
-                    Library().createPatreon(dataReceived[1],dataReceived[2])
-                    mToS =  str(self._state) + ','+'Patreon creation completed'
+                elif not Library().patronExists(dataReceived[1]):
+                    print("Patron added")
+                    Library().createPatron(dataReceived[1],dataReceived[2])
+                    mToS =  str(self._state) + ','+'Patron creation completed'
                 else:
                     print("duplication")
                     mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error enter different ID'
@@ -126,7 +126,7 @@ class asyncClient(threading.Thread, sServer):
                         mToS = str(iD.BOOK_NF) + ", book doesn't exists"
             elif self._state == iD.P_MENU and 'return' in dataReceived[0]:
                 if len(dataReceived) < 2:
-                    mToS = str(self._state) +','+ Library().getPatreon(self._savedID).printBBooks()
+                    mToS = str(self._state) +','+ Library().getPatron(self._savedID).printBBooks()
                 else:
                     if Library().returnBook(self._savedID,dataReceived[1]):
                         mToS = str(self._state)+ ', Book has been returned'
@@ -189,11 +189,11 @@ class asyncClient(threading.Thread, sServer):
 
             else: #Input non exist
                 if self._state == iD.LOGIN:
-                    mToS = str(self._state)+", Welcome please Enter 'patreon/staff(com) your ID':"
+                    mToS = str(self._state)+", Welcome please Enter 'patron/staff(com) your ID':"
                 elif self._state == iD.A_MENU:
                     mToS = str(checking)+','+str("Creation of staff type 'crstaff(COM)ID'")
                 elif self._state == iD.S_MENU:
-                    mToS = str(checking)+','+str("Creation of patreon 'crpatreon(com)id(com)name'\nAddition of books  'addbook(com)id(com)title'\nto create event type 'cevent(com)eventid'\nto create lab tpye 'clab(com)labid")
+                    mToS = str(checking)+','+str("Creation of patron 'crpatron(com)id(com)name'\nAddition of books  'addbook(com)id(com)title'\nto create event type 'cevent(com)eventid'\nto create lab tpye 'clab(com)labid")
                 elif self._state == iD.P_MENU:
                     mToS = str(checking)+','+str("To list books tpye 'borrow'\nTo borrow a book into checkout cart type 'borrow(COM)bookcode'\nTo list current borrowed books type 'return'\nTo return borrowed books type 'return(com)bid'\nAfter borrowing book you must type checkout to obtain the books\nTo list events type 'event'\nTo register for an event type 'event(COM)eventID(COM)OPTINAL:Book id'\n to list labs type 'labs' to join a lab type 'lab(com)labID'")
                 else:

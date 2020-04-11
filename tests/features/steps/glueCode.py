@@ -17,9 +17,9 @@ Library().createLab('l2045',45)
 
 @given("Lab initialized to be open in 10 seconds")
 def step_impl(context):
-    pOne.sendO('patreon,p1000')
-    pTwo.sendO('patreon,p1001')
-    pThree.sendO('patreon,p1002')
+    pOne.sendO('patron,p1000')
+    pTwo.sendO('patron,p1001')
+    pThree.sendO('patron,p1002')
 
 @when("PatronOne request to join before the lab is opened")
 def step_impl(context):
