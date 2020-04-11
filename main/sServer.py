@@ -1,5 +1,5 @@
 import socket, threading
-from IndState import IndState as iD
+from main.IndState import IndState as iD
 from main.Library import Library
 import logging
 
@@ -50,10 +50,10 @@ class asyncClient(threading.Thread, sServer):
             logging.warning("Client #"+str(self._savedID)+" Waiting for message")
             receivedMsg = self._mainSocket.recv(2048)
             #Here is fix for Race Condition (Part 1) Also check line 146
-            # #This allow for the current to precede before any other request received
-            # self._cond.acquire()
-            # logging.info("Client #"+str(self._savedID)+" Accquired lock")
-            # #End of part 1#
+            #This allow for the current to precede before any other request received
+            self._cond.acquire()
+            logging.info("Client #"+str(self._savedID)+" Accquired lock")
+            #End of part 1#
             dataReceived = iD.breakData(receivedMsg.decode('utf-8')) ##Server/Client always commun
 
 
@@ -143,10 +143,10 @@ class asyncClient(threading.Thread, sServer):
                     mToS = str(iD.TERMINATE_CONN) + "Weird problem"
 
             print(mToS)
-            # #Here where the race condition is fixed (Part 2)
-            # self._cond.release()
-            # logging.info("Client #"+str(self._savedID)+" Released lock")
-            # #END OF PART 2 #
+            #Here where the race condition is fixed (Part 2)
+            self._cond.release()
+            logging.info("Client #"+str(self._savedID)+" Released lock")
+            #END OF PART 2 #
             self._mainSocket.sendall(bytes(mToS,'utf-8'))
         print("Client : "+str(self._clientAdd)+" closing com, Thread_ID: "+str(threading.get_ident()))
         self._mainSocket.close()

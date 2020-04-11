@@ -1,5 +1,5 @@
 import socket
-from IndState import IndState as iD
+from main.IndState import IndState as iD
 
 class sClient():
     _mainSocket = None

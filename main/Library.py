@@ -1,4 +1,4 @@
-from IndState import IndState as iD
+from main.IndState import IndState as iD
 from main.Patron import Patron
 from main.Book import Book
 import logging
