@@ -1,6 +1,6 @@
 
 
-class Patreon():
+class Patron():
     _pid = None
     _pname = None
     _bCollection = None # Dic

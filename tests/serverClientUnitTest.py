@@ -1,17 +1,16 @@
 import unittest
-from main.sServer import sServer
 from main.sClient import sClient
 from main.Library import Library
 from runBG import runBG
 import logging
 from datetime import datetime
-import time
 
 
 class TestingServerClient(unittest.TestCase):
     logging.basicConfig(filename='library.log',level=logging.INFO)
     logging.info("\n\n\n\n\n\n\n\n"+str(datetime.now()))
     # #Testing Client Server connection
+    runBG()
     def test_singleConnection(self):
         #runBG()
         msg = "test"
@@ -43,23 +42,23 @@ class TestingServerClient(unittest.TestCase):
         cSocket.close()
 
     def test_adminCreateStaff(self):
-        runBG()
+        # runBG()
         admin = sClient()
         admin.send('admin')
         admin.send('crstaff,S1002')
         self.assertTrue(Library().staffExists("S1002"))
         admin.send('exit')
 
-    def test_staffCreatePatreon(self):
-        runBG()
+    def test_staffCreatePatron(self):
+        # runBG()
         staff = sClient()
         staff.send('staff,s1000')
-        staff.send('crpatreon,p1001,jack')
-        self.assertTrue(Library().patreonExists("p1001"))
+        staff.send('crpatron,p1001,jack')
+        self.assertTrue(Library().patronExists("p1001"))
         staff.send('exit')
 
     def test_bookInsertion(self):
-        runBG()
+        # runBG()
         s = sClient()
         s.send('staff,s1000')
         s.send('addbook,b1001,Hunger Games')
@@ -67,72 +66,72 @@ class TestingServerClient(unittest.TestCase):
         s.send('exit')
 
     def test_bookBorrow(self):
-        runBG()
+        # runBG()
         s = sClient()
-        s.send('patreon,p1000')
+        s.send('patron,p1000')
         s.send("borrow,b1000")
-        self.assertTrue(Library().getPatreon('p1000').bExists('b1000'))
+        self.assertTrue(Library().getPatron('p1000').bExists('b1000'))
 
     def test_bookReturn(self):
-        runBG()
+        # runBG()
         s = sClient()
-        s.send('patreon,p1000')
+        s.send('patron,p1000')
         s.send("borrow,b1000")
         #UPDATE AFTER ADDING CHECKOUT
         s.send("checkout")
-        self.assertTrue(Library().getPatreon('p1000').bExists('b1000')) #Here we see that patreon has the bookk
+        self.assertTrue(Library().getPatron('p1000').bExists('b1000')) #Here we see that patron has the bookk
         self.assertFalse(Library().bookExists('b1000')) #Here we check that the library doesnt have t he book
         s.send("return,b1000")
-        self.assertFalse(Library().getPatreon('p1000').bExists('b1000')) # here we see that patreon doesnt have the book
+        self.assertFalse(Library().getPatron('p1000').bExists('b1000')) # here we see that patron doesnt have the book
         self.assertTrue(Library().bookExists('b1000')) # here we see that alibrary has gotten the book
 
     def test_bookCheckout(self):
-        runBG()
+        # runBG()
         s = sClient()
-        s.send('patreon,p1000')
+        s.send('patron,p1000')
         s.send("borrow,b1000")
         s.send("checkout")
-        self.assertTrue(Library().getPatreon('p1000').bExists('b1000')) #Here we see that patreon has the bookk
+        self.assertTrue(Library().getPatron('p1000').bExists('b1000')) #Here we see that patron has the bookk
         self.assertFalse(Library().bookExists('b1000')) #Here we check that the library doesnt have t he book
 
     def test_eventWB(self):
         #Event registering (without) borrowing book
-        runBG()
+        # runBG()
         s = sClient()
-        s.send('patreon,p1000')
+        s.send('patron,p1000')
         s.send('event,e1001')
-        self.assertTrue(Library().getPatreon('p1000').inE('e1001'))
+        self.assertTrue(Library().getPatron('p1000').inE('e1001'))
 
     def test_event(self):
         #Event registering (with) borrowing book
-        runBG()
+        # runBG()
         s = sClient()
-        s.send('patreon,p1000')
+        s.send('patron,p1000')
         s.send('event,e1001,b1000')
-        self.assertTrue(Library().getPatreon('p1000').bExists('b1000'))
-        self.assertTrue(Library().getPatreon('p1000').inE('e1001'))
+        self.assertTrue(Library().getPatron('p1000').bExists('b1000'))
+        self.assertTrue(Library().getPatron('p1000').inE('e1001'))
 
     def test_staffEventCreation(self):
-        runBG()
+        # runBG()
         staff = sClient()
         staff.send('staff,s1000')
         staff.send('cevent,e1010')
         self.assertTrue(Library().eventExists('e1010'))
 
     def test_staffCreateLab(self):
-        runBG()
+        # runBG()
         staff = sClient()
         staff.send('staff,s1000')
         staff.send('clab,l1010')
         self.assertTrue(Library().labExists('l1010'))
 
     def test_patronJoinLab(self):
-        runBG()
+        # runBG()
         staff = sClient()
         staff.send('staff,s1000')
         staff.send('clab,l1000')
         patron = sClient()
-        patron.send('patreon,p1000')
+        patron.send('patron,p1000')
         patron.send('lab,l1000') #This will cause the code to be waiting to get in (30 seconds)
         self.assertTrue(Library().getLab('l1000').isIn('p1000'))
 
