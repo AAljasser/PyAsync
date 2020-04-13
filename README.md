@@ -9,4 +9,5 @@ The following branch highlights behaviors in the introduction of for-ever waitin
 #### Executing Feature File
 ```C:\...\PyAsync> behave --no-capture``` would produce an obserable test (Printing out result etc...)
 
-```C:\...\PyAsync> behave``` Would execute and only raise if the unwanted behavior is induced (Otherwise everything is logged at ```Logs/Library.log```)
+#### Termination
+Due to the fact the server must be executed on the background for the test, to terminate completed test ```Ctrl``` + ```Pause/Break``` would terminate any background thread
