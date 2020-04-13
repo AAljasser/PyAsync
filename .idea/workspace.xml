@@ -5,12 +5,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/library.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/library.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Library.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Library.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Patreon.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Patron.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/library.log" beforeDir="false" afterPath="$PROJECT_DIR$/main/library.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/sClient.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/sClient.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/sServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/sServer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/features/steps/glueCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/features/steps/glueCode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/library.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/library.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/features/DeadLockExOne.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/DeadLockExOne.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/features/DeadLockExTwo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/DeadLockExTwo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/features/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/features/steps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/features/steps/glueCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/glueCode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/runBG.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/runBG.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +56,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\16134\Desktop\Documents\PyAsync\main" />
+      <recent name="C:\Users\16134\Desktop\Documents\PyAsync" />
       <recent name="C:\Users\16134\Desktop\Documents\PyAsync\tests\features\steps" />
       <recent name="C:\Users\16134\Desktop\Documents\PyAsync\tests" />
       <recent name="C:\Users\AyeJay\Documents\PyAsync\test" />
@@ -199,6 +203,7 @@
       <workItem from="1585272287264" duration="49000" />
       <workItem from="1585331760055" duration="759000" />
       <workItem from="1586568201443" duration="4479000" />
+      <workItem from="1586809069256" duration="1081000" />
     </task>
     <servers />
   </component>
@@ -296,6 +301,16 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="943" y="419" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1586572634627" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main/sServer.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PyAsync$Unittests_for_libraryUnitTest_TestingLibrarySystem_test_libraryAddingBook.coverage" NAME="Unittests for libraryUnitTest.TestingLibrarySystem.test_libraryAddingBook Coverage Results" MODIFIED="1583638449925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />

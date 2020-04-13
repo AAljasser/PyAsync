@@ -1,4 +1,4 @@
-from IndState import IndState as iD
+from main.IndState import IndState as iD
 from main.Patron import Patron
 from main.Book import Book
 from main.Event import Event
@@ -77,19 +77,39 @@ class Library(metaclass=Singleton):
     def addBook(self,id,title):
         self._book[id] = Book(title,id)
 
+    '''
+    Transitioned function (Functions as adding to checkout cart)
+    A thread safe function that allows patron to append their book into _checkout dictionary
+    execution of checkout function will transition the book outside of the library and into the patron's book collections
+    '''
     def borrow(self,pid,bid):
         if self.bookExists(bid):
             logging.info("Patron #"+str(pid)+": Trying to acquire lock of book #"+str(bid))
-            ##Solution to Deadlock Begin (Comment block below to induce deadlock ALSO CHECK LINE 173)
+            ## Solution to Deadlock Begin (Comment block below to induce deadlock ALSO CHECK LINE 101)
+            '''
+            Diverting from forever waiting for a locked book (In library but in someone else's cart) adding to cart returns false if book is not available
+            '''
             if self.getBook(bid).checkLock():
                 logging.info("Patron #"+str(pid)+": Failed to acquire lock "+str(bid))
                 return False
+            '''
+            After checking the lock isn't being held by a checkout the current thread acquires the book's lock
+            '''
             ##End #############
+
             self.getBook(bid).acqLock()
-            #Solution to Deadlock Begin (Comment block below to induce deadlock ALSO CHECK LINE 173)
+            ## Solution to Deadlock Begin (Comment block below to induce deadlock ALSO CHECK LINE 219)
+            '''
+            Con-current possibility that previous check (LINE 117) returned False right after an acquired lock by another thread (Which completed adding to cart)
+            Solution another check to ensure the book isn't checked (In another patron's cart) by another patron
+            '''
             if self.checked(bid):
                 logging.info("Patron #"+str(pid)+": Book cannot be borrowed #"+str(bid))
                 return False
+            '''
+            Adding the book into checkout system, and initiating timer function that returns the book 
+            into the library system and releases the lock held by the patron
+            '''
             #End #############
             logging.info("Patron #"+str(pid)+": Added to cart book #"+str(bid))
             self._checkOut[bid]=pid
@@ -133,6 +153,9 @@ class Library(metaclass=Singleton):
                 ret = ret + '\n'
         return ret
 
+    '''
+    Removal of book out of the library system into the associated patron found in _checkOut
+    '''
     def checkOut(self,id):
         flag = False
         logging.info("Patron #"+str(id)+": Trying to checkout ")
@@ -143,6 +166,10 @@ class Library(metaclass=Singleton):
                 self.getPatron(self._checkOut[x]).addBook(x,self.getBook(x))
                 logging.info("Patron #"+str(id)+": Trying to checkout "+str(x))
                 del self._book[x]
+                '''
+                Important (Locks acquired in borrow is released here) therefore the checked (Line:125) function would returned false (and causing error dicussed in Deadlock section)
+                Therefore the check (Line:114) prevent the case where a non-existing book being added in the _checkOut 
+                '''
                 self.getPatron(self._checkOut[x]).getBook(x).relLock()
                 logging.info("Patron #"+str(id)+": Released "+str(x))
                 toRemove.append(x)
@@ -168,26 +195,47 @@ class Library(metaclass=Singleton):
         else:
             return False
     def regEvent(self,id,pid,bid=None):
+        '''
+        Thread safe implementation of registration of library Event
+        :param id: Event ID
+        :param pid: Patron ID
+        :param bid: (Optional) Book idea to be borrowed while registering to Event
+        :return: True if successful, false otherwise (Specific reason logged)
+        Implementing thread Lock for each Lab object produce thread safe function
+        '''
         if not self.eventExists(id):
             return False
         logging.info("Patron #"+str(pid)+" Acquiring Lock of Event "+str(id))
+        '''
+        After Event is determined to exists, the lock is acquired before any manipulation to the actual even object is begun
+        If lock is held by another thread, current thread invokes sleep until the lock is released
+        '''
         self._events[id].acqL()
         logging.info("Patron #"+str(pid)+" Successful Acquiring Lock of Event "+str(id))
+        '''
+        After Sucessful lock acquiring, other checks are done before completion of the registration
+        If a Book ID is provided, then therefore the library system must successfully 
+        complete borrow(Adding to cart)/checkout function of the requested book
+        '''
         if bid is None:
             logging.info("Patron #"+str(pid)+" Registering in Event "+str(id)+" As brining their own Book")
         else:
             logging.info("Patron #"+str(pid)+" Registering in Event "+str(id)+" Requesting Book ID#"+str(bid))
+            '''Using the thread safe function Borrow we attempt to borrow the requested book'''
             flag = self.borrow(pid,bid)
             #Solution to Deadlock Begin (Comment block below to induce deadlock)
             if not flag:
+                '''If Book borrowing fails then the event registration also fails'''
                 logging.info("Patron #"+str(pid)+" Failed to get book for register")
                 self._events[id].reL()
                 return False
             #End ############
+            '''If book borrowing is successful then checkout of the book is completed to continue with the event registration'''
             self.checkOut(pid)
             logging.info("Patron #"+str(pid)+" Registering in Event "+str(id)+" Completed Borrowing Book ID#"+str(bid))
         self.getPatron(pid).regIn(id)
         self._events[id].register(pid)
+        '''Lastly releasing events lock after concluding patron's registration'''
         self._events[id].reL()
         logging.info("Patron #"+str(pid)+" Completed Registering in Event "+str(id))
         return True
