@@ -31,7 +31,6 @@ class Library(metaclass=Singleton):
             oIfo = info[1]
         else:
             name = info[0]
-        #logging.basicConfig(filename='logs/library.log',level=logging.INFO)
         logging.info(str(name)+": Trying to log in")
         if name.casefold() == 'admin':
             logging.info(str(name)+": Admin log in successful")
@@ -70,10 +69,9 @@ class Library(metaclass=Singleton):
     def addBook(self,id,title):
         self._book[id] = Book(title,id)
     def borrow(self,pid,bid):
-        #logging.basicConfig(filename='logs/library.log',level=logging.INFO)
         logging.info("Patron #"+str(pid)+": Trying to borrow "+str(bid))
         if self.bookExists(bid):
-            if not self.getPatron(pid).bExists(bid): #Book hasnt been borrowed, or no duplicate exists
+            if not self.getPatron(pid).bExists(bid):
                 self.getPatron(pid).addBook(bid,self.getBook(bid))
                 del self._book[bid]
                 logging.info("Patron #"+str(pid)+": Successful to borrow "+str(bid))

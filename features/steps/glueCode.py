@@ -1,5 +1,5 @@
 from behave import *
-from runBG import runBG
+from main.runBG import runBG
 from main.Library import Library
 import unittest
 from main.sClient import sClient
@@ -11,6 +11,14 @@ runBG()
 pOne = sClient()
 pTwo = sClient()
 
+'''
+Simple introduction to thread locking (Solution to race condition)
+Solution provided locks all processes then release after individual process has been completed
+sServer:Line 54: Introduces thread lock acquiring
+sServer:Line 146: Introduces thread lock releasing
+
+Commenting of those lines would produce race condition when the scenario asyncBookBorrow.feature is executed
+'''
 
 @given('Library contain book bOne')
 def step_impl(context):
@@ -29,9 +37,6 @@ def step_impl(context):
     time.sleep(1)
     pOne.sendO('borrow,b1001')
     pTwo.sendO('borrow,b1001')
-
-
-
 
 @Then('PatronOne persumed to be successful borrower')
 def step_impl(context):

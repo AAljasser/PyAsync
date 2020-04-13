@@ -7404,3 +7404,1626 @@ INFO:root:Patron #p1002: Trying to borrow b1001
 INFO:root:Patron #p1002: Failed to borrow b1001
 INFO:root:Client #p1002 Released lock
 WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+INFO:root:Client #None Accquired lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1001 Released lock
+INFO:root:Client #p1002 Accquired lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Client #p1001 Released lock
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Client #p1001 Released lock
+INFO:root:Patron #p1002: Failed to borrow b1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Successful to borrow b1001
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Failed to borrow b1001
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+CRITICAL:root:Patron two has borrowed bOne due to the fact of race condition
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:patron: Trying to log in
+INFO:root:Client #NoneSent a command
+INFO:root:Patron #patron:log in successful
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:patron: Trying to log in
+INFO:root:Client #NoneSent a command
+INFO:root:Patron #patron:log in successful
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1002: Successful to borrow b1001
+INFO:root:Patron #p1001: Failed to borrow b1001
+INFO:root:Client #p1002 Released lock
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #p1001 Waiting for message
+CRITICAL:root:Patron two has borrowed bOne due to the fact of race condition
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1001: Successful to borrow b1001
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1002: Failed to borrow b1001
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Accquired lock
+INFO:root:Client #NoneSent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Accquired lock
+INFO:root:Client #p1002 Accquired lock
+INFO:root:Client #p1001Sent a command
+INFO:root:Client #p1002Sent a command
+INFO:root:Client #p1002Sent a borrow command
+INFO:root:Client #p1001Sent a borrow command
+INFO:root:Client #p1002Sent a borrowing for b1001
+INFO:root:Client #p1001Sent a borrowing for b1001
+INFO:root:Patron #p1002: Trying to borrow b1001
+INFO:root:Patron #p1001: Trying to borrow b1001
+INFO:root:Patron #p1002: Successful to borrow b1001
+INFO:root:Patron #p1001: Failed to borrow b1001
+INFO:root:Client #p1002 Released lock
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Released lock
+WARNING:root:Client #p1001 Waiting for message
+CRITICAL:root:Patron two has borrowed bOne due to the fact of race condition

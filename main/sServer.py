@@ -67,7 +67,6 @@ class asyncClient(threading.Thread, sServer):
                 self._mainSocket.close()
                 break
             elif self._state == iD.LOGIN: ## Check
-                #TODO
                 checking = Library().userLogin(dataReceived)
                 if checking == iD.INCORRECT_INPUT: ##Inputted incorrect we cant just pass this without checking
                     mToS = str(iD.INCORRECT_INPUT)
