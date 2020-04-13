@@ -7,7 +7,7 @@ The following branch highlights behaviors in the introduction of for-ever waitin
 - Install [Behave](https://behave.readthedocs.io/en/latest/install.html) (Cucumber equivelant) 
 
 #### Executing Feature File
-```C:\...\PyAsync> behave --no-capture``` would produce an obserable test (Printing out result etc...)
+```C:\...\PyAsync> behave --no-capture``` would produce an obserable test (Backed by Logs/Library.logs)
 
 #### Termination
 Due to the fact the server must be executed on the background for the test, to terminate completed test ```Ctrl``` + ```Pause/Break``` would terminate any background thread
