@@ -9,6 +9,7 @@ The following scenario highlights the importance of encapsulate multi-threaded f
 #### Executing Feature File
 ```C:\...\PyAsync> behave --no-capture features\DeadLockExOne.feature``` would produce an obserable test (Logs/Library.log can follow each step)
 
-```C:\...\PyAsync> behave --no-capture features\DeadLockExTwo.feature``` 
+#### Termination
+Due to the fact the server must be executed on the background for the test, to terminate completed test ```Ctrl``` + ```Pause/Break``` would terminate any background thread
 
 
