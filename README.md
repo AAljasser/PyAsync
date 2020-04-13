@@ -9,4 +9,4 @@ The following branch highlights behaviors in the introduction of for-ever waitin
 #### Executing Feature File
 ```C:\...\PyAsync> behave --no-capture``` would produce an obserable test (Printing out result etc...)
 
-```C:\...\PyAsync> behave``` Would execute and only raise if the unwanted behavior is induced (Otherwise everything is logged at ```Logs/Library.log```
+```C:\...\PyAsync> behave``` Would execute and only raise if the unwanted behavior is induced (Otherwise everything is logged at ```Logs/Library.log```)
