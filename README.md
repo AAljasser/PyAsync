@@ -7,7 +7,9 @@ The following scenario highlights the importance of encapsulate multi-threaded f
 - Install [Behave](https://behave.readthedocs.io/en/latest/install.html) (Cucumber equivelant) 
 
 #### Executing Feature File
-```C:\...\PyAsync> behave --no-capture features\DeadLockExOne.feature``` would produce an obserable test (Logs/Library.log can follow each step)
+```C:\...\PyAsync> behave --no-capture features\DeadLockExOne.feature``` (fatal) would produce an obserable test (Logs/Library.log can follow each step)
+
+```C:\...\PyAsync> behave --no-capture features\DeadLockExTwo.feature``` (Non-fatal) deadlock
 
 #### Termination
 Due to the fact the server must be executed on the background for the test, to terminate completed test ```Ctrl``` + ```Pause/Break``` would terminate any background thread
