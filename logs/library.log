@@ -12324,3 +12324,14 @@ INFO:root:Patron #:p1002 Front of queue got in
 INFO:root:Client #p1002 Failed to join Lab#l2045
 INFO:root:Client #p1002 Completed request
 WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-04-13 14:21:12.838484
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened

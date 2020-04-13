@@ -1,6 +1,8 @@
 import threading
 from main.sServer import sServer
-
+'''
+Class used to execute a background thread running the main server
+'''
 class runBG():
     def __init__(self):
         x = BG()

@@ -1,5 +1,7 @@
 from enum import Enum
-
+'''
+Helper Class
+'''
 class IndState:
     BOOK_NF = -4
     DUPLICATE_ERR = -3

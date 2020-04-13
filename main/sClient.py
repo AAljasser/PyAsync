@@ -1,6 +1,11 @@
 import socket
 from main.IndState import IndState as iD
 
+
+'''
+TCP Client
+Using python's socket library communication and displaying of data for a single user
+'''
 class sClient():
     _mainSocket = None
     _port = 8096
@@ -9,10 +14,6 @@ class sClient():
 
     def __init__(self):
         self=self
-        # if self._mainSocket is None:
-        #     #Creating socket using ipv4 and TCP
-        #     self._mainSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        #     self._mainSocket.connect((self._localAdd, self._port))
 
     def sendO(self,msg):
         if self._mainSocket is not None:

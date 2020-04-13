@@ -3,7 +3,10 @@ from main.IndState import IndState as iD
 from main.Library import Library
 import logging
 
-
+'''
+TCP Server
+Using python's socket and multi-threading (threading) concurrent communication and processing of data occurs in this class
+'''
 class sServer():
     _mainSocket = None
     _port = 8096
