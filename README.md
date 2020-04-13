@@ -7,6 +7,5 @@ The following branch highlights behaviors in the introduction of for-ever waitin
 - Install [Behave](https://behave.readthedocs.io/en/latest/install.html) (Cucumber equivelant) 
 
 #### Executing Feature File
-Given terminal
 ```C:\...\PyAsync> behave --no-capture``` would produce an obserable test (Printing out result etc...)
 ```C:\...\PyAsync> behave``` Would execute and only raise if the unwanted behavior is induced (Otherwise everything is logged at ```Logs/Library.log```
