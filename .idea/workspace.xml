@@ -4,16 +4,12 @@
     <list default="true" id="7a7e6f27-1776-4819-851f-68739a597730" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/library.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/library.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Lab.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Lab.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Library.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Library.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Patreon.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Patron.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/library.log" beforeDir="false" afterPath="$PROJECT_DIR$/main/library.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/sClient.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/sClient.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/sServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/sServer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/features/steps/glueCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/features/steps/glueCode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/library.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/library.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/libraryUnitTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/libraryUnitTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/patreonBookUTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/patronBookUTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/serverClientUnitTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/serverClientUnitTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/features/QueueRace.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/QueueRace.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/features/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/features/steps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/features/steps/glueCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/glueCode.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +53,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\16134\Desktop\Documents\PyAsync\tests" />
       <recent name="C:\Users\16134\Desktop\Documents\PyAsync" />
+      <recent name="C:\Users\16134\Desktop\Documents\PyAsync\tests" />
       <recent name="C:\Users\16134\Desktop\Documents\PyAsync\main" />
       <recent name="C:\Users\16134\Desktop\Documents\PyAsync\tests\features\steps" />
       <recent name="C:\Users\AyeJay\Documents\PyAsync\test" />
@@ -216,6 +212,7 @@
       <workItem from="1586373564126" duration="17783000" />
       <workItem from="1586450753301" duration="25247000" />
       <workItem from="1586564447347" duration="2109000" />
+      <workItem from="1586806123950" duration="1820000" />
     </task>
     <servers />
   </component>

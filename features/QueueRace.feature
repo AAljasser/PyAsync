@@ -6,4 +6,4 @@ Feature: Highlighting race condition raised in software queue
     And PatronTwo request to join before the lab is opened
     And PatronThree request to join before the lab is opened
     Then The Lab has been opened
-    And Presume PatronOne and PatronTwo are the users in the Lab
+    And Confirm PatronOne and PatronTwo are the users in the Lab

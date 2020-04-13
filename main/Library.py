@@ -75,21 +75,17 @@ class Library(metaclass=Singleton):
         self._book[id] = Book(title,id)
 
     def borrow(self,pid,bid):
-        #TODO: must implement holding of lock
-        ##Know book object contains a lock and has an aquire and release functions
         if self.bookExists(bid):
             logging.info("Patron #"+str(pid)+": Trying to acquire lock of book "+str(bid))
-            #JUMPING A CHECK IF THE BOOK EXISTS IN THE PATRON ALREADY
             if self.getBook(bid).checkLock():
                 logging.info("Patron #"+str(pid)+": Failed to acquire lock "+str(bid))
                 return False
-            self.getBook(bid).acqLock() ## HERE WE ACQUIRE THE LOCK FOR THE BOOK that will be added for the patrons checkout
+            self.getBook(bid).acqLock()
             if self.checked(bid):
                 return False
             self._checkOut[bid]=pid
             threading.Timer(30,Library().uncheck,[pid,bid]).start()
             logging.info("Patron #"+str(pid)+": Successful to acquire lock of book "+str(bid))
-            #TODO: Setup timer to remove lock and book from checkout
             return True
         return False
 
@@ -102,16 +98,7 @@ class Library(metaclass=Singleton):
                 return True
         logging.info("Patron #"+str(pid)+": Failed to Removed from cart Book#"+str(bid))
         return False
-        #logging.basicConfig(filename='logs/library.log',level=logging.INFO)
-        # logging.info("Patron #"+str(pid)+": Trying to borrow "+str(bid))
-        # if self.bookExists(bid):
-        #     if not self.getPatron(pid).bExists(bid): #Book hasnt been borrowed, or no duplicate exists
-        #         self.getPatron(pid).addBook(bid,self.getBook(bid))
-        #         del self._book[bid]
-        #         logging.info("Patron #"+str(pid)+": Successful to borrow "+str(bid))
-        #         return True
-        # logging.info("Patron #"+str(pid)+": Failed to borrow "+str(bid))
-        # return False
+
     def returnBook(self,pid,bid):
         if self.getPatron(pid).bExists(bid):
             self._book[bid] = self.getPatron(pid).removeBook(bid)
@@ -154,17 +141,6 @@ class Library(metaclass=Singleton):
         for x in toRemove:
             del self._checkOut[x]
         return flag
-
-        #The checkout supposed to do what the previous borrow function does
-
-        # if self.bookExists(bid):
-        #     if not self.getPatron(pid).bExists(bid): #Book hasnt been borrowed, or no duplicate exists
-        #         self.getPatron(pid).addBook(bid,self.getBook(bid))
-        #         del self._book[bid]
-        #         logging.info("Patron #"+str(pid)+": Successful to borrow "+str(bid))
-        #         return True
-        # logging.info("Patron #"+str(pid)+": Failed to borrow "+str(bid))
-        # return False
 
 
     def listEvents(self):
