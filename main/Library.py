@@ -66,14 +66,17 @@ class Library(metaclass=Singleton):
                 logging.info("Staff #"+str(name)+": log in successful")
                 return iD.S_MENU
             else:
+                logging.error(str(name)+": FAILED LOGIN - INVALID ID provided")
                 return iD.INCORRECT_INPUT
         elif name.casefold() == 'patron':
             if self.patronExists(oIfo):
                 logging.info("Patron #"+str(name)+":log in successful")
                 return iD.P_MENU
             else:
+                logging.error(str(name)+": FAILED LOGIN - INVALID ID provided")
                 return iD.INCORRECT_INPUT
         else:
+            logging.error(str(name)+": FAILED LOGIN - INVALID ID provided")
             return iD.INCORRECT_INPUT
 
     def createStaff(self,id):
@@ -129,9 +132,10 @@ class Library(metaclass=Singleton):
             into the library system and releases the lock held by the patron
             '''
             self._checkOut[bid]=pid
-            threading.Timer(30,Library().uncheck,[pid,bid]).start()
-            logging.info("Patron #"+str(pid)+": Successful to acquire lock of book "+str(bid))
+            threading.Timer(15,Library().uncheck,[pid,bid]).start()
+            logging.info("Patron #"+str(pid)+": Successful to acquire lock of book and added to checkout"+str(bid))
             return True
+        logging.info("Patron #"+str(pid)+": Book#"+str(bid)+" Doesn't exists")
         return False
 
     '''
@@ -144,8 +148,11 @@ class Library(metaclass=Singleton):
                 self.getBook(bid).relLock()
                 logging.info("Patron #"+str(pid)+": Removed from cart Book#"+str(bid))
                 return True
-        logging.info("Patron #"+str(pid)+": Failed to Removed from cart Book#"+str(bid))
-        return False
+            else:
+                return False
+        else:
+            logging.info("Patron #"+str(pid)+": Failed to Removed from cart Book#"+str(bid))
+            return False
 
     '''
     Book returnal to Library System

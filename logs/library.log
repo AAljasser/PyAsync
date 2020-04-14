@@ -13935,3 +13935,1759 @@ WARNING:root:Client #p1001 Waiting for message
 INFO:root:(Two Patron queue to unopned lab) has executed successfully
 INFO:root:Patron #p1000: Failed to Removed from cart Book#b1001
 INFO:root:Patron #p1000: Failed to Removed from cart Book#b2020
+INFO:root:
+
+
+
+
+
+
+
+2020-04-14 12:56:48.179779
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+INFO:root:Staff #staff: log in successful
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Creation of Patron is begun
+INFO:root:Patron added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Staff member creation of a Patron) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b1001
+INFO:root:Patron #p1000: Trying to acquire lock of book b1001
+INFO:root:Patron #p1000: Successful to acquire lock of book b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b1001
+INFO:root:Patron #p1000: Released b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000 Failed to get book for register
+INFO:root:Client #p1000 Failed to register into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Insertion of book has begun
+INFO:root:Book added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000: Trying to acquire lock of book b2020
+INFO:root:Patron #p1000: Successful to acquire lock of book b2020
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b2020
+INFO:root:Patron #p1000: Released b2020
+INFO:root:Patron #p1000 Registering in Event e2020 Completed Borrowing Book ID#b2020
+INFO:root:Patron #p1000 Completed Registering in Event e2020
+INFO:root:Client #p1000 Registered into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron registration of newly created Event with book b2020) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Joined queue to join Lab#l2020
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2020 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2020
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2020
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:(Two Patron queue to unopned lab) has executed successfully
+INFO:root:Patron #p1000: Failed to Removed from cart Book#b1001
+INFO:root:Patron #p1000: Failed to Removed from cart Book#b2020
+INFO:root:
+
+
+
+
+
+
+
+2020-04-14 14:23:11.788430
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+INFO:root:Staff #staff: log in successful
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Creation of Patron is begun
+INFO:root:Patron added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Staff member creation of a Patron) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b1001
+INFO:root:Patron #p1000: Trying to acquire lock of book b1001
+INFO:root:Patron #p1000: Successful to acquire lock of book b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b1001
+INFO:root:Patron #p1000: Released b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000 Failed to get book for register
+INFO:root:Client #p1000 Failed to register into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Insertion of book has begun
+INFO:root:Book added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000: Trying to acquire lock of book b2020
+INFO:root:Patron #p1000: Successful to acquire lock of book b2020
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b2020
+INFO:root:Patron #p1000: Released b2020
+INFO:root:Patron #p1000 Registering in Event e2020 Completed Borrowing Book ID#b2020
+INFO:root:Patron #p1000 Completed Registering in Event e2020
+INFO:root:Client #p1000 Registered into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron registration of newly created Event with book b2020) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Joined queue to join Lab#l2020
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2020 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2020
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2020
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:(Two Patron queue to unopned lab) has executed successfully
+INFO:root:Patron #p1000: Failed to Removed from cart Book#b1001
+INFO:root:Patron #p1000: Failed to Removed from cart Book#b2020
+INFO:root:
+
+
+
+
+
+
+
+2020-04-14 14:28:07.855258
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+INFO:root:Staff #staff: log in successful
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Creation of Patron is begun
+INFO:root:Patron added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Staff member creation of a Patron) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b1001
+INFO:root:Patron #p1000: Trying to acquire lock of book b1001
+INFO:root:Patron #p1000: Successful to acquire lock of book b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b1001
+INFO:root:Patron #p1000: Released b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000 Failed to get book for register
+INFO:root:Client #p1000 Failed to register into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Insertion of book has begun
+INFO:root:Book added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000: Trying to acquire lock of book b2020
+INFO:root:Patron #p1000: Successful to acquire lock of book b2020
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b2020
+INFO:root:Patron #p1000: Released b2020
+INFO:root:Patron #p1000 Registering in Event e2020 Completed Borrowing Book ID#b2020
+INFO:root:Patron #p1000 Completed Registering in Event e2020
+INFO:root:Client #p1000 Registered into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron registration of newly created Event with book b2020) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Joined queue to join Lab#l2020
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2020 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2020
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2020
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:(Two Patron queue to unopned lab) has executed successfully
+INFO:root:Patron #p1000: Failed to Removed from cart Book#b1001
+INFO:root:Patron #p1000: Failed to Removed from cart Book#b2020
+INFO:root:
+
+
+
+
+
+
+
+2020-04-14 14:31:22.071679
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Entering invalid id for staff login) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+INFO:root:Staff #staff: log in successful
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Creation of Patron is begun
+INFO:root:Patron added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Staff member creation of a Patron) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b1001
+INFO:root:Patron #p1000: Trying to acquire lock of book b1001
+INFO:root:Patron #p1000: Successful to acquire lock of book b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b1001
+INFO:root:Patron #p1000: Released b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000 Failed to get book for register
+INFO:root:Client #p1000 Failed to register into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Insertion of book has begun
+INFO:root:Book added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000: Trying to acquire lock of book b2020
+INFO:root:Patron #p1000: Successful to acquire lock of book b2020
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b2020
+INFO:root:Patron #p1000: Released b2020
+INFO:root:Patron #p1000 Registering in Event e2020 Completed Borrowing Book ID#b2020
+INFO:root:Patron #p1000 Completed Registering in Event e2020
+INFO:root:Client #p1000 Registered into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron registration of newly created Event with book b2020) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Joined queue to join Lab#l2020
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2020 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2020
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2020
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:(Two Patron queue to unopned lab) has executed successfully
+INFO:root:Patron #p1000: Failed to Removed from cart Book#b1001
+INFO:root:Patron #p1000: Failed to Removed from cart Book#b2020
+INFO:root:
+
+
+
+
+
+
+
+2020-04-14 14:33:28.683407
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+ERROR:root:staff: FAILED LOGIN - INVALID ID provided
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Entering invalid id for staff login) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+INFO:root:Staff #staff: log in successful
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Creation of Patron is begun
+INFO:root:Patron added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Staff member creation of a Patron) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b1001
+INFO:root:Patron #p1000: Trying to acquire lock of book b1001
+INFO:root:Patron #p1000: Successful to acquire lock of book b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b1001
+INFO:root:Patron #p1000: Released b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000 Failed to get book for register
+INFO:root:Client #p1000 Failed to register into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Insertion of book has begun
+INFO:root:Book added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000: Trying to acquire lock of book b2020
+INFO:root:Patron #p1000: Successful to acquire lock of book b2020
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b2020
+INFO:root:Patron #p1000: Released b2020
+INFO:root:Patron #p1000 Registering in Event e2020 Completed Borrowing Book ID#b2020
+INFO:root:Patron #p1000 Completed Registering in Event e2020
+INFO:root:Client #p1000 Registered into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron registration of newly created Event with book b2020) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Joined queue to join Lab#l2020
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2020 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2020
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2020
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:(Two Patron queue to unopned lab) has executed successfully
+INFO:root:
+
+
+
+
+
+
+
+2020-04-14 14:37:27.136498
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+ERROR:root:staff: FAILED LOGIN - INVALID ID provided
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Entering invalid id for staff login) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+INFO:root:Staff #staff: log in successful
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Creation of Patron is begun
+INFO:root:Patron added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Staff member creation of a Patron) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b1001
+INFO:root:Patron #p1000: Trying to acquire lock of book b1001
+INFO:root:Patron #p1000: Successful to acquire lock of book b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b1001
+INFO:root:Patron #p1000: Released b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000 Failed to get book for register
+INFO:root:Client #p1000 Failed to register into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Insertion of book has begun
+INFO:root:Book added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000: Trying to acquire lock of book b2020
+INFO:root:Patron #p1000: Successful to acquire lock of book b2020
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b2020
+INFO:root:Patron #p1000: Released b2020
+INFO:root:Patron #p1000 Registering in Event e2020 Completed Borrowing Book ID#b2020
+INFO:root:Patron #p1000 Completed Registering in Event e2020
+INFO:root:Client #p1000 Registered into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron registration of newly created Event with book b2020) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Joined queue to join Lab#l2020
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2020 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2020
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2020
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:(Two Patron queue to unopned lab) has executed successfully
+INFO:root:
+
+
+
+
+
+
+
+2020-04-14 14:40:50.481693
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+ERROR:root:staff: FAILED LOGIN - INVALID ID provided
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Entering invalid id for staff login) has executed successfully
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b0404
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron borrowing non-existing book) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+INFO:root:Staff #staff: log in successful
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Creation of Patron is begun
+INFO:root:Patron added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Staff member creation of a Patron) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b1001
+INFO:root:Patron #p1000: Trying to acquire lock of book b1001
+INFO:root:Patron #p1000: Successful to acquire lock of book b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b1001
+INFO:root:Patron #p1000: Released b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000 Failed to get book for register
+INFO:root:Client #p1000 Failed to register into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Insertion of book has begun
+INFO:root:Book added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000: Trying to acquire lock of book b2020
+INFO:root:Patron #p1000: Successful to acquire lock of book b2020
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b2020
+INFO:root:Patron #p1000: Released b2020
+INFO:root:Patron #p1000 Registering in Event e2020 Completed Borrowing Book ID#b2020
+INFO:root:Patron #p1000 Completed Registering in Event e2020
+INFO:root:Client #p1000 Registered into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron registration of newly created Event with book b2020) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Joined queue to join Lab#l2020
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l2020 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2020
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2020
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:(Two Patron queue to unopned lab) has executed successfully
+INFO:root:Patron #p1000: Failed to Removed from cart Book#b1001
+INFO:root:Patron #p1000: Failed to Removed from cart Book#b2020
+INFO:root:
+
+
+
+
+
+
+
+2020-04-14 14:42:53.463636
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+ERROR:root:staff: FAILED LOGIN - INVALID ID provided
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Entering invalid id for staff login) has executed successfully
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b0404
+INFO:root:Patron #p1000: Book#b0404 Doesn't exists
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron borrowing non-existing book) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+INFO:root:Staff #staff: log in successful
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Creation of Patron is begun
+INFO:root:Patron added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Staff member creation of a Patron) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b1001
+INFO:root:Patron #p1000: Trying to acquire lock of book b1001
+INFO:root:Patron #p1000: Successful to acquire lock of book b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b1001
+INFO:root:Patron #p1000: Released b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000: Book#b2020 Doesn't exists
+INFO:root:Patron #p1000 Failed to get book for register
+INFO:root:Client #p1000 Failed to register into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Insertion of book has begun
+INFO:root:Book added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000: Trying to acquire lock of book b2020
+INFO:root:Patron #p1000: Successful to acquire lock of book b2020
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b2020
+INFO:root:Patron #p1000: Released b2020
+INFO:root:Patron #p1000 Registering in Event e2020 Completed Borrowing Book ID#b2020
+INFO:root:Patron #p1000 Completed Registering in Event e2020
+INFO:root:Client #p1000 Registered into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron registration of newly created Event with book b2020) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Joined queue to join Lab#l2020
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2020 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2020
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2020
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:(Two Patron queue to unopned lab) has executed successfully
+INFO:root:
+
+
+
+
+
+
+
+2020-04-14 14:48:12.317004
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+ERROR:root:staff: FAILED LOGIN - INVALID ID provided
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Entering invalid id for staff login) has executed successfully
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b0404
+INFO:root:Patron #p1000: Book#b0404 Doesn't exists
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron borrowing non-existing book) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+INFO:root:Staff #staff: log in successful
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Creation of Patron is begun
+INFO:root:Patron added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Staff member creation of a Patron) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b1001
+INFO:root:Patron #p1000: Trying to acquire lock of book b1001
+INFO:root:Patron #p1000: Successful to acquire lock of book b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b1001
+INFO:root:Patron #p1000: Released b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000: Book#b2020 Doesn't exists
+INFO:root:Patron #p1000 Failed to get book for register
+INFO:root:Client #p1000 Failed to register into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Insertion of book has begun
+INFO:root:Book added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000: Trying to acquire lock of book b2020
+INFO:root:Patron #p1000: Successful to acquire lock of book b2020
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b2020
+INFO:root:Patron #p1000: Released b2020
+INFO:root:Patron #p1000 Registering in Event e2020 Completed Borrowing Book ID#b2020
+INFO:root:Patron #p1000 Completed Registering in Event e2020
+INFO:root:Client #p1000 Registered into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron registration of newly created Event with book b2020) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Joined queue to join Lab#l2020
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2020 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2020
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2020
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:(Two Patron queue to unopned lab) has executed successfully
+INFO:root:
+
+
+
+
+
+
+
+2020-04-14 14:52:32.317477
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+ERROR:root:staff: FAILED LOGIN - INVALID ID provided
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Entering invalid id for staff login) has executed successfully
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b0404
+INFO:root:Patron #p1000: Book#b0404 Doesn't exists
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron borrowing non-existing book) has executed successfully
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b1000
+INFO:root:Patron #p1000: Trying to acquire lock of book b1000
+INFO:root:Patron #p1000: Successful to acquire lock of book b1000
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b1000
+INFO:root:Patron #p1000: Released b1000
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+INFO:root:Staff #staff: log in successful
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Creation of Patron is begun
+INFO:root:Patron added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Staff member creation of a Patron) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b1001
+INFO:root:Patron #p1000: Trying to acquire lock of book b1001
+INFO:root:Patron #p1000: Successful to acquire lock of book b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b1001
+INFO:root:Patron #p1000: Released b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000: Book#b2020 Doesn't exists
+INFO:root:Patron #p1000 Failed to get book for register
+INFO:root:Client #p1000 Failed to register into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Insertion of book has begun
+INFO:root:Book added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000: Trying to acquire lock of book b2020
+INFO:root:Patron #p1000: Successful to acquire lock of book b2020
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b2020
+INFO:root:Patron #p1000: Released b2020
+INFO:root:Patron #p1000 Registering in Event e2020 Completed Borrowing Book ID#b2020
+INFO:root:Patron #p1000 Completed Registering in Event e2020
+INFO:root:Client #p1000 Registered into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron registration of newly created Event with book b2020) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Joined queue to join Lab#l2020
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2020 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2020
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2020
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:(Two Patron queue to unopned lab) has executed successfully
+INFO:root:Patron #p1000: Failed to Removed from cart Book#b1000
+INFO:root:Patron #p1000: Failed to Removed from cart Book#b1001
+INFO:root:Patron #p1000: Failed to Removed from cart Book#b2020
+INFO:root:
+
+
+
+
+
+
+
+2020-04-14 14:58:25.739722
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+ERROR:root:staff: FAILED LOGIN - INVALID ID provided
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Entering invalid id for staff login) has executed successfully
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b0404
+INFO:root:Patron #p1000: Book#b0404 Doesn't exists
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron borrowing non-existing book) has executed successfully
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b1000
+INFO:root:Patron #p1000: Trying to acquire lock of book b1000
+INFO:root:Patron #p1000: Successful to acquire lock of book b1000
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b1000
+INFO:root:Patron #p1000: Released b1000
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+INFO:root:Staff #staff: log in successful
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Creation of Patron is begun
+INFO:root:Patron added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Staff member creation of a Patron) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b1001
+INFO:root:Patron #p1000: Trying to acquire lock of book b1001
+INFO:root:Patron #p1000: Successful to acquire lock of book b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b1001
+INFO:root:Patron #p1000: Released b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000: Book#b2020 Doesn't exists
+INFO:root:Patron #p1000 Failed to get book for register
+INFO:root:Client #p1000 Failed to register into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Insertion of book has begun
+INFO:root:Book added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000: Trying to acquire lock of book b2020
+INFO:root:Patron #p1000: Successful to acquire lock of book b2020
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b2020
+INFO:root:Patron #p1000: Released b2020
+INFO:root:Patron #p1000 Registering in Event e2020 Completed Borrowing Book ID#b2020
+INFO:root:Patron #p1000 Completed Registering in Event e2020
+INFO:root:Client #p1000 Registered into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron registration of newly created Event with book b2020) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Joined queue to join Lab#l2020
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2020 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2020
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2020
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:(Two Patron queue to unopned lab) has executed successfully
+INFO:root:
+
+
+
+
+
+
+
+2020-04-14 15:00:29.120042
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+ERROR:root:staff: FAILED LOGIN - INVALID ID provided
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Entering invalid id for staff login) has executed successfully
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b0404
+INFO:root:Patron #p1000: Book#b0404 Doesn't exists
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron borrowing non-existing book) has executed successfully
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b1000
+INFO:root:Patron #p1000: Trying to acquire lock of book b1000
+INFO:root:Patron #p1000: Successful to acquire lock of book b1000
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Removed from cart Book#b1000
+INFO:root:Client #p1000 Removed from cart Book#b1000
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron checkout a book that has been unchecked) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+INFO:root:Staff #staff: log in successful
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Creation of Patron is begun
+INFO:root:Patron added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Staff member creation of a Patron) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b1001
+INFO:root:Patron #p1000: Trying to acquire lock of book b1001
+INFO:root:Patron #p1000: Successful to acquire lock of book b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b1001
+INFO:root:Patron #p1000: Released b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000: Book#b2020 Doesn't exists
+INFO:root:Patron #p1000 Failed to get book for register
+INFO:root:Client #p1000 Failed to register into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Insertion of book has begun
+INFO:root:Book added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000: Trying to acquire lock of book b2020
+INFO:root:Patron #p1000: Successful to acquire lock of book b2020
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b2020
+INFO:root:Patron #p1000: Released b2020
+INFO:root:Patron #p1000 Registering in Event e2020 Completed Borrowing Book ID#b2020
+INFO:root:Patron #p1000 Completed Registering in Event e2020
+INFO:root:Client #p1000 Registered into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron registration of newly created Event with book b2020) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Joined queue to join Lab#l2020
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2020 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2020
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2020
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:(Two Patron queue to unopned lab) has executed successfully
+INFO:root:Patron #p1000: Failed to Removed from cart Book#b1000
+INFO:root:Patron #p1000: Failed to Removed from cart Book#b1001
+INFO:root:Patron #p1000: Failed to Removed from cart Book#b2020
+INFO:root:
+
+
+
+
+
+
+
+2020-04-14 15:25:50.963145
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+ERROR:root:staff: FAILED LOGIN - INVALID ID provided
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Entering invalid id for staff login) has executed successfully
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b0404
+INFO:root:Patron #p1000: Book#b0404 Doesn't exists
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron borrowing non-existing book) has executed successfully
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b1000
+INFO:root:Patron #p1000: Trying to acquire lock of book b1000
+INFO:root:Patron #p1000: Successful to acquire lock of book b1000
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Removed from cart Book#b1000
+INFO:root:Client #p1000 Removed from cart Book#b1000
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron checkout a book that has been unchecked) has executed successfully
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b1000
+INFO:root:Patron #p1000: Trying to acquire lock of book b1000
+INFO:root:Patron #p1000: Successful to acquire lock of book b1000
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Patron #p1000: Removed from cart Book#b1000
+INFO:root:Patron #p1000: Failed to Removed from cart Book#b1000
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron checkout a book that has been unchecked) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+INFO:root:Staff #staff: log in successful
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Creation of Patron is begun
+INFO:root:Patron added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Staff member creation of a Patron) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b1001
+INFO:root:Patron #p1000: Trying to acquire lock of book b1001
+INFO:root:Patron #p1000: Successful to acquire lock of book b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b1001
+INFO:root:Patron #p1000: Released b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000: Book#b2020 Doesn't exists
+INFO:root:Patron #p1000 Failed to get book for register
+INFO:root:Client #p1000 Failed to register into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Insertion of book has begun
+INFO:root:Book added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000: Trying to acquire lock of book b2020
+INFO:root:Patron #p1000: Successful to acquire lock of book b2020
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b2020
+INFO:root:Patron #p1000: Released b2020
+INFO:root:Patron #p1000 Registering in Event e2020 Completed Borrowing Book ID#b2020
+INFO:root:Patron #p1000 Completed Registering in Event e2020
+INFO:root:Client #p1000 Registered into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron registration of newly created Event with book b2020) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Joined queue to join Lab#l2020
+INFO:root:Lab #l2020 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2020
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2020
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:(Two Patron queue to unopned lab) has executed successfully
+INFO:root:Patron #p1000: Failed to Removed from cart Book#b1001
+INFO:root:Patron #p1000: Failed to Removed from cart Book#b2020
+INFO:root:
+
+
+
+
+
+
+
+2020-04-14 15:30:02.532490
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+ERROR:root:staff: FAILED LOGIN - INVALID ID provided
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Entering invalid id for staff login) has executed successfully
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b0404
+INFO:root:Patron #p1000: Book#b0404 Doesn't exists
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron borrowing non-existing book) has executed successfully
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b1000
+INFO:root:Patron #p1000: Trying to acquire lock of book b1000
+INFO:root:Patron #p1000: Successful to acquire lock of book and added to checkoutb1000
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Removed from cart Book#b1000
+INFO:root:Client #p1000 Removed from cart Book#b1000
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron checkout a book that has been unchecked) has executed successfully
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b1000
+INFO:root:Patron #p1000: Trying to acquire lock of book b1000
+INFO:root:Patron #p1000: Successful to acquire lock of book and added to checkoutb1000
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Lab #l3000 Has been opened
+INFO:root:Lab #l2000 Has been opened
+INFO:root:Patron #p1000: Removed from cart Book#b1000
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron checkout a book that has been unchecked) has executed successfully
+INFO:root:Patron #p1000: Failed to Removed from cart Book#b1000
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:staff: Trying to log in
+INFO:root:Staff #staff: log in successful
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Creation of Patron is begun
+INFO:root:Patron added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:(Staff member creation of a Patron) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Sent a borrow command
+INFO:root:Client #p1000 Sent a borrowing for b1001
+INFO:root:Patron #p1000: Trying to acquire lock of book b1001
+INFO:root:Patron #p1000: Successful to acquire lock of book and added to checkoutb1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b1001
+INFO:root:Patron #p1000: Released b1001
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000: Book#b2020 Doesn't exists
+INFO:root:Patron #p1000 Failed to get book for register
+INFO:root:Client #p1000 Failed to register into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Insertion of book has begun
+INFO:root:Book added
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Has begun an event registration request
+INFO:root:Client #p1000 Registration with book#b2020
+INFO:root:Patron #p1000 Acquiring Lock of Event e2020
+INFO:root:Patron #p1000 Registering in Event e2020 Requesting Book ID#b2020
+INFO:root:Patron #p1000: Trying to acquire lock of book b2020
+INFO:root:Patron #p1000: Successful to acquire lock of book and added to checkoutb2020
+INFO:root:Patron #p1000: Trying to checkout 
+INFO:root:Patron #p1000: Trying to checkout b2020
+INFO:root:Patron #p1000: Released b2020
+INFO:root:Patron #p1000 Registering in Event e2020 Completed Borrowing Book ID#b2020
+INFO:root:Patron #p1000 Completed Registering in Event e2020
+INFO:root:Client #p1000 Registered into Event#e2020 with Book#b2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:(Patron registration of newly created Event with book b2020) has executed successfully
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #None Completed request
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1000 Sent a command
+INFO:root:Client #p1000 Joined queue to join Lab#l2020
+INFO:root:Lab #l2020 Has been opened
+INFO:root:Patron #:p1000 checked if infront of queue
+INFO:root:Patron #:p1000 Front of queue got in
+INFO:root:Client #p1000 Successfully joined Lab#l2020
+INFO:root:Client #p1000 Completed request
+WARNING:root:Client #p1000 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Joined queue to join Lab#l2020
+INFO:root:Patron #:p1001 checked if infront of queue
+INFO:root:Patron #:p1001 Front of queue got in
+INFO:root:Client #p1001 Successfully joined Lab#l2020
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:(Two Patron queue to unopned lab) has executed successfully
+INFO:root:Patron #p1000: Failed to Removed from cart Book#b1001
+INFO:root:Patron #p1000: Failed to Removed from cart Book#b2020

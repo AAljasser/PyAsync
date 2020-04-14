@@ -186,3 +186,83 @@ def step_impl(context):
         logging.info("(Two Patron queue to unopned lab) has executed successfully")
     else:
         raise SystemError("(Two Patron queue to unopned lab) Either patrons didn't get in")
+
+'''
+###########
+Invalid Glue Code
+###########
+'''
+instaff = sClient()
+inpOne = sClient()
+inpTwo = sClient()
+
+'''
+Reference Library.staffExists this to ensure invalid testing does't use an ID that exists 
+'''
+@given(u'User ID will be used doesn\'t exists')
+def step_impl(context):
+    if Library().staffExists('s0404'):
+        raise SystemError("(Entering invalid id for staff login) Testing invalidity with existing staff ID")
+
+
+'''
+Sending this would result on the server denying access and it can be observed using console
+'''
+@when(u'User attempts to login as staff with invalid ID')
+def step_impl(context):
+    inpOne.send('staff,s0404')
+
+
+@then(u'Terminal will response with a decline and require valid ID')
+def step_impl(context):
+    logging.info("(Entering invalid id for staff login) has executed successfully") #Observable in console or LOG
+
+
+'''
+Scenario: Patron borrowing non-existing book
+'''
+@given(u'that non-existing book isn\'t in Library')
+def step_impl(context):
+    if Library().bookExists('b0404'):
+        raise SystemError("(Entering invalid id for staff login) Testing invalidity with existing staff ID")
+
+@when(u'Patron request borrow of Non-existing book')
+def step_impl(context):
+    inpOne.send('patron,p1000')
+    inpOne.send('borrow,b0404')
+
+
+@then(u'System will deny due to non-existing')
+def step_impl(context):
+    logging.info("(Patron borrowing non-existing book) has executed successfully") #Observable in console or LOG
+
+'''
+Scenario: Patron checkout a book that has been unchecked
+'''
+@given(u'Patron sent \'borrow,b1000\' command')
+def step_impl(context):
+    inpOne.send('borrow,b1000')
+
+
+@given(u'Patron sends \'uncheck,b1000\' command')
+def step_impl(context):
+    inpOne.send('uncheck,b1000')
+
+@when(u'Patron send checkout command')
+def step_impl(context):
+    inpOne.send('checkout')
+
+@then(u'Patron doesn\'t checkout the b1000')
+def step_impl(context):
+    if Library().getPatron('p1000').bExists('b1000'):
+        raise SystemError("(Patron Borrowing a Book) Book has been borrowed")
+    logging.info("(Patron checkout a book that has been unchecked) has executed successfully") #Observable in console or LOG
+
+'''
+Scenario: Patron checkout a book that has been unchecked by the automated system
+Uses same steps as previous scenario, the uncheck is changed (The timer from the previous checkout will execute, therefore in logs you might find that another uncheck occured it is normal and the system built to antcipate it)
+'''
+@given(u'wait until automated system executed removal of book')
+def step_impl(context):
+    while Library().checked('b1000'):
+        None # Wait till it is removed

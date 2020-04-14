@@ -127,6 +127,15 @@ class asyncClient(threading.Thread, sServer):
                         mToS = str(self._state) + ', '+str(self._savedID)+'book has been added to cart (MUST TYPE CHECKOUT)'
                     else:
                         mToS = str(iD.BOOK_NF) + ", book doesn't exists"
+            elif self._state == iD.P_MENU and 'uncheck' in dataReceived[0]:
+                #removing from cart
+                if len(dataReceived) >= 2:
+                    if Library().uncheck(self._savedID,dataReceived[1]):
+                        logging.info("Client #"+str(self._savedID)+" Removed from cart Book#"+str(dataReceived[1]))
+                        mToS = str(self._state) + ', '+str(self._savedID)+'Removal from cart has been successfull'
+                    else:
+                        logging.info("Client #"+str(self._savedID)+" Failed removed from cart Book#"+str(dataReceived[1]))
+                        mToS = str(iD.INCORRECT_INPUT) + ', '+str(self._savedID)+'Failed removal from cart'
             elif self._state == iD.P_MENU and 'return' in dataReceived[0]:
                 if len(dataReceived) < 2:
                     mToS = str(self._state) +','+ Library().getPatron(self._savedID).printBBooks()
