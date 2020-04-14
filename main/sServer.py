@@ -93,29 +93,29 @@ class asyncClient(threading.Thread, sServer):
                     Library().createEvent(dataReceived[1])
                     mToS = str(iD.S_MENU) + ', Event created'
             elif self._state == iD.S_MENU and 'crpatron' in dataReceived[0]:
-                print("Creation of Patreaon is begun")
+                logging.info("Creation of Patron is begun")
                 if len(dataReceived) < 3:
-                    print("Client entered incorrect format")
+                    logging.info("Client entered incorrect format")
                     mToS = str(iD.INCORRECT_INPUT)
                 elif not Library().patronExists(dataReceived[1]):
-                    print("Patron added")
+                    logging.info("Patron added")
                     Library().createPatron(dataReceived[1],dataReceived[2])
                     mToS =  str(self._state) + ','+'Patron creation completed'
                 else:
-                    print("duplication")
+                    logging.info("duplication")
                     mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error enter different ID'
 
             elif self._state == iD.S_MENU and 'addbook' in dataReceived[0]:
-                print("Insertion of book has begun")
+                logging.info("Insertion of book has begun")
                 if len(dataReceived) < 3:
                     mToS = str(iD.INCORRECT_INPUT)
-                    print("Client entered incorrect format")
+                    logging.info("Client entered incorrect format")
                 elif not Library().bookExists(dataReceived[1]):
-                    print("Book added")
+                    logging.info("Book added")
                     Library().addBook(dataReceived[1],dataReceived[2])
                     mToS =  str(self._state) + ','+'Book insertion completed'
                 else:
-                    print("Duplication")
+                    logging.info("Duplication")
                     mToS = str(iD.DUPLICATE_ERR) +','+'Duplicate error enter different ID'
             elif self._state == iD.P_MENU and 'borrow' in dataReceived[0]:
                 logging.info("Client #"+str(self._savedID)+" Sent a borrow command")
@@ -150,6 +150,7 @@ class asyncClient(threading.Thread, sServer):
                 else:
                     mToS = str(iD.INCORRECT_INPUT)
             elif self._state == iD.P_MENU and 'event' in dataReceived[0]:
+                logging.info("Client #"+str(self._savedID)+" Has begun an event registration request")
                 if len(dataReceived) < 2:
                     mToS = str(iD.P_MENU)+","+Library().listEvents()
                 elif len(dataReceived) < 3 and Library().eventExists(dataReceived[1]):
@@ -161,6 +162,7 @@ class asyncClient(threading.Thread, sServer):
                         logging.info("Client #"+str(self._savedID)+" Failed to register into Event#"+str(dataReceived[1]))
                         mToS = str(self._state)+', Registeration Failed'
                 elif len(dataReceived) < 4 and Library().eventExists(dataReceived[1]):
+                    logging.info("Client #"+str(self._savedID)+" Registration with book#" + str(dataReceived[2]))
                     #Registering with borrowing
                     if Library().regEvent(dataReceived[1],self._savedID,bid=dataReceived[2]):
                         logging.info("Client #"+str(self._savedID)+" Registered into Event#"+str(dataReceived[1])+" with Book#"+str(dataReceived[2]))
@@ -172,7 +174,7 @@ class asyncClient(threading.Thread, sServer):
                     mToS = str(iD.INCORRECT_INPUT)
             elif self._state == iD.S_MENU and 'clab' in dataReceived[0]:
                 if not Library().labExists(dataReceived[1]):
-                    Library().createLab(dataReceived[1],45) ## THIS IS SET TO DEFAULT TO 30 seconds
+                    Library().createLab(dataReceived[1],10) ## THIS IS SET TO DEFAULT TO 10 seconds
                     mToS = str(self._state) +", Creation completed Queue begun"
                 else:
                     mToS = str(iD.DUPLICATE_ERR) + ", Duplicated lab exists"
