@@ -2,9 +2,14 @@
 
 The following repository contains 4 branches including master, each containing it's own readme. This branch (master) will be devoted to instruction of executing the acceptance testing suit.
 
+Two feature files found at ```C:\...\PyAsync\features\ValidPath.feature & InvalidPath.feature``` and the asscoiated glue code found in the subfolder steps
+
 #### Tool requirement
 - Python 3
 - Install [Behave](https://behave.readthedocs.io/en/latest/install.html) (Cucumber equivelant) 
 
 #### Executing Feature File
-TODO
+
+```C:\...\PyAsync> behave --no-capture``` would produce an obserable test (Backed by Logs/Library.logs)
+
+
