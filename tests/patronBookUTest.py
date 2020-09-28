@@ -1,4 +1,7 @@
 import unittest
+import sys
+#This to allow the unittest module to include the source code to test
+sys.path.append('../')
 from main.Patron import Patron
 from main.Book import Book
 

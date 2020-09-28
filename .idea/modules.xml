@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PyAsync.iml" filepath="$PROJECT_DIR$/PyAsync.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PyAsync-master.iml" filepath="$PROJECT_DIR$/.idea/PyAsync-master.iml" />
     </modules>
   </component>
 </project>

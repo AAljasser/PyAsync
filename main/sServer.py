@@ -43,7 +43,7 @@ class asyncClient(threading.Thread, sServer):
 
     def __init__(self, socket, clintAdd):
         threading.Thread.__init__(self)
-
+        print(self._mainSocket)
         self._mainSocket = socket
         self._clientAdd = clintAdd
 
@@ -59,7 +59,7 @@ class asyncClient(threading.Thread, sServer):
 
 
             logging.info("Client #"+str(self._savedID)+" Sent a command")
-
+            print(dataReceived[0].casefold())
             if dataReceived[0].casefold() == str(iD.TERMINATE_CONN):
                 mToS = iD.TERMINATE_CONN
                 self._mainSocket.sendall(bytes(dataReceived[0],'utf-8'))
@@ -217,13 +217,3 @@ class asyncClient(threading.Thread, sServer):
             self._mainSocket.sendall(bytes(mToS,'utf-8'))
         print("Client : "+str(self._clientAdd)+" closing com, Thread_ID: "+str(threading.get_ident()))
         self._mainSocket.close()
-
-
-
-def main():
-    sSocket = sServer()
-    sSocket.close()
-
-
-if __name__ == '__main__':
-    main()

@@ -71,10 +71,3 @@ class sClient():
 
         #Closing
         self.close()
-
-def main():
-    s = sClient()
-    s.terminal()
-
-if __name__ == '__main__':
-    main()
