@@ -12,4 +12,6 @@ Two feature files found at ```C:\...\PyAsync\features\ValidPath.feature & Invali
 
 ```C:\...\PyAsync> behave --no-capture``` would produce an obserable test (Backed by Logs/Library.logs)
 
-Youtube video instructions: 
+#### Youtube video instructions: 
+- Unit Testing: https://youtu.be/Zi03ze4PrlM
+- Behavior Testing: https://youtu.be/Zi03ze4PrlM 
