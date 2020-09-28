@@ -14,4 +14,4 @@ Two feature files found at ```C:\...\PyAsync\features\ValidPath.feature & Invali
 
 #### Youtube video instructions: 
 - Unit Testing: https://youtu.be/Zi03ze4PrlM
-- Behavior Testing: https://youtu.be/Zi03ze4PrlM 
+- Behavior Testing: https://youtu.be/w9GpLhE5Svo
