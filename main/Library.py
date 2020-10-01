@@ -107,7 +107,7 @@ class Library(metaclass=Singleton):
                 logging.info("Patron #"+str(pid)+": Book cannot be borrowed #"+str(bid))
                 return False
             '''
-            Adding the book into checkout system, and initiating timer function that returns the book 
+            Adding the book into checkout system, and initiating timer function that returns the book
             into the library system and releases the lock held by the patron
             '''
             #End #############

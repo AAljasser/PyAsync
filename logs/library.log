@@ -10678,3 +10678,1442 @@ INFO:root:Patron #p1001: Trying to checkout b1001
 INFO:root:Patron #p1001: Released b1001
 INFO:root:Client #p1001 Completed request
 WARNING:root:Client #p1001 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:27:03.488372
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a borrow command
+INFO:root:Patron #p1001: Trying to checkout 
+INFO:root:Client #p1002 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to checkout b1001
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Released b1001
+CRITICAL:root:Book not found @ Library getBook
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:27:14.425127
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a command
+INFO:root:Patron #p1001: Trying to checkout 
+INFO:root:Client #p1002 Sent a borrow command
+INFO:root:Patron #p1001: Trying to checkout b1001
+INFO:root:Client #p1002 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Released b1001
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Patron #p1002: Trying to checkout 
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:28:01.882008
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a borrowing for b1001
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Client #p1002 Sent a command
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Client #p1002 Sent a borrow command
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1002 Sent a borrowing for b1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1001: Trying to checkout 
+INFO:root:Patron #p1001: Trying to checkout b1001
+INFO:root:Patron #p1001: Released b1001
+INFO:root:Patron #p1002: Added to cart book #b1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002: Successful to acquire lock of book #b1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1002 Sent a command
+CRITICAL:root:Book not found @ Library getBook
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:28:51.015694
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Client #p1002 Sent a command
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Client #p1002 Sent a borrow command
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1002 Sent a borrowing for b1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1001: Trying to checkout 
+INFO:root:Patron #p1001: Trying to checkout b1001
+INFO:root:Patron #p1001: Released b1001
+INFO:root:Patron #p1002: Added to cart book #b1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002: Successful to acquire lock of book #b1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1002 Sent a command
+CRITICAL:root:Book not found @ Library getBook
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:29:17.921218
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:patron: Trying to log in
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Patron #patron:log in successful
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Client #p1002 Completed request
+INFO:root:Patron #p1001: Added to cart book #b1001
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1002 Sent a borrow command
+INFO:root:Client #p1002 Sent a borrowing for b1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1001: Trying to checkout 
+INFO:root:Patron #p1001: Trying to checkout b1001
+INFO:root:Patron #p1001: Released b1001
+INFO:root:Patron #p1002: Added to cart book #b1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002: Successful to acquire lock of book #b1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1002 Sent a command
+CRITICAL:root:Book not found @ Library getBook
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:29:26.603660
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1001 Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Client #p1002 Completed request
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Client #p1002 Sent a command
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1002 Sent a borrow command
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1002 Sent a borrowing for b1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1001: Trying to checkout 
+INFO:root:Patron #p1001: Trying to checkout b1001
+INFO:root:Patron #p1001: Released b1001
+INFO:root:Patron #p1002: Added to cart book #b1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002: Successful to acquire lock of book #b1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1002 Sent a command
+CRITICAL:root:Book not found @ Library getBook
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:29:36.785681
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Sent a borrow command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1002 Sent a command
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Sent a borrow command
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to checkout 
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Trying to checkout b1001
+INFO:root:Patron #p1001: Released b1001
+INFO:root:Patron #p1002: Added to cart book #b1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002: Successful to acquire lock of book #b1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1002 Sent a command
+CRITICAL:root:Book not found @ Library getBook
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:30:04.623115
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1002 Sent a borrow command
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Sent a borrowing for b1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Trying to checkout 
+INFO:root:Patron #p1001: Trying to checkout b1001
+INFO:root:Patron #p1001: Released b1001
+INFO:root:Patron #p1002: Added to cart book #b1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002: Successful to acquire lock of book #b1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1002 Sent a command
+CRITICAL:root:Book not found @ Library getBook
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:30:18.449662
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Sent a borrow command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a borrow command
+INFO:root:Patron #p1001: Trying to checkout 
+INFO:root:Client #p1002 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to checkout b1001
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Released b1001
+CRITICAL:root:Book not found @ Library getBook
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:31:58.476172
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Patron #p1002 Acquiring Lock of Event e1001
+INFO:root:Patron #p1002 Successful Acquiring Lock of Event e1001
+INFO:root:Patron #p1002 Registering in Event e1001 Requesting Book ID#b1001
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1001 Acquiring Lock of Event e1001
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:32:05.320595
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002 Acquiring Lock of Event e1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patron #p1002 Successful Acquiring Lock of Event e1001
+INFO:root:Patron #p1002 Registering in Event e1001 Requesting Book ID#b1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001 Acquiring Lock of Event e1001
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:32:29.683091
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a borrowing for b1001
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Client #p1002 Sent a command
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Patron #p1002 Acquiring Lock of Event e1001
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Patron #p1002 Successful Acquiring Lock of Event e1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002 Registering in Event e1001 Requesting Book ID#b1001
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1001 Acquiring Lock of Event e1001
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:32:42.629656
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002 Acquiring Lock of Event e1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patron #p1002 Successful Acquiring Lock of Event e1001
+INFO:root:Patron #p1002 Registering in Event e1001 Requesting Book ID#b1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001 Acquiring Lock of Event e1001
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:33:49.685598
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a borrowing for b1001
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Client #p1002 Sent a command
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Patron #p1002 Acquiring Lock of Event e1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002 Successful Acquiring Lock of Event e1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patron #p1002 Registering in Event e1001 Requesting Book ID#b1001
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1001 Acquiring Lock of Event e1001
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:33:55.192385
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a borrow command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Client #p1002 Sent a command
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Patron #p1002 Acquiring Lock of Event e1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002 Successful Acquiring Lock of Event e1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patron #p1002 Registering in Event e1001 Requesting Book ID#b1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001 Acquiring Lock of Event e1001
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:34:00.265555
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:patron: Trying to log in
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Patron #patron:log in successful
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Client #p1002 Completed request
+INFO:root:Patron #p1001: Added to cart book #b1001
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002 Acquiring Lock of Event e1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patron #p1002 Successful Acquiring Lock of Event e1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1002 Registering in Event e1001 Requesting Book ID#b1001
+INFO:root:Patron #p1001 Acquiring Lock of Event e1001
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:34:05.640768
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a borrow command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Client #p1002 Sent a command
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1002 Acquiring Lock of Event e1001
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Patron #p1002 Successful Acquiring Lock of Event e1001
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Patron #p1002 Registering in Event e1001 Requesting Book ID#b1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1001 Acquiring Lock of Event e1001
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:36:36.684736
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1002 Sent a command
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patron #p1002 Acquiring Lock of Event e1001
+INFO:root:Patron #p1002 Successful Acquiring Lock of Event e1001
+INFO:root:Patron #p1002 Registering in Event e1001 Requesting Book ID#b1001
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1001 Acquiring Lock of Event e1001
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:37:21.787138
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1001 Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Client #p1002 Completed request
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Client #p1002 Sent a command
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Patron #p1002 Acquiring Lock of Event e1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002 Successful Acquiring Lock of Event e1001
+INFO:root:Patron #p1002 Registering in Event e1001 Requesting Book ID#b1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:37:48.275027
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1001 Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Client #p1002 Completed request
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Client #p1002 Sent a command
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Patron #p1002 Acquiring Lock of Event e1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002 Successful Acquiring Lock of Event e1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patron #p1002 Registering in Event e1001 Requesting Book ID#b1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001 Acquiring Lock of Event e1001
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:37:52.119894
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1002 Sent a command
+INFO:root:Patron #p1002 Acquiring Lock of Event e1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patron #p1002 Successful Acquiring Lock of Event e1001
+INFO:root:Patron #p1002 Registering in Event e1001 Requesting Book ID#b1001
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1001 Acquiring Lock of Event e1001
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:37:55.872741
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1001 Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Client #p1002 Completed request
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Client #p1002 Sent a command
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Patron #p1002 Acquiring Lock of Event e1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002 Successful Acquiring Lock of Event e1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patron #p1002 Registering in Event e1001 Requesting Book ID#b1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001 Acquiring Lock of Event e1001
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:37:59.655972
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Client #p1002 Sent a command
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Patron #p1002 Acquiring Lock of Event e1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002 Successful Acquiring Lock of Event e1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patron #p1002 Registering in Event e1001 Requesting Book ID#b1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001 Acquiring Lock of Event e1001
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:38:02.483052
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Client #None Sent a command
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:patron: Trying to log in
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Patron #patron:log in successful
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1002 Acquiring Lock of Event e1001
+INFO:root:Patron #p1001 Acquiring Lock of Event e1001
+INFO:root:Patron #p1002 Successful Acquiring Lock of Event e1001
+INFO:root:Patron #p1002 Registering in Event e1001 Requesting Book ID#b1001
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:38:07.037083
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002 Acquiring Lock of Event e1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patron #p1002 Successful Acquiring Lock of Event e1001
+INFO:root:Patron #p1002 Registering in Event e1001 Requesting Book ID#b1001
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1001 Acquiring Lock of Event e1001
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:38:57.638633
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Patron #p1002 Acquiring Lock of Event e1001
+INFO:root:Patron #p1002 Successful Acquiring Lock of Event e1001
+INFO:root:Patron #p1002 Registering in Event e1001 Requesting Book ID#b1001
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1002: Failed to acquire lock b1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1002 Failed to get book for register
+INFO:root:Patron #p1001 Acquiring Lock of Event e1001
+INFO:root:Client #p1002 Completed request
+INFO:root:Patron #p1001 Successful Acquiring Lock of Event e1001
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Patron #p1001 Registering in Event e1001 As brining their own Book
+INFO:root:Patron #p1001 Completed Registering in Event e1001
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1001: Trying to checkout 
+INFO:root:Patron #p1001: Trying to checkout b1001
+INFO:root:Patron #p1001: Released b1001
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:39:01.891592
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #None Waiting for message
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1001 Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Client #p1002 Completed request
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Added to cart book #b1001
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002 Acquiring Lock of Event e1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patron #p1002 Successful Acquiring Lock of Event e1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1002 Registering in Event e1001 Requesting Book ID#b1001
+INFO:root:Patron #p1001 Acquiring Lock of Event e1001
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1002: Failed to acquire lock b1001
+INFO:root:Patron #p1002 Failed to get book for register
+INFO:root:Client #p1002 Completed request
+INFO:root:Patron #p1001 Successful Acquiring Lock of Event e1001
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Patron #p1001 Registering in Event e1001 As brining their own Book
+INFO:root:Patron #p1001 Completed Registering in Event e1001
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1001: Trying to checkout 
+INFO:root:Patron #p1001: Trying to checkout b1001
+INFO:root:Patron #p1001: Released b1001
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:39:05.911058
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:patron: Trying to log in
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Patron #patron:log in successful
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Client #p1002 Completed request
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1002 Sent a command
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patron #p1002 Acquiring Lock of Event e1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1002 Successful Acquiring Lock of Event e1001
+INFO:root:Patron #p1001 Acquiring Lock of Event e1001
+INFO:root:Patron #p1002 Registering in Event e1001 Requesting Book ID#b1001
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1002: Failed to acquire lock b1001
+INFO:root:Patron #p1002 Failed to get book for register
+INFO:root:Client #p1002 Completed request
+INFO:root:Patron #p1001 Successful Acquiring Lock of Event e1001
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Patron #p1001 Registering in Event e1001 As brining their own Book
+INFO:root:Patron #p1001 Completed Registering in Event e1001
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1001: Trying to checkout 
+INFO:root:Patron #p1001: Trying to checkout b1001
+INFO:root:Patron #p1001: Released b1001
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:39:14.365069
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1001 Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Client #p1002 Completed request
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Client #p1002 Sent a command
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1002 Sent a borrow command
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1002 Sent a borrowing for b1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1002: Failed to acquire lock b1001
+INFO:root:Patron #p1001: Trying to checkout 
+INFO:root:Client #p1002 Completed request
+INFO:root:Patron #p1001: Trying to checkout b1001
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Patron #p1001: Released b1001
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Patron #p1002: Trying to checkout 
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:47:15.530226
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a borrow command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1002 Sent a borrow command
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Sent a borrowing for b1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Trying to checkout 
+INFO:root:Patron #p1001: Trying to checkout b1001
+INFO:root:Patron #p1001: Released b1001
+INFO:root:Patron #p1002: Added to cart book #b1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002: Successful to acquire lock of book #b1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1002 Sent a command
+CRITICAL:root:Book not found @ Library getBook
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:54:28.196382
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a borrow command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002 Acquiring Lock of Event e1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patron #p1002 Successful Acquiring Lock of Event e1001
+INFO:root:Patron #p1002 Registering in Event e1001 Requesting Book ID#b1001
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1001 Acquiring Lock of Event e1001
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:58:38.792890
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1001 Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Client #p1002 Completed request
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Client #p1002 Sent a command
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Patron #p1002 Acquiring Lock of Event e1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Patron #p1002 Successful Acquiring Lock of Event e1001
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Patron #p1002 Registering in Event e1001 Requesting Book ID#b1001
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001 Acquiring Lock of Event e1001
+INFO:root:Patron #p1002: Failed to acquire lock b1001
+INFO:root:Patron #p1002 Failed to get book for register
+INFO:root:Client #p1002 Completed request
+INFO:root:Patron #p1001 Successful Acquiring Lock of Event e1001
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Patron #p1001 Registering in Event e1001 As brining their own Book
+INFO:root:Patron #p1001 Completed Registering in Event e1001
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1001: Trying to checkout 
+INFO:root:Patron #p1001: Trying to checkout b1001
+INFO:root:Patron #p1001: Released b1001
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:59:03.584330
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #p1001 Sent a borrow command
+INFO:root:Client #None Sent a command
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:patron: Trying to log in
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Patron #patron:log in successful
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Client #p1002 Completed request
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1002 Acquiring Lock of Event e1001
+INFO:root:Patron #p1001 Acquiring Lock of Event e1001
+INFO:root:Patron #p1002 Successful Acquiring Lock of Event e1001
+INFO:root:Patron #p1002 Registering in Event e1001 Requesting Book ID#b1001
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1002: Failed to acquire lock b1001
+INFO:root:Patron #p1002 Failed to get book for register
+INFO:root:Client #p1002 Completed request
+INFO:root:Patron #p1001 Successful Acquiring Lock of Event e1001
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Patron #p1001 Registering in Event e1001 As brining their own Book
+INFO:root:Patron #p1001 Completed Registering in Event e1001
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1001 Sent a command
+INFO:root:Patron #p1001: Trying to checkout 
+INFO:root:Patron #p1001: Trying to checkout b1001
+INFO:root:Patron #p1001: Released b1001
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:59:15.096119
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Sent a borrow command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a borrow command
+INFO:root:Patron #p1001: Trying to checkout 
+INFO:root:Client #p1002 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to checkout b1001
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Released b1001
+CRITICAL:root:Book not found @ Library getBook
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:
+
+
+
+
+
+
+
+2020-10-01 13:59:21.555576
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1001 Waiting for message
+WARNING:root:Client #None Waiting for message
+INFO:root:Client #None Sent a command
+INFO:root:patron: Trying to log in
+INFO:root:Patron #patron:log in successful
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1001 Sent a borrow command
+WARNING:root:Client #p1002 Waiting for message
+INFO:root:Client #p1001 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Added to cart book #b1001
+INFO:root:Patron #p1001: Successful to acquire lock of book #b1001
+INFO:root:Client #p1001 Completed request
+INFO:root:Client #p1002 Sent a command
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Sent a borrow command
+INFO:root:Client #p1001 Sent a command
+INFO:root:Client #p1002 Sent a borrowing for b1001
+INFO:root:Patron #p1001: Trying to checkout 
+INFO:root:Patron #p1002: Trying to acquire lock of book #b1001
+INFO:root:Patron #p1001: Trying to checkout b1001
+INFO:root:Patron #p1002: Failed to acquire lock b1001
+INFO:root:Patron #p1001: Released b1001
+INFO:root:Client #p1002 Completed request
+INFO:root:Client #p1001 Completed request
+WARNING:root:Client #p1002 Waiting for message
+WARNING:root:Client #p1001 Waiting for message
+INFO:root:Client #p1002 Sent a command
+INFO:root:Patron #p1002: Trying to checkout 
+INFO:root:Client #p1002 Completed request
+WARNING:root:Client #p1002 Waiting for message
