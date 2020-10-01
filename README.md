@@ -14,4 +14,5 @@ The following scenario highlights the importance of encapsulate multi-threaded f
 #### Termination
 Due to the fact the server must be executed on the background for the test, to terminate completed test ```Ctrl``` + ```Pause/Break``` would terminate any background thread
 
-
+#### Video Instructions
+https://youtu.be/6wwxi-D03BY
